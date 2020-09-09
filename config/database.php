@@ -2,11 +2,7 @@
 
 use Illuminate\Support\Str;
 
-$url = parse_url(getenv("mysql://bc722431fb1da9:b5a41995@us-cdbr-east-02.cleardb.com/heroku_230af6003973b89?reconnect=true"));
-$host = $url["host"];
-$username = $url["user"];
-$password = $url["pass"];
-$database = substr($url["path"], 1);
+
 
 return [
 
@@ -52,11 +48,11 @@ return [
         'mysql' => [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
-            'host'      => $host,
+            'host' => env('DB_HOST', 'us-cdbr-east-02.cleardb.com'),
             'port' => env('DB_PORT', '3306'),
-            'database'  => $database,
-            'username'  => $username,
-            'password'  => $password,
+            'database' => env('DB_DATABASE', 'heroku_230af6003973b89'),
+            'username' => env('DB_USERNAME', 'bc722431fb1da9'),
+            'password' => env('DB_PASSWORD', 'b5a41995'),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
