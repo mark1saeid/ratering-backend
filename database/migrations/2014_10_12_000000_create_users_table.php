@@ -17,7 +17,7 @@ class CreateUsersTable extends Migration
             $table->id();
             $table->string('full_name');
             $table->string('username')->unique();
-            $table->string('api_token')->nullable();
+            $table->string('token','10000')->nullable();
             $table->string('birthday');
             $table->string('gender');
             $table->string('rating');
