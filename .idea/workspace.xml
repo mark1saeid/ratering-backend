@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eec28c9-5a34-4cb8-bd9d-a552bf9fa123" name="Default Changelist" comment="ss" />
+    <list default="true" id="1eec28c9-5a34-4cb8-bd9d-a552bf9fa123" name="Default Changelist" comment="ss">
+      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -151,7 +153,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/api-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -183,7 +185,7 @@
       <workItem from="1599646458226" duration="19072000" />
       <workItem from="1599669352234" duration="727000" />
       <workItem from="1599674165766" duration="5766000" />
-      <workItem from="1600927147748" duration="6704000" />
+      <workItem from="1600927147748" duration="7156000" />
     </task>
     <task id="LOCAL-00001" summary="hh">
       <created>1599674785278</created>
@@ -402,7 +404,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600933808858</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="ss">
+      <created>1600934156692</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1600934156692</updated>
+    </task>
+    <task id="LOCAL-00033" summary="ss">
+      <created>1600934246356</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1600934246356</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -428,6 +444,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="ss" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="262" y="192" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600934533218">
+      <screen x="0" y="0" width="1024" height="779" />
+    </state>
+    <state x="262" y="192" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1024.779@0.0.1024.779" timestamp="1600934533218" />
     <state x="243" y="145" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1599669621764">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
@@ -456,10 +476,10 @@
       <screen x="0" y="0" width="1024" height="779" />
     </state>
     <state width="981" height="135" key="GridCell.Tab.0.right/0.0.1024.779@0.0.1024.779" timestamp="1599594024670" />
-    <state x="105" y="123" key="Vcs.Push.Dialog.v2" timestamp="1600933812035">
+    <state x="105" y="123" key="Vcs.Push.Dialog.v2" timestamp="1600934251926">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
-    <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1600933812035" />
+    <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1600934251926" />
     <state x="330" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599675864996">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
