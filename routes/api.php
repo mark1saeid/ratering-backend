@@ -34,16 +34,16 @@ Route::group(['middleware'=>['api','apiadmin'],'prefix' => 'auth','namespace'=>'
     Route::get('posts/{id}/comments/{cid}','CommentControllers@find');
     Route::post('posts/{id}/comments/create','CommentControllers@create');
     //Connection
-    Route::get('profile/{pid}/connection','ConnectionControllers@all');
-    Route::get('profile/{pid}/connection/sent','ConnectionControllers@sent');
-    Route::get('profile/{pid}/connection/received','ConnectionControllers@received');
-    Route::post('profile/connection/add','ConnectionControllers@add');
-    Route::post('profile/connection/{cid}/status','ConnectionControllers@status');
+    Route::get('{pid}/connection','ConnectionControllers@all');
+    Route::get('{pid}/connection/sent','ConnectionControllers@sent');
+    Route::get('{pid}/connection/received','ConnectionControllers@received');
+    Route::post('connection/add','ConnectionControllers@add');
+    Route::post('connection/{cid}/status','ConnectionControllers@status');
     //Rating
-    Route::get('profile/{pid}/rate','StarControllers@all');
-    Route::get('profile/{pid}/rate/sent','StarControllers@sent');
-    Route::get('profile/{pid}/rate/received','StarControllers@received');
-    Route::post('profile/rate/add','StarControllers@add');
+    Route::get('{pid}/rate','StarControllers@all');
+    Route::get('{pid}/rate/sent','StarControllers@sent');
+    Route::get('{pid}/rate/received','StarControllers@received');
+    Route::post('rate/add','StarControllers@add');
 
 
 });
