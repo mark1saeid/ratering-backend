@@ -18,14 +18,22 @@ class Authenticate extends Middleware
      * @param AuthenticationException $exception
      * @return string|null
      */
-   protected function redirectTo($request)
-   {
-      if (! $request->expectsJson()) {
-          return route('api/login');
+ //  protected function redirectTo($request){
+ //     if (! $request->expectsJson()) {
+        //  return route('api/login');
          //  route('login')
-      }
+  //    }
+ //   }
+
+    public function handle($request, Closure $next)
+    {
+        $user = Auth::user();
+
+        if(!$user->accesible){
+            // redirect page or error.
+        }
+
+        return $next($request);
     }
-
-
 
 }
