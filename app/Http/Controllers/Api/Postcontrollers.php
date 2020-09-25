@@ -40,8 +40,8 @@ class Postcontrollers extends Controller
         $id = auth()->user()->id;
         $post = Post::create(array_merge(
             $validator->validated(),
-            ['post_rating' => '0'
-            ,'publisher_id'=> $id]
+            ['post_rating' => '0',
+                'publisher_id'=> $id]
         ));
 
         return response()->json([
