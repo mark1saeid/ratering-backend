@@ -50,10 +50,17 @@ Route::group(['middleware'=>['api','apiadmin'],'prefix' => 'auth','namespace'=>'
 
 
 
+
+
 Route::group(['middleware' => ['api','apiadmin'], 'prefix' => 'auth','namespace'=>'Api'], function ($router) {
     Route::post('login', 'UserControllers@login')->name('api/login');
     Route::post('register', 'UserControllers@register');
     Route::post('logout', 'UserControllers@logout');
     Route::post('refresh', 'UserControllers@refresh');
     Route::get('profile', 'UserControllers@userProfile');
+
+
+    Route::get('test',function (){
+        return $id = auth()->user()->id;
+    });
 });
