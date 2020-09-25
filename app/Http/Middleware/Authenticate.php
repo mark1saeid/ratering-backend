@@ -6,8 +6,8 @@ namespace App\Http\Middleware;
 use Closure;
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Auth\Middleware\Authenticate as Middleware;
-use Tymon\JWTAuth\Facades\JWTAuth;
-
+use JWTAuth;
+use Tymon\JWTAuth\Contracts\Providers\Auth;
 
 
 class Authenticate extends Middleware
