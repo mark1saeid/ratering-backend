@@ -41,7 +41,7 @@ class CommentControllers extends Controller
 
         return response()->json([
             'message' => 'posted successfully ',
-            'post' => $post
+            'comment' => $post
         ], 201);
     }
 }
