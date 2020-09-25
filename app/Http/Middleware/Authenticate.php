@@ -31,6 +31,7 @@ class Authenticate extends Middleware
         } else {
             return response()->json([
                 'status' => 'A401',
+                'msg' => 'Non Authorized'
             ]);
         }
     }
