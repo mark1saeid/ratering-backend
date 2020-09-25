@@ -29,7 +29,9 @@ class Authenticate extends Middleware
         if (Auth::check() || $jwt) {
             return $next($request);
         } else {
-            return response('Unauthorized.', 401);
+            return response()->json([
+                'status' => 'A401',
+            ]);
         }
     }
 
