@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eec28c9-5a34-4cb8-bd9d-a552bf9fa123" name="Default Changelist" comment="ss">
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
-    </list>
+    <list default="true" id="1eec28c9-5a34-4cb8-bd9d-a552bf9fa123" name="Default Changelist" comment="ss" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -189,7 +187,7 @@
       <workItem from="1599669352234" duration="727000" />
       <workItem from="1599674165766" duration="5766000" />
       <workItem from="1600927147748" duration="8575000" />
-      <workItem from="1601023273789" duration="936000" />
+      <workItem from="1601023273789" duration="1291000" />
     </task>
     <task id="LOCAL-00001" summary="hh">
       <created>1599674785278</created>
@@ -443,7 +441,28 @@
       <option name="project" value="LOCAL" />
       <updated>1601024107470</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="mark">
+      <created>1601024247510</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1601024247510</updated>
+    </task>
+    <task id="LOCAL-00038" summary="ss">
+      <created>1601024396534</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1601024396534</updated>
+    </task>
+    <task id="LOCAL-00039" summary="ss">
+      <created>1601024484227</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1601024484227</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,9 +484,9 @@
     <MESSAGE value="hh" />
     <MESSAGE value="hhsss" />
     <MESSAGE value="h" />
-    <MESSAGE value="ss" />
     <MESSAGE value="mark" />
-    <option name="LAST_COMMIT_MESSAGE" value="mark" />
+    <MESSAGE value="ss" />
+    <option name="LAST_COMMIT_MESSAGE" value="ss" />
   </component>
   <component name="WindowStateProjectService">
     <state x="262" y="192" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600934533218">
