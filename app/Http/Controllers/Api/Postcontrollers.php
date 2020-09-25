@@ -30,12 +30,8 @@ class Postcontrollers extends Controller
     }
     function create(Request $request){
         $validator = Validator::make($request->all(), [
-         //   'publisher_id' => 'required|string',
             'post_text' => 'required|string',
             'post_link' => 'required|string',
-            'publisher_username' => 'required|string',
-
-
         ]);
 
         if($validator->fails()){

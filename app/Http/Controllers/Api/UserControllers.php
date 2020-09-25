@@ -41,13 +41,13 @@ use GeneralTrait;
 
     public function register(Request $request) {
         $validator = Validator::make($request->all(), [
-            'email' => 'required|string|email|max:100|unique:users',
+
+            'email' => 'required|string|email|max:100|unique:users|regex:/(.+)@(.+)\.(.+)/i',
             'password' => 'required|string|min:8',
             'full_name' => 'required|string|between:4,40',
             'username' => 'required|string|between:6,12|unique:users',
             'birthday' => 'required|string|between:2,18',
             'gender' => 'required|string|between:3,8',
-         //   'rating' => 'required|string|between:1,5',
             'phone' => 'required|string|between:10,16|unique:users',
 
         ]);
@@ -59,8 +59,8 @@ use GeneralTrait;
         $user = User::create(array_merge(
             $validator->validated(),
             ['password' => bcrypt($request->password)],
-            ['rating' => '0'],
-            ['rate' => '0']
+            ['rating' => '0']
+
         ));
 
         return response()->json([
