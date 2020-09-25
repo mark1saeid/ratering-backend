@@ -6,6 +6,7 @@ namespace App\Http\Middleware;
 use Closure;
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Auth\Middleware\Authenticate as Middleware;
+use Tymon\JWTAuth\Contracts\Providers\Auth;
 
 
 class Authenticate extends Middleware
@@ -27,9 +28,10 @@ class Authenticate extends Middleware
 
     public function handle($request, Closure $next, ...$guards)
     {
-        if (Auth::guest()) {
-            return response()->json(['message' => 'you shall not pass']);
-        }
+        if (! $request->expectsJson()) {
+                  return response()->json(['message' => 'Unauthenticated.']);
+
+                }
 
         // other checks
 
