@@ -21,7 +21,7 @@ class Authenticate extends Middleware
    protected function redirectTo($request)
    {
       if (! $request->expectsJson()) {
-          return route('https://ratering.herokuapp.com/api/auth/login');
+          return route('api/login');
          //  route('login')
       }
     }
