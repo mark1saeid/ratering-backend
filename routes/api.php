@@ -60,7 +60,4 @@ Route::group(['middleware' => ['api','apiadmin'], 'prefix' => 'auth','namespace'
     Route::get('profile', 'UserControllers@userProfile');
 
 
-    Route::get('test',function (){
-        return $id = auth()->user()->id;
-    });
 });
