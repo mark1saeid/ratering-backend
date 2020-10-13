@@ -30,7 +30,7 @@ class ProfilesControllers extends Controller
     }
 
     public function uploadpp(Request $request) {
-
+        $id = auth()->user()->id;
         $validator = Validator::make($request->all(), [
 
             'image' => 'mimes:jpeg,jpg,png,gif|required|max:10000'
@@ -46,10 +46,10 @@ class ProfilesControllers extends Controller
 
         $paths = $request->image->getClientOriginalName();
 
-        $path =$request->file('image')->move(public_path('/'),$paths);
-        $imageurl = url('/' .$paths);
+        $path =$request->file('image')->move(public_path($id+'/'),$paths);
+        $imageurl = url($id+'/' .$paths);
 
-        $id = auth()->user()->id;
+
         $s = User::all()->where('id' ,$id )->first()->update(['pp'=> $imageurl]);
 
         return response()->json(['url' => $imageurl],200);

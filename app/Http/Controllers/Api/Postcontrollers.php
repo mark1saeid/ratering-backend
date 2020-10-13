@@ -29,10 +29,13 @@ class Postcontrollers extends Controller
         return $post;
     }
     function create(Request $request){
+        $id = auth()->user()->id;
+        $username = auth()->user()->username;
+
         $validator = Validator::make($request->all(), [
             'post_text' => 'string',
-            'post_link' => 'string',
-            'post_image' => 'mimes:jpeg,jpg,png,gif|required|max:10000',
+            'post_link' => 'string|unique:posts',
+            'post_image' => 'mimes:jpeg,jpg,png,gif|required|max:10000|unique:posts',
         ]);
 
         if($validator->fails()){
@@ -46,12 +49,11 @@ class Postcontrollers extends Controller
 
         $paths = $request->post_image->getClientOriginalName();
 
-        $path =$request->file('post_image')->move(public_path('/'),$paths);
-        $imageurl = url('/' .$paths);
+        $path =$request->file('post_image')->move(public_path($id+'/post/'),$paths);
+        $imageurl = url($id+'/post/' .$paths);
 
 
-        $id = auth()->user()->id;
-        $username = auth()->user()->username;
+
         $post = Post::create(array_merge(
             $validator->validated(),
             [   'post_rating' => '0',
@@ -62,6 +64,7 @@ class Postcontrollers extends Controller
                 'post_text' => $request->post_text
             ]
         ));
+
         return response()->json([
             'message' => 'posted successfully ',
             'post' => $post
