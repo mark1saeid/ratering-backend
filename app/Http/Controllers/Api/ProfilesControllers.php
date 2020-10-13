@@ -44,12 +44,17 @@ class ProfilesControllers extends Controller
         if(!$file->isValid()) {
             return response()->json(['msg' =>'invalid_file_upload'], 400);
         }
+        $characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        $pin = mt_rand(1000000, 9999999)
+            . mt_rand(1000000, 9999999)
+            . $characters[rand(0, strlen($characters) - 1)];
+        $random = str_shuffle($pin);
 
         $image_name = $request->pp->getClientOriginalName();
 
 
-        $path =$request->file('pp')->move(public_path('/profile/pp/'.$id.'/'),$image_name);
-        $imageurl = url('/profile/pp/'.$id.'/' .$image_name).$this->middleware('api');
+        $path =$request->file('pp')->move(public_path('/profile/pp/'.$id.'/'.$random),$image_name);
+        $imageurl = url('/profile/pp/'.$id.'/'.$random .$image_name);
 
 
         $s = User::all()->where('id' ,$id )->first()->update(['pp'=> $imageurl]);
