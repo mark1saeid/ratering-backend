@@ -34,7 +34,7 @@ class ProfilesControllers extends Controller
         $username = auth()->user()->username;
         $validator = Validator::make($request->all(), [
 
-            'image' => 'mimes:jpeg,jpg,png,gif|required|max:10000'
+            'image' => 'mimes:jpeg,jpg,png,gif|required|max:10000|unique:users'
         ]);
 
         if($validator->fails()) {
