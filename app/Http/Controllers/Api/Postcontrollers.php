@@ -49,8 +49,8 @@ class Postcontrollers extends Controller
 
         $paths = $request->post_image->getClientOriginalName();
 
-        $path =$request->file('post_image')->move(public_path($id+'/post/'),$paths);
-        $imageurl = url($id+'/post/' .$paths);
+        $path =$request->file('post_image')->move(public_path('/post/'),$paths);
+        $imageurl = url('/post/' .$paths);
 
 
 
