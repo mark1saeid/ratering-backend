@@ -101,7 +101,7 @@ use GeneralTrait;
 
 
 
-    public function uploadTest(Request $request) {
+    public function upload(Request $request) {
 
         if(!$request->hasFile('image')) {
             return response()->json(['upload_file_not_found'], 400);
