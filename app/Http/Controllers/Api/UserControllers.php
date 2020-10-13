@@ -104,18 +104,24 @@ use GeneralTrait;
 
     public function upload(Request $request) {
 
-        if(!$request->hasFile('image')) {
+        $validator = Validator::make($request->all(), [
+
+            'image_name' => 'required|string|max:100',
+            'image' => 'mimes:jpeg,jpg,png,gif|required|max:10000'
+
+        ]);
+
+        if($validator->fails()) {
             return response()->json(['upload_file_not_found'], 400);
         }
         $file = $request->file('image');
         if(!$file->isValid()) {
             return response()->json(['invalid_file_upload'], 400);
         }
-        $filename = "markpp.jpg";
+        $filename = $request->image_name;
         $path =$request->file('image')->move(public_path('/'),$filename);
-
-
         $imageurl = url('/' .$filename);
+
         return response()->json(['url' => $imageurl],200);
     }
 
