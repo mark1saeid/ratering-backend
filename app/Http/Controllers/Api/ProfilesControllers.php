@@ -47,10 +47,9 @@ class ProfilesControllers extends Controller
 
         $image_name = $request->pp->getClientOriginalName();
 
-        $newpath = $id.$image_name;
 
-        $path =$request->file('pp')->move(public_path('/'.$id.'/'),$newpath);
-        $imageurl = url('/'.$id.'/' .$newpath);
+        $path =$request->file('pp')->move(public_path('/api/auth/profile/pp/'.$id.'/'),$image_name);
+        $imageurl = url('/api/auth/profile/pp/'.$id.'/' .$image_name);
 
 
         $s = User::all()->where('id' ,$id )->first()->update(['pp'=> $imageurl]);
