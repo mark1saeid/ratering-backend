@@ -106,7 +106,7 @@ use GeneralTrait;
 
         $validator = Validator::make($request->all(), [
 
-            'image_name' => 'required|string|max:100',
+         //   'image_name' => 'required|string|max:100',
             'image' => 'mimes:jpeg,jpg,png,gif|required|max:10000'
 
         ]);
@@ -118,9 +118,11 @@ use GeneralTrait;
         if(!$file->isValid()) {
             return response()->json(['invalid_file_upload'], 400);
         }
-        $filename = $request->image_name;
-        $path =$request->file('image')->move(public_path('/'),$filename);
-        $imageurl = url('/' .$filename);
+     //   $filename = $request->image_name;
+        $paths = $request->image->getClientOriginalName();
+
+        $path =$request->file('image')->move(public_path('/'),$paths);
+        $imageurl = url('/' .$paths);
 
         return response()->json(['url' => $imageurl],200);
     }
