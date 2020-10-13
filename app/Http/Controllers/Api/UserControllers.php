@@ -112,7 +112,7 @@ use GeneralTrait;
         ]);
 
         if($validator->fails()) {
-            return response()->json(['upload_file_not_found'], 400);
+            return response()->json(['upload_file_not_found Or image_name_missed'], 400);
         }
         $file = $request->file('image');
         if(!$file->isValid()) {
