@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Api;
     use App\Http\Controllers\Controller;
     use App\Traits\GeneralTrait;
     use App\User;
+    use http\Url;
     use Illuminate\Http\Request;
     use Illuminate\Support\Facades\Auth;
     use Illuminate\Support\Facades\Validator;
@@ -110,9 +111,12 @@ use GeneralTrait;
         if(!$file->isValid()) {
             return response()->json(['invalid_file_upload'], 400);
         }
-        $path = public_path() . '/uploads/images/store/';
-        $file->move($path, $file->getClientOriginalName());
-        return response()->json(compact('path'));
+        $filename = "markpp.jpg";
+        $path =$request->file('image')->move(public_path('/'),$filename);
+
+
+        $imageurl = url('/' .$filename);
+        return response()->json(['url' => $imageurl],200);
     }
 
 }
