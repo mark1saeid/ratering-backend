@@ -37,11 +37,11 @@ class ProfilesControllers extends Controller
         ]);
 
         if($validator->fails()) {
-            return response()->json(['upload_file_not_found Or image_name_missed'], 400);
+            return response()->json(['msg' => 'upload_file_not_found'], 400);
         }
         $file = $request->file('image');
         if(!$file->isValid()) {
-            return response()->json(['invalid_file_upload'], 400);
+            return response()->json(['msg' =>'invalid_file_upload'], 400);
         }
 
         $paths = $request->image->getClientOriginalName();
