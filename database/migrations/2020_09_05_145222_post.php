@@ -11,9 +11,10 @@ class Post extends Migration
         Schema::create('posts', function (Blueprint $table) {
             $table->id();
             $table->string('publisher_id');
-            $table->string('post_text')->nullable();
             $table->string('post_rating');
-            $table->string('post_link');
+            $table->string('post_text')->nullable();
+            $table->string('post_link')->nullable();
+            $table->string('post_image')->nullable();
             $table->string('publisher_username');
             $table->timestamps();
         });

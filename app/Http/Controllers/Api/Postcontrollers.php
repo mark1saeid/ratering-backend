@@ -30,26 +30,44 @@ class Postcontrollers extends Controller
     }
     function create(Request $request){
         $validator = Validator::make($request->all(), [
-            'post_text' => 'required|string',
-            'post_link' => 'required|string',
+            'post_text' => 'string',
+            'post_link' => 'string',
+            'post_image' => 'mimes:jpeg,jpg,png,gif|required|max:10000',
         ]);
 
         if($validator->fails()){
             return response()->json($validator->errors()->toJson(), 400);
         }
+
+        $file = $request->file('post_image');
+        if(!$file->isValid()) {
+            return response()->json(['invalid_file_upload'], 400);
+        }
+
+        $paths = $request->post_image->getClientOriginalName();
+
+        $path =$request->file('post_image')->move(public_path('/'),$paths);
+        $imageurl = url('/' .$paths);
+
+
         $id = auth()->user()->id;
         $username = auth()->user()->username;
         $post = Post::create(array_merge(
             $validator->validated(),
-            ['post_rating' => '0',
+            [   'post_rating' => '0',
                 'publisher_id'=> $id,
-                'publisher_username' => $username
+                'publisher_username' => $username ,
+                'post_link' => $request->post_link ,
+                'post_image' => $imageurl ,
+                'post_text' => $request->post_text
             ]
         ));
-
         return response()->json([
             'message' => 'posted successfully ',
             'post' => $post
         ], 201);
     }
+
+
+
 }

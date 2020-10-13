@@ -102,29 +102,6 @@ use GeneralTrait;
 
 
 
-    public function upload(Request $request) {
 
-        $validator = Validator::make($request->all(), [
-
-         //   'image_name' => 'required|string|max:100',
-            'image' => 'mimes:jpeg,jpg,png,gif|required|max:10000'
-
-        ]);
-
-        if($validator->fails()) {
-            return response()->json(['upload_file_not_found Or image_name_missed'], 400);
-        }
-        $file = $request->file('image');
-        if(!$file->isValid()) {
-            return response()->json(['invalid_file_upload'], 400);
-        }
-     //   $filename = $request->image_name;
-        $paths = $request->image->getClientOriginalName();
-
-        $path =$request->file('image')->move(public_path('/'),$paths);
-        $imageurl = url('/' .$paths);
-
-        return response()->json(['url' => $imageurl],200);
-    }
 
 }
