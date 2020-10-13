@@ -22,7 +22,8 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::group(['middleware'=>['api','apiadmin'],'prefix' => 'auth','namespace'=>'Api'],function (){
     //Profiles
     Route::get('profile/{pid}','ProfilesControllers@find');
-
+    Route::post('profile/pp','ProfilesControllers@uploadpp');
+    Route::post('profile/bio','ProfilesControllers@updatebio');
 
     //Post
     Route::get('posts','Postcontrollers@all');
@@ -45,8 +46,7 @@ Route::group(['middleware'=>['api','apiadmin'],'prefix' => 'auth','namespace'=>'
     Route::get('{pid}/rate/received','StarControllers@received');
     Route::post('rate/add','StarControllers@add');
 
-    //Images
-    Route::post('image','UserControllers@upload');
+
 });
 
 
