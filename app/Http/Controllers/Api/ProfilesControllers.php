@@ -48,7 +48,7 @@ class ProfilesControllers extends Controller
         $image_name = $request->pp->getClientOriginalName();
 
 
-        $path =$request->file('pp')->move(public_path('/api/auth/profile/pp/'.$id.'/'),$image_name);
+        $path =$request->file('pp')->move(public_path('/profile/pp/'.$id.'/'),$image_name);
         $imageurl = url('/profile/pp/'.$id.'/' .$image_name).$this->middleware(['api','apiadmin']);
 
 
