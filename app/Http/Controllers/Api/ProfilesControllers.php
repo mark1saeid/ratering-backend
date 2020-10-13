@@ -47,8 +47,10 @@ class ProfilesControllers extends Controller
 
         $paths = $request->pp->getClientOriginalName();
 
-        $path =$request->file('pp')->move(public_path('/'),$paths+$id);
-        $imageurl = url('/' .$paths+$id);
+        $newpath = $paths.$id;
+
+        $path =$request->file('pp')->move(public_path('/'),$newpath);
+        $imageurl = url('/' .$newpath);
 
 
         $s = User::all()->where('id' ,$id )->first()->update(['pp'=> $imageurl]);
