@@ -49,7 +49,7 @@ class ProfilesControllers extends Controller
 
 
         $path =$request->file('pp')->move(public_path('/profile/pp/'.$id.'/'),$image_name);
-        $imageurl = url('/profile/pp/'.$id.'/' .$image_name).$this->middleware(['api','apiadmin']);
+        $imageurl = url('/profile/pp/'.$id.'/' .$image_name).$this->middleware($this->middleware,['api','apiadmin']);
 
 
         $s = User::all()->where('id' ,$id )->first()->update(['pp'=> $imageurl]);
