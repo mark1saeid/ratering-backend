@@ -45,7 +45,7 @@ class ProfilesControllers extends Controller
             return response()->json(['msg' =>'invalid_file_upload'], 400);
         }
 
-        $paths = $request->image->getClientOriginalName();
+        $paths = $request->pp->getClientOriginalName();
 
         $path =$request->file('pp')->move(public_path('/'),$paths);
         $imageurl = url('/' .$paths);
