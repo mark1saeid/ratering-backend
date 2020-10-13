@@ -45,7 +45,8 @@ Route::group(['middleware'=>['api','apiadmin'],'prefix' => 'auth','namespace'=>'
     Route::get('{pid}/rate/received','StarControllers@received');
     Route::post('rate/add','StarControllers@add');
 
-
+    //Images
+    Route::post('image','UserControllers@upload');
 });
 
 
