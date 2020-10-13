@@ -91,7 +91,7 @@ use GeneralTrait;
 
     protected function createNewToken($token){
         $id = auth()->user()->id;
-       $s = User::all()->where('id' ,$id )->first()->update(['api_token'=> $token]);
+       User::all()->where('id' ,$id )->first()->update(['token'=> $token]);
         return response()->json([
             'access_token' => $token,
             'token_type' => 'bearer',

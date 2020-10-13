@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1eec28c9-5a34-4cb8-bd9d-a552bf9fa123" name="Default Changelist" comment="ss">
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/ProfilesControllers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/ProfilesControllers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/UserControllers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/UserControllers.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,28 +193,7 @@
       <workItem from="1601023273789" duration="13001000" />
       <workItem from="1601118306205" duration="297000" />
       <workItem from="1601477892320" duration="376000" />
-      <workItem from="1602594120666" duration="8282000" />
-    </task>
-    <task id="LOCAL-00027" summary="ss">
-      <created>1600932927633</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1600932927633</updated>
-    </task>
-    <task id="LOCAL-00028" summary="ss">
-      <created>1600933641533</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1600933641533</updated>
-    </task>
-    <task id="LOCAL-00029" summary="ss">
-      <created>1600933699317</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1600933699317</updated>
+      <workItem from="1602594120666" duration="8929000" />
     </task>
     <task id="LOCAL-00030" summary="ss">
       <created>1600933751911</created>
@@ -537,7 +517,28 @@
       <option name="project" value="LOCAL" />
       <updated>1602608041011</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="ss">
+      <created>1602608179747</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1602608179747</updated>
+    </task>
+    <task id="LOCAL-00077" summary="ss">
+      <created>1602608305371</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1602608305371</updated>
+    </task>
+    <task id="LOCAL-00078" summary="ss">
+      <created>1602608362363</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1602608362363</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -596,10 +597,10 @@
       <screen x="0" y="0" width="1024" height="779" />
     </state>
     <state width="981" height="135" key="GridCell.Tab.0.right/0.0.1024.779@0.0.1024.779" timestamp="1599594024670" />
-    <state x="105" y="123" key="Vcs.Push.Dialog.v2" timestamp="1602608042715">
+    <state x="105" y="123" key="Vcs.Push.Dialog.v2" timestamp="1602608364687">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
-    <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1602608042715" />
+    <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1602608364687" />
     <state x="330" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602600467391">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
