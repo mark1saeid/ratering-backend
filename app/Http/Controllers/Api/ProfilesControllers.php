@@ -34,20 +34,20 @@ class ProfilesControllers extends Controller
         $username = auth()->user()->username;
         $validator = Validator::make($request->all(), [
 
-            'image' => 'mimes:jpeg,jpg,png,gif|required|max:10000|unique:users'
+            'pp' => 'mimes:jpeg,jpg,png,gif|required|max:10000|unique:users'
         ]);
 
         if($validator->fails()) {
             return response()->json(['msg' => 'upload_file_not_found'], 400);
         }
-        $file = $request->file('image');
+        $file = $request->file('pp');
         if(!$file->isValid()) {
             return response()->json(['msg' =>'invalid_file_upload'], 400);
         }
 
         $paths = $request->image->getClientOriginalName();
 
-        $path =$request->file('image')->move(public_path('/'),$paths);
+        $path =$request->file('pp')->move(public_path('/'),$paths);
         $imageurl = url('/' .$paths);
 
 
