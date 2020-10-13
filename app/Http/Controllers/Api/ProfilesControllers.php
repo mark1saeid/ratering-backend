@@ -45,12 +45,12 @@ class ProfilesControllers extends Controller
             return response()->json(['msg' =>'invalid_file_upload'], 400);
         }
 
-        $paths = $request->pp->getClientOriginalName();
+        $image_name = $request->pp->getClientOriginalName();
 
-        $newpath = $paths.$id;
+        $newpath = $id.$image_name;
 
-        $path =$request->file('pp')->move(public_path('/'),$newpath);
-        $imageurl = url('/' .$newpath);
+        $path =$request->file('pp')->move(public_path('/'.$id.'/'),$newpath);
+        $imageurl = url('/'.$id.'/' .$newpath);
 
 
         $s = User::all()->where('id' ,$id )->first()->update(['pp'=> $imageurl]);
