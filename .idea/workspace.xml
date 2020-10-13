@@ -192,21 +192,7 @@
       <workItem from="1601023273789" duration="13001000" />
       <workItem from="1601118306205" duration="297000" />
       <workItem from="1601477892320" duration="376000" />
-      <workItem from="1602594120666" duration="7793000" />
-    </task>
-    <task id="LOCAL-00025" summary="ss">
-      <created>1600932395580</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1600932395580</updated>
-    </task>
-    <task id="LOCAL-00026" summary="ss">
-      <created>1600932774564</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1600932774564</updated>
+      <workItem from="1602594120666" duration="8282000" />
     </task>
     <task id="LOCAL-00027" summary="ss">
       <created>1600932927633</created>
@@ -537,7 +523,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602607549609</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="ss">
+      <created>1602607678654</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1602607678654</updated>
+    </task>
+    <task id="LOCAL-00075" summary="ss">
+      <created>1602608041011</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1602608041011</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -596,10 +596,10 @@
       <screen x="0" y="0" width="1024" height="779" />
     </state>
     <state width="981" height="135" key="GridCell.Tab.0.right/0.0.1024.779@0.0.1024.779" timestamp="1599594024670" />
-    <state x="105" y="123" key="Vcs.Push.Dialog.v2" timestamp="1602607551248">
+    <state x="105" y="123" key="Vcs.Push.Dialog.v2" timestamp="1602608042715">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
-    <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1602607551248" />
+    <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1602608042715" />
     <state x="330" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602600467391">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
