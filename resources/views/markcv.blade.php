@@ -87,7 +87,7 @@
                                 <div class="row">
                                     <div class="col-sm-6 col-md-5">
                                         <div class="about-img">
-                                            <img src="{{URL::asset('assets/img/testimonial-2.jpg')}}" class="img-fluid rounded b-shadow-a" alt="">
+                                            <img src="{{URL::asset('assets/img/markpp.jpg')}}" class="img-fluid rounded b-shadow-a" alt="">
                                         </div>
                                     </div>
                                     <div class="col-sm-6 col-md-7">
@@ -293,7 +293,7 @@
                             <span class="ico-circle"><i class="ion-checkmark-round"></i></span>
                         </div>
                         <div class="counter-num">
-                            <p class="counter">450</p>
+                            <p class="counter">22</p>
                             <span class="counter-text">WORKS COMPLETED</span>
                         </div>
                     </div>
@@ -304,7 +304,7 @@
                             <span class="ico-circle"><i class="ion-ios-calendar-outline"></i></span>
                         </div>
                         <div class="counter-num">
-                            <p class="counter">15</p>
+                            <p class="counter">4</p>
                             <span class="counter-text">YEARS OF EXPERIENCE</span>
                         </div>
                     </div>
@@ -315,7 +315,7 @@
                             <span class="ico-circle"><i class="ion-ios-people"></i></span>
                         </div>
                         <div class="counter-num">
-                            <p class="counter">550</p>
+                            <p class="counter">34</p>
                             <span class="counter-text">TOTAL CLIENTS</span>
                         </div>
                     </div>
@@ -326,7 +326,7 @@
                             <span class="ico-circle"><i class="ion-ribbon-a"></i></span>
                         </div>
                         <div class="counter-num">
-                            <p class="counter">36</p>
+                            <p class="counter">5</p>
                             <span class="counter-text">AWARD WON</span>
                         </div>
                     </div>
@@ -510,7 +510,7 @@
                     <div id="testimonial-mf" class="owl-carousel owl-theme">
                         <div class="testimonial-box">
                             <div class="author-test">
-                                <img src="{{URL::asset('assets/img/testimonial-2.jpg')}}" alt="" class="rounded-circle b-shadow-a">
+                                <img src="{{URL::asset('assets/img/markpp.jpg')}}" alt="" class="rounded-circle b-shadow-a">
                                 <span class="author">Xavi Alonso</span>
                             </div>
                             <div class="content-test">

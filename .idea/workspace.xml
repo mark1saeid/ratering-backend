@@ -196,14 +196,7 @@
       <workItem from="1601118306205" duration="297000" />
       <workItem from="1601477892320" duration="376000" />
       <workItem from="1602594120666" duration="12289000" />
-      <workItem from="1602691074360" duration="9588000" />
-    </task>
-    <task id="LOCAL-00056" summary="ss">
-      <created>1601029133798</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1601029133798</updated>
+      <workItem from="1602691074360" duration="9916000" />
     </task>
     <task id="LOCAL-00057" summary="ss">
       <created>1601035272699</created>
@@ -541,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602700549576</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="remove connection">
+      <created>1602701115383</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1602701115383</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -601,10 +601,10 @@
       <screen x="0" y="0" width="1024" height="779" />
     </state>
     <state width="981" height="135" key="GridCell.Tab.0.right/0.0.1024.779@0.0.1024.779" timestamp="1599594024670" />
-    <state x="105" y="123" key="Vcs.Push.Dialog.v2" timestamp="1602700558363">
+    <state x="105" y="123" key="Vcs.Push.Dialog.v2" timestamp="1602701124919">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
-    <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1602700558363" />
+    <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1602701124919" />
     <state x="330" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602600467391">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
