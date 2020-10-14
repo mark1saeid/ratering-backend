@@ -54,7 +54,7 @@ a:hover {
 }
 
 .box-shadow-a, .button:hover {
-  box-shadow: 0 0 0 4px #cde1f8;
+  box-shadow: 0 0 0 4px #FCF1BA;
 }
 
 .display-5 {
@@ -223,7 +223,7 @@ a:hover {
 .socials .ico-circle:hover {
   background-color: #f8dd52;
   color: #fff;
-  box-shadow: 0 0 0 3px #cde1f8;
+  box-shadow: 0 0 0 3px #FCF1BA;
   transition: all 500ms ease;
 }
 
@@ -270,15 +270,15 @@ a:hover {
   width: 18px;
   height: 7px;
   margin: 5px 5px;
-  background: #cde1f8;
-  border: 0px solid #cde1f8;
+  background: #FCF1BA;
+  border: 0px solid #FCF1BA;
   display: block;
   transition: all 0.6s ease-in-out;
   cursor: pointer;
 }
 
 .owl-theme .owl-dots .owl-dot:hover span {
-  background-color: #cde1f8;
+  background-color: #FCF1BA;
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
@@ -414,7 +414,7 @@ a:hover {
 .button-a {
   background-color: #f8dd52;
   color: #fff;
-  border-color: #cde1f8;
+  border-color: #FCF1BA;
 }
 
 .button-big {
@@ -708,11 +708,11 @@ a:hover {
 }
 
 .intro-single .breadcrumb .breadcrumb-item:before {
-  color: #cde1f8;
+  color: #FCF1BA;
 }
 
 .intro-single .breadcrumb .breadcrumb-item.active {
-  color: #cde1f8;
+  color: #FCF1BA;
 }
 
 .intro-single .breadcrumb a {
@@ -747,7 +747,7 @@ a:hover {
 }
 
 .skill-mf .progress {
-  background-color: #cde1f8;
+  background-color: #FCF1BA;
   margin: .5rem 0 1.2rem 0;
   border-radius: 0;
   height: .7rem;
@@ -772,7 +772,7 @@ a:hover {
   transition: all 500ms ease;
   color: #fff;
   background-color: #f8dd52;
-  box-shadow: 0 0 0 10px #cde1f8;
+  box-shadow: 0 0 0 10px #FCF1BA;
 }
 
 .service-box .service-ico {
@@ -818,7 +818,7 @@ a:hover {
   height: 60px;
   width: 60px;
   line-height: 1.8;
-  box-shadow: 0 0 0 10px #cde1f8;
+  box-shadow: 0 0 0 10px #FCF1BA;
 }
 
 .counter-num .counter {
