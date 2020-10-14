@@ -49,7 +49,7 @@
                     <a class="nav-link js-scroll" href="#service">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll" href="#status">Status</a>
+                    <a class="nav-link js-scroll" href="#work">Work</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll" href="#contact">Contact</a>
