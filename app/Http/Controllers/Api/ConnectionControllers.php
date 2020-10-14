@@ -87,16 +87,12 @@ class ConnectionControllers extends Controller
     function remove($cid){
 
 
-        $id = auth()->user()->id;
-
-
-       // $s = Connection::all()->where('id' ,$cid )->where('to_id',$id)->first();
-
-        $event = Connection::where("to_id" , $cid)->where('from_id' , $id)->get();
+      //  $id = auth()->user()->id;
+        $event = Connection::find($cid)->get();
         $event = $event->where('status' , 'true');
 
         if ($event){
-            $event->update(['status'=> "false"]);
+            $event->delete($cid);
             return response()->json([
                 'message' => 'Done Successfully ',
                 'status' => 'false'
