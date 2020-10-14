@@ -19,20 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eec28c9-5a34-4cb8-bd9d-a552bf9fa123" name="Default Changelist" comment="ss">
-      <change afterPath="$PROJECT_DIR$/public/assets/img/biostoms.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/biostormf.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/koracorner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/ratering.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/work-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/work-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/work-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/work-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/work-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/work-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/markcv.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/markcv.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="1eec28c9-5a34-4cb8-bd9d-a552bf9fa123" name="Default Changelist" comment="ss" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -207,21 +194,7 @@
       <workItem from="1601118306205" duration="297000" />
       <workItem from="1601477892320" duration="376000" />
       <workItem from="1602594120666" duration="12289000" />
-      <workItem from="1602691074360" duration="14620000" />
-    </task>
-    <task id="LOCAL-00068" summary="ss">
-      <created>1602606046131</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1602606046131</updated>
-    </task>
-    <task id="LOCAL-00069" summary="ss">
-      <created>1602606871934</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1602606871934</updated>
+      <workItem from="1602691074360" duration="14957000" />
     </task>
     <task id="LOCAL-00070" summary="ss">
       <created>1602607236326</created>
@@ -552,7 +525,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602704416967</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="s">
+      <created>1602705965894</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1602705965894</updated>
+    </task>
+    <task id="LOCAL-00118" summary="s">
+      <created>1602706213899</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1602706213899</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -613,10 +600,10 @@
       <screen x="0" y="0" width="1024" height="779" />
     </state>
     <state width="981" height="135" key="GridCell.Tab.0.right/0.0.1024.779@0.0.1024.779" timestamp="1599594024670" />
-    <state x="105" y="123" key="Vcs.Push.Dialog.v2" timestamp="1602704541385">
+    <state x="105" y="123" key="Vcs.Push.Dialog.v2" timestamp="1602706216081">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
-    <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1602704541385" />
+    <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1602706216081" />
     <state x="330" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602600467391">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
