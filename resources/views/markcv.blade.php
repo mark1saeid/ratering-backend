@@ -60,7 +60,7 @@
 </nav>
 
 <!-- ======= Intro Section ======= -->
-<div id="home" class="intro route bg-image" style="background-image: url(assets/img/intro-bg.jpg)">
+<div id="home" class="intro route bg-image" style="background-image: url(assets/img/markintro.jpg)">
     <div class="overlay-itro"></div>
     <div class="intro-content display-table">
         <div class="table-cell">
@@ -109,9 +109,9 @@
                                     <div class="progress">
                                         <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
-                                    <span>PHP</span> <span class="pull-right">60%</span>
+                                    <span>PHP</span> <span class="pull-right">70%</span>
                                     <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                     <span>Backend Development</span> <span class="pull-right">90%</span>
                                     <div class="progress">
@@ -120,6 +120,10 @@
                                     <span>C#</span> <span class="pull-right">80%</span>
                                     <div class="progress">
                                         <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span>C++</span> <span class="pull-right">75%</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                     <span>Desktop Application Development</span> <span class="pull-right">85%</span>
                                     <div class="progress">
