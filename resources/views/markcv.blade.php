@@ -360,14 +360,14 @@
                         <div class="work-content">
                             <div class="row">
                                 <div class="col-sm-8">
-                                    <h2 class="w-title">Lorem impsum dolor</h2>
+                                    <h2 class="w-title">Bio Storm</h2>
                                     <div class="w-more">
-                                        <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                                        <span class="w-ctegory">Android Development</span> / <span class="w-date">18 Sep. 2019</span>
                                     </div>
                                 </div>
                                 <div class="col-sm-4">
                                     <div class="w-like">
-                                        <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
+                                        <a href="#"> <span class="ion-ios-plus-outline"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -384,14 +384,14 @@
                         <div class="work-content">
                             <div class="row">
                                 <div class="col-sm-8">
-                                    <h2 class="w-title">Loreda Cuno Nere</h2>
+                                    <h2 class="w-title">Bio Storm Assestant</h2>
                                     <div class="w-more">
-                                        <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                                        <span class="w-ctegory">Android Development</span> / <span class="w-date">18 Sep. 2019</span>
                                     </div>
                                 </div>
                                 <div class="col-sm-4">
                                     <div class="w-like">
-                                        <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
+                                        <a href="#"> <span class="ion-ios-plus-outline"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -408,14 +408,14 @@
                         <div class="work-content">
                             <div class="row">
                                 <div class="col-sm-8">
-                                    <h2 class="w-title">Mavrito Lana Dere</h2>
+                                    <h2 class="w-title">Kora Corner</h2>
                                     <div class="w-more">
-                                        <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                                        <span class="w-ctegory">Android Development</span> / <span class="w-date">18 Sep. 2018</span>
                                     </div>
                                 </div>
                                 <div class="col-sm-4">
                                     <div class="w-like">
-                                        <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
+                                        <a href="#"> <span class="ion-ios-plus-outline"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -432,14 +432,14 @@
                         <div class="work-content">
                             <div class="row">
                                 <div class="col-sm-8">
-                                    <h2 class="w-title">Bindo Laro Cado</h2>
+                                    <h2 class="w-title">RateRing</h2>
                                     <div class="w-more">
-                                        <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                                        <span class="w-ctegory">Backend Development</span> / <span class="w-date">1 Sep. 2020</span>
                                     </div>
                                 </div>
                                 <div class="col-sm-4">
                                     <div class="w-like">
-                                        <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
+                                        <a href="#"> <span class="ion-ios-plus-outline"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -456,14 +456,14 @@
                         <div class="work-content">
                             <div class="row">
                                 <div class="col-sm-8">
-                                    <h2 class="w-title">Studio Lena Mado</h2>
+                                    <h2 class="w-title">RateRing</h2>
                                     <div class="w-more">
-                                        <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                                        <span class="w-ctegory">Android Development</span> / <span class="w-date">soon</span>
                                     </div>
                                 </div>
                                 <div class="col-sm-4">
                                     <div class="w-like">
-                                        <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
+                                        <a href="#"> <span class="ion-ios-plus-outline"></span></a>
                                     </div>
                                 </div>
                             </div>
