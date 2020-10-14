@@ -352,9 +352,9 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="work-box">
-                        <a href="{{URL::asset('assets/img/biostorm1.jpg')}}" data-gall="portfolioGallery" class="venobox">
+                        <a href="{{URL::asset('assets/img/biostormf.jpg')}}" data-gall="portfolioGallery" class="venobox">
                             <div class="work-img">
-                                <img src="{{URL::asset('assets/img/biostorm1.jpg')}}" alt="" class="img-fluid">
+                                <img src="{{URL::asset('assets/img/biostormf.jpg')}}" alt="" class="img-fluid">
                             </div>
                         </a>
                         <div class="work-content">
@@ -376,9 +376,9 @@
                 </div>
                 <div class="col-md-4">
                     <div class="work-box">
-                        <a href="{{URL::asset('assets/img/biostorms')}}" data-gall="portfolioGallery" class="venobox">
+                        <a href="{{URL::asset('assets/img/biostorms.jpg')}}" data-gall="portfolioGallery" class="venobox">
                             <div class="work-img">
-                                <img src="{{URL::asset('assets/img/biostorms')}}" alt="" class="img-fluid">
+                                <img src="{{URL::asset('assets/img/biostorms.jpg')}}" alt="" class="img-fluid">
                             </div>
                         </a>
                         <div class="work-content">
@@ -424,9 +424,9 @@
                 </div>
                 <div class="col-md-4">
                     <div class="work-box">
-                        <a href="{{URL::asset('assets/img/ratering.jpg')}}" data-gall="portfolioGallery" class="venobox">
+                        <a href="{{URL::asset('assets/img/ratering.jpeg')}}" data-gall="portfolioGallery" class="venobox">
                             <div class="work-img">
-                                <img src="{{URL::asset('assets/img/ratering.jpg')}}" alt="" class="img-fluid">
+                                <img src="{{URL::asset('assets/img/ratering.jpeg')}}" alt="" class="img-fluid">
                             </div>
                         </a>
                         <div class="work-content">
