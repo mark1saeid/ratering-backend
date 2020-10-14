@@ -595,17 +595,16 @@
                                             mollitia inventore?
                                         </p>
                                         <ul class="list-ico">
-                                            <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
-                                            <li><span class="ion-ios-telephone"></span> (617) 557-0089</li>
-                                            <li><span class="ion-email"></span> contact@example.com</li>
+                                           <li><span class="ion-ios-telephone"></span>+201227887286</li>
+                                            <li><span class="ion-email"></span> marksaeid10@gmail.com</li>
                                         </ul>
                                     </div>
                                     <div class="socials">
                                         <ul>
-                                            <li><a href=""><span class="ico-circle"><i class="ion-social-facebook"></i></span></a></li>
-                                            <li><a href=""><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
-                                            <li><a href=""><span class="ico-circle"><i class="ion-social-twitter"></i></span></a></li>
-                                            <li><a href=""><span class="ico-circle"><i class="ion-social-pinterest"></i></span></a></li>
+                                            <li><a href="https://www.facebook.com/mark.saeid.90/"><span class="ico-circle"><i class="ion-social-facebook"></i></span></a></li>
+                                            <li><a href="https://www.instagram.com/mark1saeid/?hl=en"><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
+                                            <li><a href="https://www.linkedin.com/in/mark-saeid-7639a5187/"><span class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
+                                            <li><a href="https://github.com/mark1saeid"><span class="ico-circle"><i class="ion-social-github"></i></span></a></li>
                                         </ul>
                                     </div>
                                 </div>
