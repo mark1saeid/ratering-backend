@@ -28,7 +28,7 @@ a {
 }
 
 a:hover {
-  color: #f8dd52;
+  color: #fad640;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -38,7 +38,7 @@ a:hover {
 }
 
 .color-a {
-  color: #f8dd52;
+  color: #fad640;
 }
 
 .color-d {
@@ -90,7 +90,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #f8dd52;
+  background-color: #fad640;
 }
 
 .overlay-mf {
@@ -157,7 +157,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #f8dd52;
+  background-color: #fad640;
   margin: 0 auto;
 }
 
@@ -175,7 +175,7 @@ a:hover {
   content: '';
   position: absolute;
   height: 3px;
-  background-color: #f8dd52;
+  background-color: #fad640;
   width: 100px;
   bottom: -12px;
 }
@@ -216,12 +216,12 @@ a:hover {
   border-radius: 50%;
   line-height: 1.4;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #f8dd52;
+  box-shadow: 0 0 0 3px #fad640;
   transition: all 500ms ease;
 }
 
 .socials .ico-circle:hover {
-  background-color: #f8dd52;
+  background-color: #fad640;
   color: #fff;
   box-shadow: 0 0 0 3px #FCF1BA;
   transition: all 500ms ease;
@@ -239,7 +239,7 @@ a:hover {
 }
 
 .list-ico span {
-  color: #f8dd52;
+  color: #fad640;
   margin-right: 10px;
 }
 
@@ -252,7 +252,7 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #f8dd52;
+  box-shadow: 0 0 0 10px #fad640;
   display: block;
 }
 
@@ -297,7 +297,7 @@ a:hover {
   position: fixed;
   width: 42px;
   height: 42px;
-  background-color: #f8dd52;
+  background-color: #fad640;
   opacity: .7;
   font-size: 1.6rem;
   line-height: 1.5;
@@ -315,7 +315,7 @@ a:hover {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #f8dd52;
+  background: #fad640;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -358,7 +358,7 @@ a:hover {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #f8dd52;
+  border-top: 6px solid #fad640;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -412,7 +412,7 @@ a:hover {
 }
 
 .button-a {
-  background-color: #f8dd52;
+  background-color: #fad640;
   color: #fff;
   border-color: #FCF1BA;
 }
@@ -523,26 +523,26 @@ a:hover {
 }
 
 .navbar-b.navbar-reduce .nav-link {
-  color: #f8dd52;
+  color: #fad640;
 }
 
 .navbar-b.navbar-reduce .nav-link:before {
-  background-color: #f8dd52;
+  background-color: #fad640;
 }
 
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: #f8dd52;
+  color: #fad640;
 }
 
 .navbar-b.navbar-reduce .show > .nav-link,
 .navbar-b.navbar-reduce .active > .nav-link,
 .navbar-b.navbar-reduce .nav-link.show,
 .navbar-b.navbar-reduce .nav-link.active {
-  color: #f8dd52;
+  color: #fad640;
 }
 
 .navbar-b.navbar-reduce .navbar-brand {
-  color: #f8dd52;
+  color: #fad640;
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {
@@ -573,13 +573,13 @@ a:hover {
 }
 
 .navbar-b .dropdown-menu .dropdown-item:hover {
-  background-color: #f8dd52;
+  background-color: #fad640;
   color: #fff;
   transition: all 500ms ease;
 }
 
 .navbar-b .dropdown-menu .dropdown-item.active {
-  background-color: #f8dd52;
+  background-color: #fad640;
 }
 
 /*--/ Hamburger Navbar /--*/
@@ -704,7 +704,7 @@ a:hover {
 
 .intro-single .breadcrumb {
   background-color: transparent;
-  color: #f8dd52;
+  color: #fad640;
 }
 
 .intro-single .breadcrumb .breadcrumb-item:before {
@@ -755,7 +755,7 @@ a:hover {
 
 .skill-mf .progress .progress-bar {
   height: .7rem;
-  background-color: #f8dd52;
+  background-color: #fad640;
 }
 
 /*--------------------------------------------------------------
@@ -771,7 +771,7 @@ a:hover {
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #fff;
-  background-color: #f8dd52;
+  background-color: #fad640;
   box-shadow: 0 0 0 10px #FCF1BA;
 }
 
@@ -859,17 +859,17 @@ a:hover {
 }
 
 .work-content .w-more .w-ctegory {
-  color: #f8dd52;
+  color: #fad640;
 }
 
 .work-content .w-like {
   font-size: 2.5rem;
-  color: #f8dd52;
+  color: #fad640;
   float: right;
 }
 
 .work-content .w-like a {
-  color: #f8dd52;
+  color: #fad640;
 }
 
 .work-content .w-like .num-like {
@@ -911,7 +911,7 @@ a:hover {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #f8dd52 !important;
+  background-color: #fad640 !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -998,7 +998,7 @@ a:hover {
 
 .testimonial-box .comit {
   font-size: 2rem;
-  color: #f8dd52;
+  color: #fad640;
   background-color: #fff;
   width: 52px;
   height: 52px;
@@ -1097,7 +1097,7 @@ a:hover {
 }
 
 .php-email-form input::focus, .php-email-form textarea::focus {
-  background-color: #f8dd52;
+  background-color: #fad640;
 }
 
 .php-email-form input {
@@ -1110,7 +1110,7 @@ a:hover {
 }
 
 .php-email-form button[type="submit"] {
-  background: #f8dd52;
+  background: #fad640;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1167,7 +1167,7 @@ a:hover {
   color: #fff;
   padding: 0 15px 5px;
   overflow: hidden;
-  background-color: #f8dd52;
+  background-color: #fad640;
   border-radius: 4px;
 }
 
@@ -1235,7 +1235,7 @@ a:hover {
 }
 
 .blog-wrapper .post-meta ul {
-  border-left: 4px solid #f8dd52;
+  border-left: 4px solid #fad640;
   margin-top: 1rem;
 }
 
@@ -1245,7 +1245,7 @@ a:hover {
 }
 
 .blog-wrapper .post-meta ul a {
-  color: #f8dd52;
+  color: #fad640;
 }
 
 .blog-wrapper .post-meta ul span {
@@ -1253,7 +1253,7 @@ a:hover {
 }
 
 .blog-wrapper .blockquote {
-  border-left: 4px solid #f8dd52;
+  border-left: 4px solid #fad640;
   padding: 18px;
   font-style: italic;
 }
@@ -1290,7 +1290,7 @@ a:hover {
 }
 
 .box-comments .list-comments a {
-  color: #f8dd52;
+  color: #fad640;
 }
 
 .box-comments .list-comments span {
@@ -1306,7 +1306,7 @@ a:hover {
 .widget-sidebar .sidebar-title {
   font-size: 1.6rem;
   font-weight: 600;
-  border-left: 5px solid #f8dd52;
+  border-left: 5px solid #fad640;
   padding-left: 15px;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
@@ -1323,7 +1323,7 @@ a:hover {
   width: 10px;
   height: 1px;
   left: 0;
-  background-color: #f8dd52;
+  background-color: #fad640;
   top: 20px;
 }
 
@@ -1334,8 +1334,8 @@ a:hover {
 }
 
 .sidebar-search .btn-search {
-  background-color: #f8dd52;
-  border-color: #f8dd52;
+  background-color: #fad640;
+  border-color: #fad640;
   border-radius: 0;
   padding-left: 20px;
   padding-right: 20px;
@@ -1343,7 +1343,7 @@ a:hover {
 
 .widget-tags ul li {
   display: inline-block;
-  background-color: #f8dd52;
+  background-color: #fad640;
   padding: .2rem .6rem;
   margin-bottom: .5rem;
   border-radius: 15px;
@@ -1360,7 +1360,7 @@ footer {
   text-align: center;
   color: #fff;
   padding: 25px 0;
-  background: #f8dd52;
+  background: #fad640;
 }
 
 footer .copyright {

@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eec28c9-5a34-4cb8-bd9d-a552bf9fa123" name="Default Changelist" comment="ss" />
+    <list default="true" id="1eec28c9-5a34-4cb8-bd9d-a552bf9fa123" name="Default Changelist" comment="ss">
+      <change beforePath="$PROJECT_DIR$/resources/views/markcv.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/markcv.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -194,14 +196,7 @@
       <workItem from="1601118306205" duration="297000" />
       <workItem from="1601477892320" duration="376000" />
       <workItem from="1602594120666" duration="12289000" />
-      <workItem from="1602691074360" duration="9067000" />
-    </task>
-    <task id="LOCAL-00055" summary="ss">
-      <created>1601027572439</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1601027572439</updated>
+      <workItem from="1602691074360" duration="9588000" />
     </task>
     <task id="LOCAL-00056" summary="ss">
       <created>1601029133798</created>
@@ -539,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602700220631</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="remove connection">
+      <created>1602700549576</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1602700549576</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -599,10 +601,10 @@
       <screen x="0" y="0" width="1024" height="779" />
     </state>
     <state width="981" height="135" key="GridCell.Tab.0.right/0.0.1024.779@0.0.1024.779" timestamp="1599594024670" />
-    <state x="105" y="123" key="Vcs.Push.Dialog.v2" timestamp="1602700230582">
+    <state x="105" y="123" key="Vcs.Push.Dialog.v2" timestamp="1602700558363">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
-    <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1602700230582" />
+    <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1602700558363" />
     <state x="330" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602600467391">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
