@@ -17,5 +17,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/marksaeid', function () {
-    return view('Mark/mark_home_cv');
+    return view('markcv');
 });

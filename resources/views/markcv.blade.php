@@ -10,25 +10,20 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="{{URL::asset('assets/img/favicon.png')}}" rel="icon">
+    <link href="{{URL::asset('assets/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
 
     <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="{{URL::asset('assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{URL::asset('assets/vendor/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
+    <link href="{{URL::asset('assets/vendor/ionicons/css/ionicons.min.css')}}" rel="stylesheet">
+    <link href="{{URL::asset('assets/vendor/owl.carousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
+    <link href="{{URL::asset('assets/vendor/venobox/venobox.css')}}" rel="stylesheet">
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="{{URL::asset('assets/css/style.css')}}" rel="stylesheet">
 
-    <!-- =======================================================
-    * Template Name: DevFolio - v2.3.0
-    * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-    * Author: BootstrapMade.com
-    * License: https://bootstrapmade.com/license/
-    ======================================================== -->
+
 </head>
 
 <body id="page-top">
@@ -95,7 +90,7 @@
                                 <div class="row">
                                     <div class="col-sm-6 col-md-5">
                                         <div class="about-img">
-                                            <img src="assets/img/testimonial-2.jpg" class="img-fluid rounded b-shadow-a" alt="">
+                                            <img src="{{URL::asset('assets/img/testimonial-2.jpg')}}" class="img-fluid rounded b-shadow-a" alt="">
                                         </div>
                                     </div>
                                     <div class="col-sm-6 col-md-7">
@@ -342,9 +337,9 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="work-box">
-                        <a href="assets/img/work-1.jpg" data-gall="portfolioGallery" class="venobox">
+                        <a href="{{URL::asset('assets/img/work-1.jpg')}}" data-gall="portfolioGallery" class="venobox">
                             <div class="work-img">
-                                <img src="assets/img/work-1.jpg" alt="" class="img-fluid">
+                                <img src="{{URL::asset('assets/img/work-1.jpg')}}" alt="" class="img-fluid">
                             </div>
                         </a>
                         <div class="work-content">
@@ -366,9 +361,9 @@
                 </div>
                 <div class="col-md-4">
                     <div class="work-box">
-                        <a href="assets/img/work-2.jpg" data-gall="portfolioGallery" class="venobox">
+                        <a href="{{URL::asset('assets/img/work-2.jpg')}}" data-gall="portfolioGallery" class="venobox">
                             <div class="work-img">
-                                <img src="assets/img/work-2.jpg" alt="" class="img-fluid">
+                                <img src="{{URL::asset('assets/img/work-2.jpg')}}" alt="" class="img-fluid">
                             </div>
                         </a>
                         <div class="work-content">
@@ -390,9 +385,9 @@
                 </div>
                 <div class="col-md-4">
                     <div class="work-box">
-                        <a href="assets/img/work-3.jpg" data-gall="portfolioGallery" class="venobox">
+                        <a href="{{URL::asset('assets/img/work-3.jpg')}}" data-gall="portfolioGallery" class="venobox">
                             <div class="work-img">
-                                <img src="assets/img/work-3.jpg" alt="" class="img-fluid">
+                                <img src="{{URL::asset('assets/img/work-3.jpg')}}" alt="" class="img-fluid">
                             </div>
                         </a>
                         <div class="work-content">
@@ -414,9 +409,9 @@
                 </div>
                 <div class="col-md-4">
                     <div class="work-box">
-                        <a href="assets/img/work-4.jpg" data-gall="portfolioGallery" class="venobox">
+                        <a href="{{URL::asset('assets/img/work-4.jpg')}}" data-gall="portfolioGallery" class="venobox">
                             <div class="work-img">
-                                <img src="assets/img/work-4.jpg" alt="" class="img-fluid">
+                                <img src="{{URL::asset('assets/img/work-4.jpg')}}" alt="" class="img-fluid">
                             </div>
                         </a>
                         <div class="work-content">
@@ -438,9 +433,9 @@
                 </div>
                 <div class="col-md-4">
                     <div class="work-box">
-                        <a href="assets/img/work-5.jpg" data-gall="portfolioGallery" class="venobox">
+                        <a href="{{URL::asset('assets/img/work-5.jpg')}}" data-gall="portfolioGallery" class="venobox">
                             <div class="work-img">
-                                <img src="assets/img/work-5.jpg" alt="" class="img-fluid">
+                                <img src="{{URL::asset('assets/img/work-5.jpg')}}" alt="" class="img-fluid">
                             </div>
                         </a>
                         <div class="work-content">
@@ -462,9 +457,9 @@
                 </div>
                 <div class="col-md-4">
                     <div class="work-box">
-                        <a href="assets/img/work-6.jpg" data-gall="portfolioGallery" class="venobox">
+                        <a href="{{URL::asset('assets/img/work-6.jpg')}}" data-gall="portfolioGallery" class="venobox">
                             <div class="work-img">
-                                <img src="assets/img/work-6.jpg" alt="" class="img-fluid">
+                                <img src="{{URL::asset('assets/img/work-6.jpg')}}" alt="" class="img-fluid">
                             </div>
                         </a>
                         <div class="work-content">
@@ -498,7 +493,7 @@
                     <div id="testimonial-mf" class="owl-carousel owl-theme">
                         <div class="testimonial-box">
                             <div class="author-test">
-                                <img src="assets/img/testimonial-2.jpg" alt="" class="rounded-circle b-shadow-a">
+                                <img src="{{URL::asset('assets/img/testimonial-2.jpg')}}" alt="" class="rounded-circle b-shadow-a">
                                 <span class="author">Xavi Alonso</span>
                             </div>
                             <div class="content-test">
@@ -511,7 +506,7 @@
                         </div>
                         <div class="testimonial-box">
                             <div class="author-test">
-                                <img src="assets/img/testimonial-4.jpg" alt="" class="rounded-circle b-shadow-a">
+                                <img src="{{URL::asset('assets/img/testimonial-4.jpg')}}" alt="" class="rounded-circle b-shadow-a">
                                 <span class="author">Marta Socrate</span>
                             </div>
                             <div class="content-test">
@@ -548,7 +543,7 @@
                 <div class="col-md-4">
                     <div class="card card-blog">
                         <div class="card-img">
-                            <a href="blog-single.html"><img src="assets/img/post-1.jpg" alt="" class="img-fluid"></a>
+                            <a href="blog-single.html"><img src="{{URL::asset('assets/img/post-1.jpg')}}" alt="" class="img-fluid"></a>
                         </div>
                         <div class="card-body">
                             <div class="card-category-box">
@@ -566,7 +561,7 @@
                         <div class="card-footer">
                             <div class="post-author">
                                 <a href="#">
-                                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+                                    <img src="{{URL::asset('assets/img/testimonial-2.jpg')}}" alt="" class="avatar rounded-circle">
                                     <span class="author">Morgan Freeman</span>
                                 </a>
                             </div>
@@ -579,7 +574,7 @@
                 <div class="col-md-4">
                     <div class="card card-blog">
                         <div class="card-img">
-                            <a href="blog-single.html"><img src="assets/img/post-2.jpg" alt="" class="img-fluid"></a>
+                            <a href="blog-single.html"><img src="{{URL::asset('assets/img/post-2.jpg')}}" alt="" class="img-fluid"></a>
                         </div>
                         <div class="card-body">
                             <div class="card-category-box">
@@ -597,7 +592,7 @@
                         <div class="card-footer">
                             <div class="post-author">
                                 <a href="#">
-                                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+                                    <img src="{{URL::asset('assets/img/testimonial-2.jpg')}}" alt="" class="avatar rounded-circle">
                                     <span class="author">Morgan Freeman</span>
                                 </a>
                             </div>
@@ -610,7 +605,7 @@
                 <div class="col-md-4">
                     <div class="card card-blog">
                         <div class="card-img">
-                            <a href="blog-single.html"><img src="assets/img/post-3.jpg" alt="" class="img-fluid"></a>
+                            <a href="blog-single.html"><img src="{{URL::asset('assets/img/post-3.jpg')}}" alt="" class="img-fluid"></a>
                         </div>
                         <div class="card-body">
                             <div class="card-category-box">
@@ -628,7 +623,7 @@
                         <div class="card-footer">
                             <div class="post-author">
                                 <a href="#">
-                                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+                                    <img src="{{URL::asset('assets/img/testimonial-2.jpg')}}" alt="" class="avatar rounded-circle">
                                     <span class="author">Morgan Freeman</span>
                                 </a>
                             </div>
@@ -730,11 +725,10 @@
                 </div>
             </div>
         </div>
-    </section><!-- End Contact Section -->
+    </section>
 
-</main><!-- End #main -->
+</main>
 
-<!-- ======= Footer ======= -->
 <footer>
     <div class="container">
         <div class="row">
@@ -742,12 +736,6 @@
                 <div class="copyright-box">
                     <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
                     <div class="credits">
-                        <!--
-                        All the links in the footer should remain intact.
-                        You can delete the links only if you purchased the pro version.
-                        Licensing information: https://bootstrapmade.com/license/
-                        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
-                      -->
                         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
                     </div>
                 </div>
@@ -760,18 +748,18 @@
 <div id="preloader"></div>
 
 <!-- Vendor JS Files -->
-<script src="assets/vendor/jquery/jquery.min.js"></script>
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-<script src="assets/vendor/php-email-form/validate.js"></script>
-<script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-<script src="assets/vendor/counterup/jquery.counterup.min.js"></script>
-<script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-<script src="assets/vendor/typed.js/typed.min.js"></script>
-<script src="assets/vendor/venobox/venobox.min.js"></script>
+<script src="{{URL::asset('assets/vendor/jquery/jquery.min.js')}}"></script>
+<script src="{{URL::asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+<script src="{{URL::asset('assets/vendor/jquery.easing/jquery.easing.min.js')}}"></script>
+<script src="{{URL::asset('assets/vendor/php-email-form/validate.js')}}"></script>
+<script src="{{URL::asset('assets/vendor/waypoints/jquery.waypoints.min.js')}}"></script>
+<script src="{{URL::asset('assets/vendor/counterup/jquery.counterup.min.js')}}"></script>
+<script src="{{URL::asset('assets/vendor/owl.carousel/owl.carousel.min.js')}}"></script>
+<script src="{{URL::asset('assets/vendor/typed.js/typed.min.js')}}"></script>
+<script src="{{URL::asset('assets/vendor/venobox/venobox.min.js')}}"></script>
 
 <!-- Template Main JS File -->
-<script src="assets/js/main.js"></script>
+<script src="{{URL::asset('assets/js/main.js')}}"></script>
 
 </body>
 
