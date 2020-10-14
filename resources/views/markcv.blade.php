@@ -638,9 +638,9 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="copyright-box">
-                    <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
+                    <p class="copyright">&copy; Copyright <strong>RateRing</strong>. All Rights Reserved</p>
                     <div class="credits">
-                        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                        Designed by <a href="#">Mark Saeid</a>
                     </div>
                 </div>
             </div>
