@@ -352,9 +352,9 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="work-box">
-                        <a href="{{URL::asset('assets/img/work-1.jpg')}}" data-gall="portfolioGallery" class="venobox">
+                        <a href="{{URL::asset('assets/img/biostorm1.jpg')}}" data-gall="portfolioGallery" class="venobox">
                             <div class="work-img">
-                                <img src="{{URL::asset('assets/img/work-1.jpg')}}" alt="" class="img-fluid">
+                                <img src="{{URL::asset('assets/img/biostorm1.jpg')}}" alt="" class="img-fluid">
                             </div>
                         </a>
                         <div class="work-content">
@@ -376,9 +376,9 @@
                 </div>
                 <div class="col-md-4">
                     <div class="work-box">
-                        <a href="{{URL::asset('assets/img/work-2.jpg')}}" data-gall="portfolioGallery" class="venobox">
+                        <a href="{{URL::asset('assets/img/biostorms')}}" data-gall="portfolioGallery" class="venobox">
                             <div class="work-img">
-                                <img src="{{URL::asset('assets/img/work-2.jpg')}}" alt="" class="img-fluid">
+                                <img src="{{URL::asset('assets/img/biostorms')}}" alt="" class="img-fluid">
                             </div>
                         </a>
                         <div class="work-content">
@@ -400,9 +400,9 @@
                 </div>
                 <div class="col-md-4">
                     <div class="work-box">
-                        <a href="{{URL::asset('assets/img/work-3.jpg')}}" data-gall="portfolioGallery" class="venobox">
+                        <a href="{{URL::asset('assets/img/koracorner.jpg')}}" data-gall="portfolioGallery" class="venobox">
                             <div class="work-img">
-                                <img src="{{URL::asset('assets/img/work-3.jpg')}}" alt="" class="img-fluid">
+                                <img src="{{URL::asset('assets/img/koracorner.jpg')}}" alt="" class="img-fluid">
                             </div>
                         </a>
                         <div class="work-content">
@@ -424,9 +424,9 @@
                 </div>
                 <div class="col-md-4">
                     <div class="work-box">
-                        <a href="{{URL::asset('assets/img/work-4.jpg')}}" data-gall="portfolioGallery" class="venobox">
+                        <a href="{{URL::asset('assets/img/ratering.jpg')}}" data-gall="portfolioGallery" class="venobox">
                             <div class="work-img">
-                                <img src="{{URL::asset('assets/img/work-4.jpg')}}" alt="" class="img-fluid">
+                                <img src="{{URL::asset('assets/img/ratering.jpg')}}" alt="" class="img-fluid">
                             </div>
                         </a>
                         <div class="work-content">
@@ -448,9 +448,9 @@
                 </div>
                 <div class="col-md-4">
                     <div class="work-box">
-                        <a href="{{URL::asset('assets/img/work-5.jpg')}}" data-gall="portfolioGallery" class="venobox">
+                        <a href="{{URL::asset('assets/img/ratering.jpg')}}" data-gall="portfolioGallery" class="venobox">
                             <div class="work-img">
-                                <img src="{{URL::asset('assets/img/work-5.jpg')}}" alt="" class="img-fluid">
+                                <img src="{{URL::asset('assets/img/ratering.jpg')}}" alt="" class="img-fluid">
                             </div>
                         </a>
                         <div class="work-content">

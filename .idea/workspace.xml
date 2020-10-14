@@ -20,6 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1eec28c9-5a34-4cb8-bd9d-a552bf9fa123" name="Default Changelist" comment="ss">
+      <change afterPath="$PROJECT_DIR$/public/assets/img/biostoms.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/biostormf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/koracorner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/ratering.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/work-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/work-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/work-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/work-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/work-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/work-6.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/markcv.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/markcv.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -196,14 +207,7 @@
       <workItem from="1601118306205" duration="297000" />
       <workItem from="1601477892320" duration="376000" />
       <workItem from="1602594120666" duration="12289000" />
-      <workItem from="1602691074360" duration="13037000" />
-    </task>
-    <task id="LOCAL-00067" summary="ss">
-      <created>1602602234706</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1602602234706</updated>
+      <workItem from="1602691074360" duration="14620000" />
     </task>
     <task id="LOCAL-00068" summary="ss">
       <created>1602606046131</created>
@@ -541,7 +545,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602704363659</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="s">
+      <created>1602704416967</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1602704416967</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -602,14 +613,18 @@
       <screen x="0" y="0" width="1024" height="779" />
     </state>
     <state width="981" height="135" key="GridCell.Tab.0.right/0.0.1024.779@0.0.1024.779" timestamp="1599594024670" />
-    <state x="105" y="123" key="Vcs.Push.Dialog.v2" timestamp="1602704364980">
+    <state x="105" y="123" key="Vcs.Push.Dialog.v2" timestamp="1602704541385">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
-    <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1602704364980" />
+    <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1602704541385" />
     <state x="330" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602600467391">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
     <state x="330" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1024.779@0.0.1024.779" timestamp="1602600467391" />
+    <state x="222" y="0" width="579" height="779" key="find.popup" timestamp="1602705236615">
+      <screen x="0" y="0" width="1024" height="779" />
+    </state>
+    <state x="222" y="0" width="579" height="779" key="find.popup/0.0.1024.779@0.0.1024.779" timestamp="1602705236615" />
     <state x="175" y="100" width="672" height="678" key="search.everywhere.popup" timestamp="1599396157775">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
