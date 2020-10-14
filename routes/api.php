@@ -40,6 +40,8 @@ Route::group(['middleware'=>['api','apiadmin'],'prefix' => 'auth','namespace'=>'
     Route::get('{pid}/connection/received','ConnectionControllers@received');
     Route::post('connection/add','ConnectionControllers@add');
     Route::post('connection/{cid}/status','ConnectionControllers@status');
+    Route::post('connection/{cid}/remove','ConnectionControllers@remove');
+
     //Rating
     Route::get('{pid}/rate','StarControllers@all');
     Route::get('{pid}/rate/sent','StarControllers@sent');

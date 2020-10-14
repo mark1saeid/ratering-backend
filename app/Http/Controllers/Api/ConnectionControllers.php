@@ -58,7 +58,6 @@ class ConnectionControllers extends Controller
     function status(Request $request,$cid){
         $validator = Validator::make($request->all(), [
             'status' => 'required|string',
-
         ]);
 
         if($validator->fails()){
@@ -85,6 +84,30 @@ class ConnectionControllers extends Controller
        }
        }
 
+    function remove($cid){
 
+
+        $id = auth()->user()->id;
+
+
+       // $s = Connection::all()->where('id' ,$cid )->where('to_id',$id)->first();
+
+        $event = Connection::where("to_id" , $cid)->where('from_id' , $id)->get();
+        $event = $event->where('status' , 'true');
+
+        if ($event){
+            $event->update(['status'=> "false"]);
+            return response()->json([
+                'message' => 'Done Successfully ',
+                'status' => 'false'
+            ], 201);
+        }
+        else{
+            return response()->json([
+                'message' => 'Not Found',
+
+            ], 404);
+        }
+    }
 
 }
