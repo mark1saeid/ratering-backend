@@ -92,30 +92,46 @@
                                     </div>
                                     <div class="col-sm-6 col-md-7">
                                         <div class="about-info">
-                                            <p><span class="title-s">Name: </span> <span>Morgan Freeman</span></p>
-                                            <p><span class="title-s">Profile: </span> <span>full stack developer</span></p>
-                                            <p><span class="title-s">Email: </span> <span>contact@example.com</span></p>
-                                            <p><span class="title-s">Phone: </span> <span>(617) 557-0089</span></p>
+                                            <p><span class="title-s">Name: </span> <span>Mark Saeid</span></p>
+                                            <p><span class="title-s">Profile: </span> <span>Android Developer</span></p>
+                                            <p><span class="title-s">Email: </span> <span>marksaeid10@gmail.com</span></p>
+                                            <p><span class="title-s">Phone: </span> <span>+201227887286</span></p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="skill-mf">
                                     <p class="title-s">Skill</p>
-                                    <span>HTML</span> <span class="pull-right">85%</span>
+                                    <span>Java</span> <span class="pull-right">85%</span>
                                     <div class="progress">
                                         <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
-                                    <span>CSS3</span> <span class="pull-right">75%</span>
+                                    <span>Android Development</span> <span class="pull-right">80%</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span>PHP</span> <span class="pull-right">60%</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span>Backend Development</span> <span class="pull-right">90%</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span>C#</span> <span class="pull-right">80%</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span>Desktop Application Development</span> <span class="pull-right">85%</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span>XD</span> <span class="pull-right">75%</span>
                                     <div class="progress">
                                         <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
-                                    <span>PHP</span> <span class="pull-right">50%</span>
+                                    <span>UI/UX Design</span> <span class="pull-right">70%</span>
                                     <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <span>JAVASCRIPT</span> <span class="pull-right">90%</span>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                 </div>
                             </div>
