@@ -147,20 +147,20 @@
                                         </h5>
                                     </div>
                                     <p class="lead">
-                                        Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id
-                                        imperdiet et, porttitor
-                                        at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla
-                                        porttitor accumsan tincidunt.
+                                        I am Mark Saeid, I live in Cairo, Egypt
+                                        I currently work as a freelancer on Fivver
+                                        I made a lot of small projects to gain experience
+                                        And it's time to work on big projects.
                                     </p>
                                     <p class="lead">
-                                        Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis
-                                        porttitor volutpat. Vestibulum
-                                        ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.
+                                        I started my programming career
+                                        by desktop application development by C # and C ++
+                                        and then Android Development with java
+                                        And at the end of 2019, I started to learn backend development with Spring and Laravel.
                                     </p>
                                     <p class="lead">
-                                        Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                                        Nulla porttitor accumsan
-                                        tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                                        My dream is to develop my skills to create a strong career
+                                        Do something to help humanity and make the earth a better place.
                                     </p>
                                 </div>
                             </div>
@@ -193,11 +193,9 @@
                             <span class="ico-circle"><i class="ion-monitor"></i></span>
                         </div>
                         <div class="service-content">
-                            <h2 class="s-title">Web Design</h2>
+                            <h2 class="s-title">Desktop Application Development</h2>
                             <p class="s-description text-center">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                                provident vitae! Magni
-                                tempora perferendis eum non provident.
+
                             </p>
                         </div>
                     </div>
@@ -208,26 +206,8 @@
                             <span class="ico-circle"><i class="ion-code-working"></i></span>
                         </div>
                         <div class="service-content">
-                            <h2 class="s-title">Web Development</h2>
+                            <h2 class="s-title">Backend Development</h2>
                             <p class="s-description text-center">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                                provident vitae! Magni
-                                tempora perferendis eum non provident.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="service-box">
-                        <div class="service-ico">
-                            <span class="ico-circle"><i class="ion-camera"></i></span>
-                        </div>
-                        <div class="service-content">
-                            <h2 class="s-title">Photography</h2>
-                            <p class="s-description text-center">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                                provident vitae! Magni
-                                tempora perferendis eum non provident.
                             </p>
                         </div>
                     </div>
@@ -238,11 +218,8 @@
                             <span class="ico-circle"><i class="ion-android-phone-portrait"></i></span>
                         </div>
                         <div class="service-content">
-                            <h2 class="s-title">Responsive Design</h2>
+                            <h2 class="s-title">Android Development</h2>
                             <p class="s-description text-center">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                                provident vitae! Magni
-                                tempora perferendis eum non provident.
                             </p>
                         </div>
                     </div>
@@ -253,26 +230,8 @@
                             <span class="ico-circle"><i class="ion-paintbrush"></i></span>
                         </div>
                         <div class="service-content">
-                            <h2 class="s-title">Graphic Design</h2>
+                            <h2 class="s-title">UI/UX Design</h2>
                             <p class="s-description text-center">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                                provident vitae! Magni
-                                tempora perferendis eum non provident.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="service-box">
-                        <div class="service-ico">
-                            <span class="ico-circle"><i class="ion-stats-bars"></i></span>
-                        </div>
-                        <div class="service-content">
-                            <h2 class="s-title">Marketing Services</h2>
-                            <p class="s-description text-center">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                                provident vitae! Magni
-                                tempora perferendis eum non provident.
                             </p>
                         </div>
                     </div>
