@@ -10,12 +10,12 @@
     <meta name="keywords" content="header, canvas, animated, creative, inspiration, javascript" />
     <meta name="author" content="Codrops" />
     <link rel="shortcut icon" href="../favicon.ico">
-    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/home/normalize.css" />
     <link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
     <!--[if IE]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link rel="stylesheet" type="text/css" href="css/home/styles.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/home/styles.css">
 </head>
 <body>
 
