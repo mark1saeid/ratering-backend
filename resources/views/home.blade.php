@@ -8,10 +8,11 @@
     <meta name="description" content="Demo of A Free Coming Soon Bootstrap 4 Template by TemplateFlip.com."/>
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="{{URL::asset('homeassets/css/font-awesome.min.css')}}" rel="stylesheet">
     <link href="{{URL::asset('homeassets/styles/main.css')}}" rel="stylesheet">
 </head>
-<body id="top"><div class="site-wrapper">
+<body id="top">
+<div class="site-wrapper">
     <div class="site-wrapper-inner">
         <div class="cover-container">
             <div class="masthead clearfix">
@@ -31,7 +32,7 @@
             </div>
             <div class="mastfoot">
                 <div class="inner">
-                    <p>&copy; Your Company. Design: <a href="https://templateflip.com/" target="_blank">TemplateFlip</a>.</p>
+                    <p>&copy; RateRing. Design: <a href="#" target="_blank">Mark</a>.</p>
                 </div>
             </div>
             <div class="modal fade" id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="subscribeModalLabel" aria-hidden="true">
