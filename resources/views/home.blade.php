@@ -1,83 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!--
+Theme by: WebThemez.com
+Title: Jack Page under construction!!!
+Note: Please use our back link in your site (webthemez.com)
+-->
+<!DOCTYPE HTML>
+<!--[if lt IE 7 ]> <html lang="en" class="ie ie6"> <![endif]-->
+<!--[if IE 7 ]>	<html lang="en" class="ie ie7"> <![endif]-->
+<!--[if IE 8 ]>	<html lang="en" class="ie ie8"> <![endif]-->
+<!--[if IE 9 ]>	<html lang="en" class="ie ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 <head>
-
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Coming Soon - Start Bootstrap Theme</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="{{asset('vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
-
-    <!-- Custom fonts for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
-    <link href="{{asset('vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
-
-    <!-- Custom styles for this template -->
-    <link href="{{asset('css/coming-soon.min.css')}}" rel="stylesheet">
-
+    <title>Jack - Coming Soon!!!</title>
+    <meta name="description" content="Ace Page under construction">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:regular,bold">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 
-<body>
+<body id="home">
 
-<div class="overlay"></div>
-<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="{{asset('mp4/bg.mp4')}}'" type="video/mp4">
-</video>
-
-<div class="masthead">
-    <div class="masthead-bg"></div>
-    <div class="container h-100">
-        <div class="row h-100">
-            <div class="col-12 my-auto">
-                <div class="masthead-content text-white py-5 py-md-0">
-                    <h1 class="mb-3">Coming Soon!</h1>
-                    <p class="mb-5">We're working hard to finish the development of this site. Our target launch date is
-                        <strong>January 2019</strong>! Sign up for updates using the form below!</p>
-                    <div class="input-group input-group-newsletter">
-                        <input type="email" class="form-control" placeholder="Enter email..." aria-label="Enter email..." aria-describedby="submit-button">
-                        <div class="input-group-append">
-                            <button class="btn btn-secondary" type="button" id="submit-button">Notify Me!</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<div id="Content" class="wrapper topSection">
+    <div id="Header">
+        <div class="wrapper">
+            <div class="logo"><h1>Jack</h1>	</div>
         </div>
     </div>
+    <h2>Our new site is coming soon!!!</h2>
+    <strong>Stay tuned for something amazing</strong>
+    <div class="countdown styled"></div>
 </div>
-
-<div class="social-icons">
-    <ul class="list-unstyled text-center mb-0">
-        <li class="list-unstyled-item">
-            <a href="#">
-                <i class="fab fa-twitter"></i>
-            </a>
-        </li>
-        <li class="list-unstyled-item">
-            <a href="#">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-        </li>
-        <li class="list-unstyled-item">
-            <a href="#">
-                <i class="fab fa-instagram"></i>
-            </a>
-        </li>
-    </ul>
+<div id="subscribe">
+    <h3>Stay in touch</h3>
+    <form action="" method="post" onsubmit="">
+        <p><input name="" value="Enter your e-mail" type="text" id=""/>
+            <input type="button" value="Submit"/></p>
+    </form>
+    <div id="socialIcons">
+        <ul>
+            <li><a href="" title="Twitter" class="twitterIcon"></a></li>
+            <li><a href="" title="facebook" class="facebookIcon"></a></li>
+            <li><a href="" title="linkedIn" class="linkedInIcon"></a></li>
+            <li><a href="" title="Pintrest" class="pintrestIcon"></a></li>
+        </ul>
+    </div>
 </div>
+<span class="tempBy"> <a href="https://webthemez.com/free-bootstrap-templates/" target="_blank">Bootstrap Templates</a> by WebThemez.com. All Rights Reserved.</span>
 
-<!-- Bootstrap core JavaScript -->
-<script src="{{asset('vendor/jquery/jquery.min.js')}}'"></script>
-<script src="{{asset('vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-
-<!-- Custom scripts for this template -->
-<script src="{{asset('js/coming-soon.min.js')}}"></script>
+<!--Scripts-->
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.countdown.js"></script>
+<script type="text/javascript" src="js/global.js"></script>
 
 </body>
-
 </html>
