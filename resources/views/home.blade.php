@@ -40,7 +40,7 @@
 
         <div class="flex-w flex-c-m cd100 p-b-33">
             <div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-                <span class="l2-txt1 p-b-9 days">0</span>
+                <span class="l2-txt1 p-b-9 days">60</span>
                 <span class="s2-txt1">Days</span>
             </div>
 
@@ -95,7 +95,7 @@
     $('.cd100').countdown100({
         endtimeYear: 0,
         endtimeMonth: 0,
-        endtimeDate: 60,
+        endtimeDate: 0,
         endtimeHours: 0,
         endtimeMinutes: 0,
         endtimeSeconds: 0,
