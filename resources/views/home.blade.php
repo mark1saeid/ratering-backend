@@ -22,9 +22,7 @@
 
 <!--  -->
 <div class="simpleslide100">
-    <div class="simpleslide100-item bg-img1" style="background-image: url({{URL::asset('assets/images/bg01.jpg')}});"></div>
-    <div class="simpleslide100-item bg-img1" style="background-image: url({{URL::asset('assets/images/bg02.jpg')}});"></div>
-    <div class="simpleslide100-item bg-img1" style="background-image: url({{URL::asset('assets/images/bg03.jpg')}});"></div>
+    <div class="simpleslide100-item bg-img1" style="background-image: url({{URL::asset('assets/img/bg.jpg')}});"></div>
 </div>
 
 <div class="size1 overlay1">
