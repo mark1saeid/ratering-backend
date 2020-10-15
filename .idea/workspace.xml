@@ -19,15 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eec28c9-5a34-4cb8-bd9d-a552bf9fa123" name="Default Changelist" comment="ss">
-      <change beforePath="$PROJECT_DIR$/public/assets/css/home/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/social-icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/Backstretch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/global.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/jquery-1.9.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/jquery.countdown.js" beforeDir="false" />
-    </list>
+    <list default="true" id="1eec28c9-5a34-4cb8-bd9d-a552bf9fa123" name="Default Changelist" comment="ss" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -159,16 +151,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets/css/home" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\RATEME\public\assets\css\home" />
       <recent name="C:\wamp64\www\RATEME\public\assets\css" />
+      <recent name="C:\wamp64\www\RATEME\public\assets" />
       <recent name="C:\wamp64\www\RATEME\public\assets\img" />
       <recent name="C:\wamp64\www\RATEME\public\assets\js" />
-      <recent name="C:\wamp64\www\RATEME\public\assets\homeassets" />
-      <recent name="C:\wamp64\www\RATEME\public\assets\vendor" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\RATEME\public\assets\css\home" />
@@ -207,14 +199,7 @@
       <workItem from="1601477892320" duration="376000" />
       <workItem from="1602594120666" duration="12289000" />
       <workItem from="1602691074360" duration="18087000" />
-      <workItem from="1602751965139" duration="8876000" />
-    </task>
-    <task id="LOCAL-00089" summary="ss">
-      <created>1602611749925</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1602611749925</updated>
+      <workItem from="1602751965139" duration="9193000" />
     </task>
     <task id="LOCAL-00090" summary="ss">
       <created>1602611939114</created>
@@ -552,7 +537,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602762179584</updated>
     </task>
-    <option name="localTasksCounter" value="138" />
+    <task id="LOCAL-00138" summary="ss">
+      <created>1602762836541</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1602762836541</updated>
+    </task>
+    <option name="localTasksCounter" value="139" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -613,10 +605,10 @@
       <screen x="0" y="0" width="1024" height="779" />
     </state>
     <state width="981" height="135" key="GridCell.Tab.0.right/0.0.1024.779@0.0.1024.779" timestamp="1599594024670" />
-    <state x="105" y="123" key="Vcs.Push.Dialog.v2" timestamp="1602762181281">
+    <state x="105" y="123" key="Vcs.Push.Dialog.v2" timestamp="1602762890685">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
-    <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1602762181281" />
+    <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1602762890685" />
     <state x="330" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602600467391">
       <screen x="0" y="0" width="1024" height="779" />
     </state>

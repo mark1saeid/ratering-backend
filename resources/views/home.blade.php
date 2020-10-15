@@ -13,9 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;700&display=swap" rel="stylesheet">
     <!-- //google fonts -->
 
-    <link rel="stylesheet" href="{{asset('css/home/style.css')}}" type="text/css" media="all" /> <!-- //Style-CSS -->
+    <link rel="stylesheet" href="{{URL::asset('css/home/style.css')}}" type="text/css" media="all" /> <!-- //Style-CSS -->
 
-    <link href="{{asset('css/home/font-awesome.css)}}" rel="stylesheet"><!-- //font-awesome-icons -->
+    <link href="{{URL::asset('css/home/font-awesome.css)}}" rel="stylesheet"><!-- //font-awesome-icons -->
 
 </head>
 
@@ -29,10 +29,7 @@
                     <span class="fa fa-glass"></span> Hotel
                 </a>
             </div>
-            <!-- if logo is image enable this
-                <a class="logo" href="#index.html">
-                    <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
-                </a> -->
+
 
             <div class="coming-block">
                 <h1>Coming Soon</h1>
@@ -80,7 +77,7 @@
     </div>
 
     <!-- js -->
-    <script src="{{asset('js/jquery-3.3.1.min.js')}}"></script>
+    <script src="{{URL::asset('js/jquery-3.3.1.min.js')}}"></script>
 
     <!-- Script for counter -->
     <script>
