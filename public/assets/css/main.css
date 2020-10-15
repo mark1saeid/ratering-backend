@@ -12,30 +12,24 @@ Primary use:
 [ FONT ]*/
 
 @font-face {
-  font-family: Poppins-Regular;
-  src: url('../fonts/Poppins/Poppins-Regular.ttf'); 
+  font-family: Montserrat-Regular;
+  src: url('../fonts/Montserrat/Montserrat-Regular.ttf'); 
 }
 
 @font-face {
-  font-family: Poppins-Bold;
-  src: url('../fonts/Poppins/Poppins-Bold.ttf'); 
+  font-family: Montserrat-Light;
+  src: url('../fonts/Montserrat/Montserrat-Light.ttf'); 
 }
 
 @font-face {
-  font-family: Lato-Regular;
-  src: url('../fonts/Lato/Lato-Regular.ttf'); 
+  font-family: Montserrat-Black;
+  src: url('../fonts/Montserrat/Montserrat-Black.ttf'); 
 }
 
 @font-face {
-  font-family: Lato-Light;
-  src: url('../fonts/Lato/Lato-Light.ttf'); 
+  font-family: Montserrat-Bold;
+  src: url('../fonts/Montserrat/Montserrat-Bold.ttf'); 
 }
-
-@font-face {
-  font-family: Lato-Bold;
-  src: url('../fonts/Lato/Lato-Bold.ttf'); 
-}
-
 
 
 /*//////////////////////////////////////////////////////////////////
@@ -44,60 +38,108 @@ Primary use:
 .container {max-width: 1200px;}
 
 
+/*//////////////////////////////////////////////////////////////////
+[ rs Modal ]*/
+
+body {padding-right: 0px !important;}
+.modal {
+  padding: 0px !important;
+  z-index: 1160;
+  overflow-x: hidden;
+  overflow-y: auto !important;
+}
+.modal-open {overflow-y: scroll;}
+
+
+.modal-backdrop.show {
+    opacity: 0;
+}
+
+.modal-dialog {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+  min-height: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 50px 15px;
+}
 
 /*//////////////////////////////////////////////////////////////////
 [ Form ]*/
 
-/*---------------------------------------------*/
-.wrap-input100 {
-  position: relative;
-  max-width: calc(100% - 10px);
-  width: 500px;
-  z-index: 1;
+.contact100-form {
+  width: 100%;
 }
 
+/*------------------------------------------------------------------
+[ Input ]*/
+
+.wrap-input100 {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  height: 50px;
+  border: 2px solid #e6e6e6;
+  border-radius: 25px;
+}
+
+/*---------------------------------------------*/
 .input100 {
   display: block;
   width: 100%;
-  background: #fff;
-  height: 70px;
-  border-radius: 35px;
-  padding: 0 40px;
+  background: transparent;
 }
 
-.focus-input100 {
-  content: '';
-  display: block;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-  width: 100%;
+input.input100 {
   height: 100%;
-  border-radius: 35px;
-  box-shadow: 0px 0px 0px 0px;
-  color: rgba(132,106,221, 0.5);
+  padding: 0 30px 0 30px;
+}
+
+
+/*------------------------------------------------------------------
+[ Focus Input ]*/
+
+.focus-input100 {
+  position: absolute;
+  display: block;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  top: -2px;
+  left: -2px;
+  pointer-events: none;
+  border: 2px solid #3a5dff;
+  border-radius: 25px;
+
+  visibility: hidden;
+  opacity: 0;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+
+  -webkit-transform: scaleX(1.1) scaleY(1.2);
+  -moz-transform: scaleX(1.1) scaleY(1.2);
+  -ms-transform: scaleX(1.1) scaleY(1.2);
+  -o-transform: scaleX(1.1) scaleY(1.2);
+  transform: scaleX(1.1) scaleY(1.2);
 }
 
 .input100:focus + .focus-input100 {
-  -webkit-animation: anim-shadow 0.5s ease-in-out forwards;
-  animation: anim-shadow 0.5s ease-in-out forwards;
-}
+  visibility: visible;
+  opacity: 1;
 
-@-webkit-keyframes anim-shadow {
-  to {
-    box-shadow: 0px 0px 80px 30px;
-    opacity: 0;
-  }
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
 }
-
-@keyframes anim-shadow {
-  to {
-    box-shadow: 0px 0px 80px 30px;
-    opacity: 0;
-  }
-}
-
 
 /*------------------------------------------------------------------
 [ Alert validate ]*/
@@ -112,8 +154,8 @@ Primary use:
   max-width: 70%;
   background-color: #fff;
   border: 1px solid #c80000;
-  border-radius: 16px;
-  padding: 5px 30px 6px 10px;
+  border-radius: 15px;
+  padding: 4px 25px 4px 10px;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
@@ -123,9 +165,9 @@ Primary use:
   right: 12px;
   pointer-events: none;
 
-  font-family: Lato-Bold;
+  font-family: Montserrat-Bold;
   color: #c80000;
-  font-size: 15px;
+  font-size: 13px;
   line-height: 1.4;
   text-align: left;
 
@@ -144,7 +186,7 @@ Primary use:
   display: block;
   position: absolute;
   color: #c80000;
-  font-size: 20px;
+  font-size: 18px;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
@@ -166,28 +208,6 @@ Primary use:
   }
 }
 
-/*//////////////////////////////////////////////////////////////////
-[ Simple slide100 ]*/
-.simpleslide100 {
-  display: block;
-  position: fixed;
-  z-index: 0;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-}
-
-.simpleslide100-item {
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-}
-
-
 /*==================================================================
     TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 ==================================================================*/
@@ -201,68 +221,82 @@ Primary use:
 
 /*//////////////////////////////////////////////////////////////////
 [ S-Text 0 - 15 ]*/
-
-/*---------------------------------------------*/
-.s2-txt1 {
-  font-family: Lato-Regular;
+.s1-txt1 {
+  font-family: Montserrat-Regular;
   font-size: 12px;
+  color: #7d8da6;
   line-height: 1;
-  color: #846add;
   text-transform: uppercase;
 }
 
-.s2-txt2 {
-  font-family: Lato-Bold;
+.s1-txt2 {
+  font-family: Montserrat-Bold;
   font-size: 15px;
-  line-height: 1.4;
-  color: #846add;
-}
-
-.s2-txt3 {
-  font-family: Lato-Bold;
-  font-size: 15px;
-  line-height: 1.4;
   color: #fff;
-  text-transform: uppercase;
+  line-height: 1.2;
 }
 
+.s1-txt3 {
+  font-family: Montserrat-Regular;
+  font-size: 12px;
+  color: #cccccc;
+  line-height: 1.4;
+}
 
+.s1-txt4 {
+  font-family: Montserrat-Bold;
+  font-size: 15px;
+  color: #555;
+  line-height: 1.2;
+}
+
+.s1-txt5 {
+  font-family: Montserrat-Regular;
+  font-size: 12px;
+  color: #999;
+  line-height: 1.6666667;
+}
 
 /*//////////////////////////////////////////////////////////////////
 [ M-Text 16 - 25 ]*/
-
-/*---------------------------------------------*/
-.m2-txt1 {
-  font-family: Lato-Light;
-  font-size: 25px;
+.m1-txt1 {
+  font-family: Montserrat-Black;
+  font-size: 24px;
+  color: #333;
   line-height: 1.2;
-  color: #fff;
+  text-transform: uppercase;
 }
 
-.m2-txt2 {
-  font-family: Lato-Bold;
-  font-size: 25px;
-  line-height: 1;
-  color: #fff;
+.m1-txt2 {
+  font-family: Montserrat-Regular;
+  font-size: 18px;
+  color: #555;
+  line-height: 1.4;
+  text-transform: uppercase;
 }
-
 
 /*//////////////////////////////////////////////////////////////////
 [ L-Text >= 26 ]*/
 .l1-txt1 {
-  font-family: Poppins-Bold;
+  font-family: Montserrat-Black;
   font-size: 50px;
-  line-height: 1.1;
   color: #fff;
+  line-height: 1.2;
   text-transform: uppercase;
 }
 
-/*---------------------------------------------*/
-.l2-txt1 {
-  font-family: Lato-Bold;
-  font-size: 40px;
-  line-height: 1;
+.l1-txt2 {
+  font-family: Montserrat-Light;
+  font-size: 30px;
   color: #fff;
+  line-height: 1.2;
+}
+
+.l1-txt3 {
+  font-family: Montserrat-Bold;
+  font-size: 36px;
+  color: #555555;
+  line-height: 1;
 }
 
 
@@ -277,17 +311,35 @@ Primary use:
 }
 
 .size2 {
-  width: 155px;
-  height: 155px;
+  width: 90px;
+  height: 90px;
 }
 
 .size3 {
-  min-width: 160px;
-  height: 70px;
+  min-width: 280px;
+  max-width: 100%;
+  min-height: 50px;
+}
+
+.size4 {
+  width: 686px;
+  max-width: 100%;
+}
+
+.size5 {
+  width: 100%;
+  height: 50px;
 }
 
 /*//////////////////////////////////////////////////////////////////
 [ Width ]*/
+.wsize1 {
+  max-width: 390px;
+}
+
+.wsize2 {
+  max-width: 285px;
+}
 
 
 /*//////////////////////////////////////////////////////////////////
@@ -300,11 +352,15 @@ Primary use:
 [ Background ]*/
 .bg0 {background-color: #fff;}
 
-.bg-img1 {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+/*---------------------------------------------*/
+.bg-g1 {
+  background: #7918f2;
+  background: -webkit-linear-gradient(-45deg, #ac32e4, #7918f2, #4801ff);
+  background: -o-linear-gradient(-45deg, #ac32e4, #7918f2, #4801ff);
+  background: -moz-linear-gradient(-45deg, #ac32e4, #7918f2, #4801ff);
+  background: linear-gradient(-45deg, #ac32e4, #7918f2, #4801ff);
 }
+
 
 
 
@@ -312,20 +368,26 @@ Primary use:
 /*//////////////////////////////////////////////////////////////////
 [ Border ]*/
 .bor1 {
-  border: 1px solid rgba(255,255,255,0.3);
-  border-radius: 50%;
+  border-bottom: 3px solid #3a5dff;
 }
 
-
+.bor2 {
+  border-radius: 5px;
+}
 
 
 /*==================================================================
    WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE  
 ==================================================================*/
-.where1 {
-  margin: 0 5px 20px 5px;
+.where1-parent {
+  position: relative;
 }
 
+.where1 {
+  position: absolute;
+  top: -40px;
+  right: 5px;
+}
 
 
 /*==================================================================
@@ -336,12 +398,26 @@ Primary use:
 .placeholder0::-moz-placeholder { color: #999999;}
 .placeholder0:-ms-input-placeholder { color: #999999;}
 
+
 /*---------------------------------------------*/
-.overlay1 {
+.how-countdown {
+  background-color: #fff;
+  border-radius: 18px;
+  margin: 0px 18px 25px 18px;
+}
+
+/*---------------------------------------------*/
+.how-btn {
+  padding: 10px 20px;
+  background-color: transparent;
+  border-radius: 25px;
+  border: 2px solid #fff;
   position: relative;
   z-index: 1;
+  overflow: hidden;
 }
-.overlay1::before {
+
+.how-btn::before {
   content: "";
   display: block;
   position: absolute;
@@ -350,21 +426,42 @@ Primary use:
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(0,0,0,0.8);
+  background: #7918f2;
+  background: -webkit-linear-gradient(45deg, #ac32e4, #7918f2, #4801ff);
+  background: -o-linear-gradient(45deg, #ac32e4, #7918f2, #4801ff);
+  background: -moz-linear-gradient(45deg, #ac32e4, #7918f2, #4801ff);
+  background: linear-gradient(45deg, #ac32e4, #7918f2, #4801ff);
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+  opacity: 0;
+}
+
+.how-btn:hover:before {
+  opacity: 1;
 }
 
 /*---------------------------------------------*/
 .how-btn1 {
-  border-radius: 35px;
-  background-color: #846add;
-  padding-right: 20px;
-  padding-left: 20px;
+  background-color: #3a5dff;
+  border-radius: 25px;
+  padding: 0 20px;
 }
 
 .how-btn1:hover {
-  background-color: #5d43b5;
+  background-color: #333;
+  color: #fff;
 }
 
+/*---------------------------------------------*/
+.how-btn2 {
+  color: rgba(255,255,255,0.5);
+}
+
+.how-btn2:hover {
+  color: rgba(255,255,255,1);
+}
 
 /*//////////////////////////////////////////////////////////////////
 [ Pseudo ]*/
@@ -493,8 +590,11 @@ Primary use:
   .p-r-15-sm {padding-right: 15px;}
 
   .w-full-sm {width: 100%;}
-  /*---------------------------------------------*/
 
+  /*---------------------------------------------*/
+  .respon1 {
+    padding-top: 35px;
+  }
   
 }
 
