@@ -1,123 +1,121 @@
 <!DOCTYPE html>
-<html lang="zxx">
-
+<html lang="en">
 <head>
-    <title>Hotel Coming Soon Responsive Widget Template : W3layouts</title>
-    <!-- Meta tag Keywords -->
+    <title>Coming Soon 2</title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="UTF-8" />
-    <meta name="keywords"
-          content="Hotel Coming Soon Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-    <!-- //Meta tag Keywords -->
-
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;700&display=swap" rel="stylesheet">
-    <!-- //google fonts -->
-
-    <link rel="stylesheet" href="{{URL::asset('css/home/style.css')}}" type="text/css" media="all" /> <!-- //Style-CSS -->
-
-    <link href="{{URL::asset('css/home/font-awesome.css)}}" rel="stylesheet"><!-- //font-awesome-icons -->
-
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/util.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!--===============================================================================================-->
 </head>
-
 <body>
-<!-- coming soon -->
-<section class="w3l-coming-soon-page">
-    <div class="coming-page-info">
-        <div class="wrapper">
-            <div class="logo-center">
-                <a class="logo" href="#">
-                    <span class="fa fa-glass"></span> Hotel
-                </a>
+
+<!--  -->
+<div class="simpleslide100">
+    <div class="simpleslide100-item bg-img1" style="background-image: url('images/bg01.jpg');"></div>
+    <div class="simpleslide100-item bg-img1" style="background-image: url('images/bg02.jpg');"></div>
+    <div class="simpleslide100-item bg-img1" style="background-image: url('images/bg03.jpg');"></div>
+</div>
+
+<div class="size1 overlay1">
+    <!--  -->
+    <div class="size1 flex-col-c-m p-l-15 p-r-15 p-t-50 p-b-50">
+        <h3 class="l1-txt1 txt-center p-b-25">
+            Coming Soon
+        </h3>
+
+        <p class="m2-txt1 txt-center p-b-48">
+            Our website is under construction, follow us for update now!
+        </p>
+
+        <div class="flex-w flex-c-m cd100 p-b-33">
+            <div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
+                <span class="l2-txt1 p-b-9 days">35</span>
+                <span class="s2-txt1">Days</span>
             </div>
 
-
-            <div class="coming-block">
-                <h1>Coming Soon</h1>
-                <h4 class="">Our website is under construction now</h4>
-                <p>We are working very hard to give you the best
-                    experience with this one.</p>
-
-                <!-- countdown -->
-                <div class="countdown">
-                    <div class="countdown__days">
-                        <div class="number"></div>
-                        <span class>Days</span>
-                    </div>
-
-                    <div class="countdown__hours">
-                        <div class="number"></div>
-                        <span class>Hours</span>
-                    </div>
-
-                    <div class="countdown__minutes">
-                        <div class="number"></div>
-                        <span class>Minutes</span>
-                    </div>
-
-                    <div class="countdown__seconds">
-                        <div class="number"></div>
-                        <span class>Seconds</span>
-                    </div>
-                </div>
-                <!-- countdown -->
-
-                <div class="contact-button">
-                    <a href="#contact" class="btn">Contact Us</a>
-                </div>
+            <div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
+                <span class="l2-txt1 p-b-9 hours">17</span>
+                <span class="s2-txt1">Hours</span>
             </div>
-            <!-- copyright -->
-            <div class="copyright-footer">
-                <div class="w3l-copy-right">
-                    <p>© 2020 Hotel Coming Soon. All rights reserved | Design by
-                        <a href="http://w3layouts.com/" target="_blank">W3layouts</a></p>
-                </div>
+
+            <div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
+                <span class="l2-txt1 p-b-9 minutes">50</span>
+                <span class="s2-txt1">Minutes</span>
             </div>
-            <!-- //copyright -->
+
+            <div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
+                <span class="l2-txt1 p-b-9 seconds">39</span>
+                <span class="s2-txt1">Seconds</span>
+            </div>
         </div>
+
+        <form class="w-full flex-w flex-c-m validate-form">
+
+            <div class="wrap-input100 validate-input where1" data-validate = "Valid email is required: ex@abc.xyz">
+                <input class="input100 placeholder0 s2-txt2" type="text" name="email" placeholder="Enter Email Address">
+                <span class="focus-input100"></span>
+            </div>
+
+
+            <button class="flex-c-m size3 s2-txt3 how-btn1 trans-04 where1">
+                Subscribe
+            </button>
+        </form>
     </div>
+</div>
 
-    <!-- js -->
-    <script src="js/jquery-3.3.1.min.js"></script>
 
-    <!-- Script for counter -->
-    <script>
-        (() => {
-            // Specify the deadline date
-            const deadlineDate = new Date('January 27, 2021 23:59:59').getTime();
 
-            // Cache all countdown boxes into consts
-            const countdownDays = document.querySelector('.countdown__days .number');
-            const countdownHours = document.querySelector('.countdown__hours .number');
-            const countdownMinutes = document.querySelector('.countdown__minutes .number');
-            const countdownSeconds = document.querySelector('.countdown__seconds .number');
 
-            // Update the count down every 1 second (1000 milliseconds)
-            setInterval(() => {
-                // Get current date and time
-                const currentDate = new Date().getTime();
 
-                // Calculate the distance between current date and time and the deadline date and time
-                const distance = deadlineDate - currentDate;
-
-                // Calculations the data for remaining days, hours, minutes and seconds
-                const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-                // Insert the result data into individual countdown boxes
-                countdownDays.innerHTML = days;
-                countdownHours.innerHTML = hours;
-                countdownMinutes.innerHTML = minutes;
-                countdownSeconds.innerHTML = seconds;
-            }, 1000);
-        })();
-    </script>
-    <!-- //Script for counter -->
-
-</section>
-<!-- //coming soon -->
+<!--===============================================================================================-->
+<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+<script src="vendor/bootstrap/js/popper.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+<script src="vendor/countdowntime/moment.min.js"></script>
+<script src="vendor/countdowntime/moment-timezone.min.js"></script>
+<script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
+<script src="vendor/countdowntime/countdowntime.js"></script>
+<script>
+    $('.cd100').countdown100({
+        /*Set Endtime here*/
+        /*Endtime must be > current time*/
+        endtimeYear: 0,
+        endtimeMonth: 0,
+        endtimeDate: 35,
+        endtimeHours: 18,
+        endtimeMinutes: 0,
+        endtimeSeconds: 0,
+        timeZone: "Africa/Cairo"
+        // ex:  timeZone: "America/New_York"
+        //go to " http://momentjs.com/timezone/ " to get timezone
+    });
+</script>
+<!--===============================================================================================-->
+<script src="vendor/tilt/tilt.jquery.min.js"></script>
+<script >
+    $('.js-tilt').tilt({
+        scale: 1.1
+    })
+</script>
+<!--===============================================================================================-->
+<script src="js/main.js"></script>
 
 </body>
-
 </html>
