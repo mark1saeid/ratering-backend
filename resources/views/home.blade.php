@@ -77,7 +77,7 @@
     </div>
 
     <!-- js -->
-    <script src="{{URL::asset('js/jquery-3.3.1.min.js')}}"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
 
     <!-- Script for counter -->
     <script>
