@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eec28c9-5a34-4cb8-bd9d-a552bf9fa123" name="Default Changelist" comment="ss">
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="1eec28c9-5a34-4cb8-bd9d-a552bf9fa123" name="Default Changelist" comment="ss" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,13 +151,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets/css/home" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\RATEME\public\assets\css\home" />
       <recent name="C:\wamp64\www\RATEME\public\assets" />
+      <recent name="C:\wamp64\www\RATEME\public\assets\css\home" />
       <recent name="C:\wamp64\www\RATEME\public\assets\img" />
       <recent name="C:\wamp64\www\RATEME\public\assets\js\home" />
       <recent name="C:\wamp64\www\RATEME\public\assets\vendor" />
@@ -201,28 +199,7 @@
       <workItem from="1601477892320" duration="376000" />
       <workItem from="1602594120666" duration="12289000" />
       <workItem from="1602691074360" duration="18087000" />
-      <workItem from="1602751965139" duration="17121000" />
-    </task>
-    <task id="LOCAL-00116" summary="s">
-      <created>1602704416967</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1602704416967</updated>
-    </task>
-    <task id="LOCAL-00117" summary="s">
-      <created>1602705965894</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1602705965894</updated>
-    </task>
-    <task id="LOCAL-00118" summary="s">
-      <created>1602706213899</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1602706213899</updated>
+      <workItem from="1602751965139" duration="17473000" />
     </task>
     <task id="LOCAL-00119" summary="s">
       <created>1602706391635</created>
@@ -546,7 +523,28 @@
       <option name="project" value="LOCAL" />
       <updated>1602771138912</updated>
     </task>
-    <option name="localTasksCounter" value="165" />
+    <task id="LOCAL-00165" summary="ss">
+      <created>1602771391097</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1602771391097</updated>
+    </task>
+    <task id="LOCAL-00166" summary="ss">
+      <created>1602771573759</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1602771573759</updated>
+    </task>
+    <task id="LOCAL-00167" summary="ss">
+      <created>1602771688883</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1602771688883</updated>
+    </task>
+    <option name="localTasksCounter" value="168" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -611,10 +609,10 @@
       <screen x="0" y="0" width="1024" height="779" />
     </state>
     <state width="981" height="135" key="GridCell.Tab.0.right/0.0.1024.779@0.0.1024.779" timestamp="1599594024670" />
-    <state x="105" y="123" key="Vcs.Push.Dialog.v2" timestamp="1602771140538">
+    <state x="105" y="123" key="Vcs.Push.Dialog.v2" timestamp="1602771690134">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
-    <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1602771140538" />
+    <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1602771690134" />
     <state x="330" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602600467391">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
