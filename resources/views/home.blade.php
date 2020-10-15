@@ -1,155 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
-    <title>Coming Soon 4</title>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--===============================================================================================-->
-    <link rel="icon" type="image/png" href="{{asset('img/icons/favicon.ico')}}"/>
-    <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="{{asset('vendor/bootstrap/css/bootstrap.min.css')}}">
-    <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="{{asset('fonts/font-awesome-4.7.0/css/font-awesome.min.css')}}">
-    <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="{{asset('fonts/iconic/css/material-design-iconic-font.min.css')}}">
-    <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="{{asset('vendor/animate/animate.css')}}">
-    <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="{{asset('vendor/select2/select2.min.css')}}">
-    <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="{{asset('css/util.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('css/main.css')}}">
-    <!--===============================================================================================-->
+    <meta name="Author" content="WebThemez">
+    <title>Black Coming Soon Responsive Template</title>
+    <meta name="description" content="Examples for creative website header animations using Canvas and JavaScript" />
+    <meta name="keywords" content="header, canvas, animated, creative, inspiration, javascript" />
+    <meta name="author" content="Codrops" />
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="css/cssload/styles.css">
 </head>
 <body>
 
-
-<div class="bg-g1 size1 flex-w flex-col-c-sb p-l-15 p-r-15 p-t-55 p-b-35 respon1">
-    <span></span>
-    <div class="flex-col-c p-t-50 p-b-50">
-        <h3 class="l1-txt1 txt-center p-b-10">
-            Coming Soon
-        </h3>
-
-        <p class="txt-center l1-txt2 p-b-60">
-            Our website is under construction
-        </p>
-
-        <div class="flex-w flex-c cd100 p-b-82">
-            <div class="flex-col-c-m size2 how-countdown">
-                <span class="l1-txt3 p-b-9 days">35</span>
-                <span class="s1-txt1">Days</span>
-            </div>
-
-            <div class="flex-col-c-m size2 how-countdown">
-                <span class="l1-txt3 p-b-9 hours">17</span>
-                <span class="s1-txt1">Hours</span>
-            </div>
-
-            <div class="flex-col-c-m size2 how-countdown">
-                <span class="l1-txt3 p-b-9 minutes">50</span>
-                <span class="s1-txt1">Minutes</span>
-            </div>
-
-            <div class="flex-col-c-m size2 how-countdown">
-                <span class="l1-txt3 p-b-9 seconds">39</span>
-                <span class="s1-txt1">Seconds</span>
-            </div>
-        </div>
-
-        <button class="flex-c-m s1-txt2 size3 how-btn"  data-toggle="modal" data-target="#subscribe">
-            Follow us for update now!
-        </button>
-    </div>
-
-    <span class="s1-txt3 txt-center">
-			@ 2017 Coming Soon Template. Designed by Colorlib
-		</span>
-
+<body id="home"/>
+<div id="large-header" class="large-header">
+    <canvas id="demo-canvas"></canvas>
 </div>
-
-<!-- Modal Login -->
-<div class="modal fade" id="subscribe" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog" role="document" data-dismiss="modal">
-        <div class="modal-subscribe where1-parent bg0 bor2 size4 p-t-54 p-b-100 p-l-15 p-r-15">
-            <button class="btn-close-modal how-btn2 fs-26 where1 trans-04">
-                <i class="zmdi zmdi-close"></i>
-            </button>
-
-            <div class="wsize1 m-lr-auto">
-                <h3 class="m1-txt1 txt-center p-b-36">
-                    <span class="bor1 p-b-6">Subscribe</span>
-                </h3>
-
-                <p class="m1-txt2 txt-center p-b-40">
-                    Follow us for update now!
-                </p>
-
-                <form class="contact100-form validate-form">
-                    <div class="wrap-input100 m-b-10 validate-input" data-validate = "Name is required">
-                        <input class="s1-txt4 placeholder0 input100" type="text" name="name" placeholder="Name">
-                        <span class="focus-input100"></span>
-                    </div>
-
-                    <div class="wrap-input100 m-b-20 validate-input" data-validate = "Email is required: ex@abc.xyz">
-                        <input class="s1-txt4 placeholder0 input100" type="text" name="email" placeholder="Email">
-                        <span class="focus-input100"></span>
-                    </div>
-
-                    <div class="w-full">
-                        <button class="flex-c-m s1-txt2 size5 how-btn1 trans-04">
-                            Get Updates
-                        </button>
-                    </div>
-                </form>
-
-                <p class="s1-txt5 txt-center wsize2 m-lr-auto p-t-20">
-                    And don’t worry, we hate spam too! You can unsubcribe at anytime.
-                </p>
+<div id="Content" class="wrapper">
+    <div class="top-wrapper">
+        <div id="header">
+            <div class="wrapper">
+                <h1><a href="#" class="logo">Black</a></h1>
             </div>
         </div>
+        <div class="countdown styled"></div>
 
+    </div>
+    <div class="bottom-wrapper wrapper">
+        <h2 class="intro">Our Team have been working on something Amazing <br/>We will be back soon.</h2>
+        <div id="subscribe">
+            <form method="POST" action="subscribe.php">
+                <p class="subscribe-input"><input type="text" name="Email" size="20" value="" placeholder="Subscribe your e-mail Id"><input type="submit" value="Submit" name="Submit"></p>
+            </form>
+
+            <div id="socialIcons">
+                <ul>
+                    <li><a href="" title="Twitter" class="twitterIcon"></a></li>
+                    <li><a href="" title="facebook" class="facebookIcon"></a></li>
+                    <li><a href="" title="linkedIn" class="linkedInIcon"></a></li>
+                    <li><a href="" title="Pintrest" class="pintrestIcon"></a></li>
+                </ul>
+            </div>
+        </div>
+        <span class="tempBy">&copy; 2019 All right reserved. <br/><a href="https://webthemez.com/tag/free" target="_blank">Free HTML Templates</a> By WebThemez.com</span>
     </div>
 </div>
 
+<script src="js/jsload/TweenLite.min.js"></script>
+<script src="js/jsload/EasePack.min.js"></script>
+<script src="js/jsload/rAF.js"></script>
+<script src="js/jsload/demo-1.js"></script>
 
 
-<!--===============================================================================================-->
-<script src="{{asset('vendor/jquery/jquery-3.2.1.min.js')}}"></script>
-<!--===============================================================================================-->
-<script src="{{asset('vendor/bootstrap/js/popper.js')}}"></script>
-<script src="{{asset('vendor/bootstrap/js/bootstrap.min.js')}}"></script>
-<!--===============================================================================================-->
-<script src="{{asset('vendor/select2/select2.min.js')}}"></script>
-<!--===============================================================================================-->
-<script src="{{asset('vendor/countdowntime/moment.min.js')}}"></script>
-<script src="{{asset('vendor/countdowntime/moment-timezone.min.js')}}"></script>
-<script src="{{asset('vendor/countdowntime/moment-timezone-with-data.min.js')}}"></script>
-<script src="{{asset('vendor/countdowntime/countdowntime.js')}}"></script>
-<script>
-    $('.cd100').countdown100({
-        // Set Endtime here
-        // Endtime must be > current time
-        endtimeYear: 0,
-        endtimeMonth: 0,
-        endtimeDate: 35,
-        endtimeHours: 18,
-        endtimeMinutes: 0,
-        endtimeSeconds: 0,
-        timeZone: ""
-        // ex:  timeZone: "America/New_York", can be empty
-        // go to " http://momentjs.com/timezone/ " to get timezone
-    });
-</script>
-<!--===============================================================================================-->
-<script src="{{asset('vendor/tilt/tilt.jquery.min.js')}}"></script>
-<script >
-    $('.js-tilt').tilt({
-        scale: 1.1
-    })
-</script>
-<!--===============================================================================================-->
-<script src="{{asset('js/jsload/main.js')}}"></script>
+<!--Scripts-->
+<script type="text/javascript" src="js/jsload/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/jsload/Backstretch.js"></script>
+<script type="text/javascript" src="js/jsload/jquery.countdown.js"></script>
+<script type="text/javascript" src="js/jsload/global.js"></script>
 
 </body>
+
 </html>
