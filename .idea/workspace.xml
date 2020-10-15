@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eec28c9-5a34-4cb8-bd9d-a552bf9fa123" name="Default Changelist" comment="ss" />
+    <list default="true" id="1eec28c9-5a34-4cb8-bd9d-a552bf9fa123" name="Default Changelist" comment="ss">
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -198,21 +200,7 @@
       <workItem from="1601477892320" duration="376000" />
       <workItem from="1602594120666" duration="12289000" />
       <workItem from="1602691074360" duration="18087000" />
-      <workItem from="1602751965139" duration="4892000" />
-    </task>
-    <task id="LOCAL-00081" summary="ss">
-      <created>1602610446050</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1602610446050</updated>
-    </task>
-    <task id="LOCAL-00082" summary="ss">
-      <created>1602610583651</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1602610583651</updated>
+      <workItem from="1602751965139" duration="5267000" />
     </task>
     <task id="LOCAL-00083" summary="ss">
       <created>1602610673950</created>
@@ -543,7 +531,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602758231552</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="ss">
+      <created>1602758608048</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1602758608048</updated>
+    </task>
+    <task id="LOCAL-00131" summary="ss">
+      <created>1602758833799</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1602758833799</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -572,10 +574,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="ss" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="262" y="192" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600934533218">
+    <state x="262" y="192" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602758537893">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
-    <state x="262" y="192" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1024.779@0.0.1024.779" timestamp="1600934533218" />
+    <state x="262" y="192" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1024.779@0.0.1024.779" timestamp="1602758537893" />
     <state x="243" y="145" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1602603192160">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
@@ -604,10 +606,10 @@
       <screen x="0" y="0" width="1024" height="779" />
     </state>
     <state width="981" height="135" key="GridCell.Tab.0.right/0.0.1024.779@0.0.1024.779" timestamp="1599594024670" />
-    <state x="105" y="123" key="Vcs.Push.Dialog.v2" timestamp="1602758233065">
+    <state x="105" y="123" key="Vcs.Push.Dialog.v2" timestamp="1602758835329">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
-    <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1602758233065" />
+    <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1602758835329" />
     <state x="330" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602600467391">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
