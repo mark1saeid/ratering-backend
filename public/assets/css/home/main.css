@@ -1,9 +1,9 @@
 /*------------------------------------------------------------------
 Project:  ComingSoon
-Version:  
-Last change:  
+Version:
+Last change:
 Assigned to:  Bach Le
-Primary use:  
+Primary use:
 -------------------------------------------------------------------*/
 
 
@@ -13,27 +13,27 @@ Primary use:
 
 @font-face {
   font-family: Poppins-Regular;
-  src: url('../fonts/Poppins/Poppins-Regular.ttf'); 
+  src: url('public/assets/fonts/Poppins/Poppins-Regular.ttf');
 }
 
 @font-face {
   font-family: Poppins-Bold;
-  src: url('../fonts/Poppins/Poppins-Bold.ttf'); 
+  src: url('public/assets/fonts/Poppins/Poppins-Bold.ttf');
 }
 
 @font-face {
   font-family: Lato-Regular;
-  src: url('../fonts/Lato/Lato-Regular.ttf'); 
+  src: url('public/assets/fonts/Lato/Lato-Regular.ttf');
 }
 
 @font-face {
   font-family: Lato-Light;
-  src: url('../fonts/Lato/Lato-Light.ttf'); 
+  src: url('public/assets/fonts/Lato/Lato-Light.ttf');
 }
 
 @font-face {
   font-family: Lato-Bold;
-  src: url('../fonts/Lato/Lato-Bold.ttf'); 
+  src: url('public/assets/fonts/Lato/Lato-Bold.ttf');
 }
 
 
@@ -320,7 +320,7 @@ Primary use:
 
 
 /*==================================================================
-   WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE  
+   WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE
 ==================================================================*/
 .where1 {
   margin: 0 5px 20px 5px;
@@ -329,7 +329,7 @@ Primary use:
 
 
 /*==================================================================
- HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW 
+ HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW
 ==================================================================*/
 .placeholder0::-webkit-input-placeholder { color: #999999;}
 .placeholder0:-moz-placeholder { color: #999999;}
@@ -495,7 +495,7 @@ Primary use:
   .w-full-sm {width: 100%;}
   /*---------------------------------------------*/
 
-  
+
 }
 
 
