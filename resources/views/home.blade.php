@@ -22,7 +22,7 @@
 
 <!--  -->
 <div class="simpleslide100">
-    <div class="simpleslide100-item bg" style="background-image: url('public/assets/img/bg.jpg');"></div>
+    <div class="simpleslide100-item bg" style="background-image: url('public/assets/img/bg01.jpg');"></div>
 
 </div>
 
