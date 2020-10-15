@@ -15,7 +15,7 @@ Note: Please use our back link in your site (webthemez.com)
     <meta name="description" content="Ace Page under construction">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:regular,bold">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="{{URL::asset('css/home/styles.css')}}">
 </head>
 
 <body id="home">
@@ -48,9 +48,9 @@ Note: Please use our back link in your site (webthemez.com)
 <span class="tempBy"> <a href="https://webthemez.com/free-bootstrap-templates/" target="_blank">Bootstrap Templates</a> by WebThemez.com. All Rights Reserved.</span>
 
 <!--Scripts-->
-<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
-<script type="text/javascript" src="js/jquery.countdown.js"></script>
-<script type="text/javascript" src="js/global.js"></script>
+<script type="text/javascript" src="{{URL::asset('js/jquery-1.9.1.min.js')}}"></script>
+<script type="text/javascript" src="{{URL::asset('js/jquery.countdown.js')}}"></script>
+<script type="text/javascript" src="{{URL::asset('js/global.js')}}"></script>
 
 </body>
 </html>
