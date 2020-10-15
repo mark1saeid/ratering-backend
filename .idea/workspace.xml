@@ -20,47 +20,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1eec28c9-5a34-4cb8-bd9d-a552bf9fa123" name="Default Changelist" comment="ss">
-      <change afterPath="$PROJECT_DIR$/public/assets/css/home/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/home/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/bootstrap/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/icofont/fonts/icofont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/icofont/fonts/icofont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/icofont/icofont.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/jquery-countdown/jquery.countdown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/home/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/home/overlays/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/home/overlays/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/home/overlays/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/home/overlays/04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/home/overlays/05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/home/overlays/06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/home/overlays/07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/home/overlays/08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/home/overlays/09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/home/overlays/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/home/overlays/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/home/overlays/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/home/overlays/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/home/overlays/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/home/overlays/15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/home/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/codropsicons/codropsicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/codropsicons/codropsicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/codropsicons/codropsicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/codropsicons/codropsicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/codropsicons/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/home/EasePack.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/home/TweenLite.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/home/demo-1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/home/global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/home/jquery-1.9.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/home/jquery.countdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/home/rAF.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/cssload/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/cssload/overlays/01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/cssload/overlays/02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/cssload/overlays/03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/cssload/overlays/04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/cssload/overlays/05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/cssload/overlays/06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/cssload/overlays/07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/cssload/overlays/08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/cssload/overlays/09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/cssload/overlays/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/cssload/overlays/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/cssload/overlays/12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/cssload/overlays/13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/cssload/overlays/14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/cssload/overlays/15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/cssload/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/codropsicons/codropsicons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/codropsicons/codropsicons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/codropsicons/codropsicons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/codropsicons/codropsicons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/codropsicons/license.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/deco.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/demo-1-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/jsload/EasePack.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/jsload/TweenLite.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/jsload/demo-1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/jsload/global.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/jsload/jquery-1.9.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/jsload/jquery.countdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/jsload/rAF.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/home/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/home/main.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -194,16 +185,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets/vendor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets/css/home" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\RATEME\public\assets\vendor" />
-      <recent name="C:\wamp64\www\RATEME\public\assets\js\home" />
       <recent name="C:\wamp64\www\RATEME\public\assets\css\home" />
+      <recent name="C:\wamp64\www\RATEME\public\assets" />
+      <recent name="C:\wamp64\www\RATEME\public\assets\js\home" />
+      <recent name="C:\wamp64\www\RATEME\public\assets\vendor" />
       <recent name="C:\wamp64\www\RATEME\public\assets\img" />
-      <recent name="C:\wamp64\www\RATEME\public\assets\js\jsload" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\RATEME\public\assets\css\home" />
@@ -242,14 +233,7 @@
       <workItem from="1601477892320" duration="376000" />
       <workItem from="1602594120666" duration="12289000" />
       <workItem from="1602691074360" duration="18087000" />
-      <workItem from="1602751965139" duration="13417000" />
-    </task>
-    <task id="LOCAL-00100" summary="remove connection">
-      <created>1602697350699</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1602697350699</updated>
+      <workItem from="1602751965139" duration="14311000" />
     </task>
     <task id="LOCAL-00101" summary="remove connection">
       <created>1602699212840</created>
@@ -587,7 +571,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602767622254</updated>
     </task>
-    <option name="localTasksCounter" value="149" />
+    <task id="LOCAL-00149" summary="ss">
+      <created>1602767760487</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1602767760487</updated>
+    </task>
+    <option name="localTasksCounter" value="150" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -652,10 +643,10 @@
       <screen x="0" y="0" width="1024" height="779" />
     </state>
     <state width="981" height="135" key="GridCell.Tab.0.right/0.0.1024.779@0.0.1024.779" timestamp="1599594024670" />
-    <state x="105" y="123" key="Vcs.Push.Dialog.v2" timestamp="1602767624585">
+    <state x="105" y="123" key="Vcs.Push.Dialog.v2" timestamp="1602767762341">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
-    <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1602767624585" />
+    <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1602767762341" />
     <state x="330" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602600467391">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
