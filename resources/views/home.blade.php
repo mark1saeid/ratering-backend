@@ -1,56 +1,126 @@
-<!--
-Theme by: WebThemez.com
-Title: Jack Page under construction!!!
-Note: Please use our back link in your site (webthemez.com)
--->
-<!DOCTYPE HTML>
-<!--[if lt IE 7 ]> <html lang="en" class="ie ie6"> <![endif]-->
-<!--[if IE 7 ]>	<html lang="en" class="ie ie7"> <![endif]-->
-<!--[if IE 8 ]>	<html lang="en" class="ie ie8"> <![endif]-->
-<!--[if IE 9 ]>	<html lang="en" class="ie ie9"> <![endif]-->
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<!DOCTYPE html>
+<html lang="zxx">
+
 <head>
-    <meta charset="utf-8">
-    <title>Jack - Coming Soon!!!</title>
-    <meta name="description" content="Ace Page under construction">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:regular,bold">
-    <link rel="stylesheet" type="text/css" href="{{URL::asset('css/home/styles.css')}}">
+    <title>Hotel Coming Soon Responsive Widget Template : W3layouts</title>
+    <!-- Meta tag Keywords -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="keywords"
+          content="Hotel Coming Soon Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <!-- //Meta tag Keywords -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- //google fonts -->
+
+    <link rel="stylesheet" href="{{asset('css/home/style.css')}}" type="text/css" media="all" /> <!-- //Style-CSS -->
+
+    <link href="{{asset('css/home/font-awesome.css)}}" rel="stylesheet"><!-- //font-awesome-icons -->
+
 </head>
 
-<body id="home">
-
-<div id="Content" class="wrapper topSection">
-    <div id="Header">
+<body>
+<!-- coming soon -->
+<section class="w3l-coming-soon-page">
+    <div class="coming-page-info">
         <div class="wrapper">
-            <div class="logo"><h1>Jack</h1>	</div>
+            <div class="logo-center">
+                <a class="logo" href="#">
+                    <span class="fa fa-glass"></span> Hotel
+                </a>
+            </div>
+            <!-- if logo is image enable this
+                <a class="logo" href="#index.html">
+                    <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+                </a> -->
+
+            <div class="coming-block">
+                <h1>Coming Soon</h1>
+                <h4 class="">Our website is under construction now</h4>
+                <p>We are working very hard to give you the best
+                    experience with this one.</p>
+
+                <!-- countdown -->
+                <div class="countdown">
+                    <div class="countdown__days">
+                        <div class="number"></div>
+                        <span class>Days</span>
+                    </div>
+
+                    <div class="countdown__hours">
+                        <div class="number"></div>
+                        <span class>Hours</span>
+                    </div>
+
+                    <div class="countdown__minutes">
+                        <div class="number"></div>
+                        <span class>Minutes</span>
+                    </div>
+
+                    <div class="countdown__seconds">
+                        <div class="number"></div>
+                        <span class>Seconds</span>
+                    </div>
+                </div>
+                <!-- countdown -->
+
+                <div class="contact-button">
+                    <a href="#contact" class="btn">Contact Us</a>
+                </div>
+            </div>
+            <!-- copyright -->
+            <div class="copyright-footer">
+                <div class="w3l-copy-right">
+                    <p>© 2020 Hotel Coming Soon. All rights reserved | Design by
+                        <a href="http://w3layouts.com/" target="_blank">W3layouts</a></p>
+                </div>
+            </div>
+            <!-- //copyright -->
         </div>
     </div>
-    <h2>Our new site is coming soon!!!</h2>
-    <strong>Stay tuned for something amazing</strong>
-    <div class="countdown styled"></div>
-</div>
-<div id="subscribe">
-    <h3>Stay in touch</h3>
-    <form action="" method="post" onsubmit="">
-        <p><input name="" value="Enter your e-mail" type="text" id=""/>
-            <input type="button" value="Submit"/></p>
-    </form>
-    <div id="socialIcons">
-        <ul>
-            <li><a href="" title="Twitter" class="twitterIcon"></a></li>
-            <li><a href="" title="facebook" class="facebookIcon"></a></li>
-            <li><a href="" title="linkedIn" class="linkedInIcon"></a></li>
-            <li><a href="" title="Pintrest" class="pintrestIcon"></a></li>
-        </ul>
-    </div>
-</div>
-<span class="tempBy"> <a href="https://webthemez.com/free-bootstrap-templates/" target="_blank">Bootstrap Templates</a> by WebThemez.com. All Rights Reserved.</span>
 
-<!--Scripts-->
-<script type="text/javascript" src="{{URL::asset('js/jquery-1.9.1.min.js')}}"></script>
-<script type="text/javascript" src="{{URL::asset('js/jquery.countdown.js')}}"></script>
-<script type="text/javascript" src="{{URL::asset('js/global.js')}}"></script>
+    <!-- js -->
+    <script src="{{asset('js/jquery-3.3.1.min.js')}}"></script>
+
+    <!-- Script for counter -->
+    <script>
+        (() => {
+            // Specify the deadline date
+            const deadlineDate = new Date('January 27, 2021 23:59:59').getTime();
+
+            // Cache all countdown boxes into consts
+            const countdownDays = document.querySelector('.countdown__days .number');
+            const countdownHours = document.querySelector('.countdown__hours .number');
+            const countdownMinutes = document.querySelector('.countdown__minutes .number');
+            const countdownSeconds = document.querySelector('.countdown__seconds .number');
+
+            // Update the count down every 1 second (1000 milliseconds)
+            setInterval(() => {
+                // Get current date and time
+                const currentDate = new Date().getTime();
+
+                // Calculate the distance between current date and time and the deadline date and time
+                const distance = deadlineDate - currentDate;
+
+                // Calculations the data for remaining days, hours, minutes and seconds
+                const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                // Insert the result data into individual countdown boxes
+                countdownDays.innerHTML = days;
+                countdownHours.innerHTML = hours;
+                countdownMinutes.innerHTML = minutes;
+                countdownSeconds.innerHTML = seconds;
+            }, 1000);
+        })();
+    </script>
+    <!-- //Script for counter -->
+
+</section>
+<!-- //coming soon -->
 
 </body>
+
 </html>
