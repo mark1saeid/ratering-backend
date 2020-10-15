@@ -11,15 +11,15 @@
     <title>Coming Soon - Start Bootstrap Theme</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="{{URL::asset('homeassets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('homeassets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
-    <link href="{{URL::asset('homeassets/vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
+    <link href="{{asset('homeassets/vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
 
     <!-- Custom styles for this template -->
-    <link href="{{URL::asset('homeassets/css/coming-soon.min.css')}}" rel="stylesheet">
+    <link href="{{asset('homeassets/css/coming-soon.min.css')}}" rel="stylesheet">
 
 </head>
 
@@ -27,7 +27,7 @@
 
 <div class="overlay"></div>
 <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="{{URL::asset('homeassets/mp4/bg.mp4')}}" type="video/mp4">
+    <source src="{{asset('homeassets/mp4/bg.mp4')}}" type="video/mp4">
 </video>
 
 <div class="masthead">
@@ -72,11 +72,11 @@
 </div>
 
 <!-- Bootstrap core JavaScript -->
-<script src="{{URL::asset('homeassets/vendor/jquery/jquery.min.js')}}"></script>
-<script src="{{URL::asset('homeassets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+<script src="{{asset('homeassets/vendor/jquery/jquery.min.js')}}"></script>
+<script src="{{asset('homeassets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 
 <!-- Custom scripts for this template -->
-<script src="{{URL::asset('homeassets/js/coming-soon.min.js')}}"></script>
+<script src="{{asset('homeassets/js/coming-soon.min.js')}}"></script>
 
 </body>
 
