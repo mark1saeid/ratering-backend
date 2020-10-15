@@ -20,85 +20,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1eec28c9-5a34-4cb8-bd9d-a552bf9fa123" name="Default Changelist" comment="ss">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/util.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/Montserrat/Montserrat-Black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/Montserrat/Montserrat-BlackItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/Montserrat/Montserrat-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/Montserrat/Montserrat-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/Montserrat/Montserrat-ExtraBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/Montserrat/Montserrat-ExtraLight.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/Montserrat/Montserrat-ExtraLightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/Montserrat/Montserrat-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/Montserrat/Montserrat-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/Montserrat/Montserrat-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/Montserrat/Montserrat-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/Montserrat/Montserrat-MediumItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/Montserrat/Montserrat-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/Montserrat/Montserrat-SemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/Montserrat/Montserrat-SemiBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/Montserrat/Montserrat-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/Montserrat/Montserrat-ThinItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/Montserrat/OFL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/less/animated.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/less/bordered-pulled.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/less/core.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/less/fixed-width.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/less/font-awesome.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/less/icons.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/less/larger.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/less/list.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/less/mixins.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/less/path.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/less/rotated-flipped.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/less/screen-reader.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/less/stacked.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/less/variables.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/scss/_animated.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/scss/_core.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/scss/_icons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/scss/_larger.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/scss/_list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/scss/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/scss/_path.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/scss/_stacked.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/scss/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/scss/font-awesome.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/iconic/css/material-design-iconic-font.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/iconic/css/material-design-iconic-font.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/iconic/fonts/Material-Design-Iconic-Font.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/iconic/fonts/Material-Design-Iconic-Font.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/iconic/fonts/Material-Design-Iconic-Font.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/iconic/fonts/Material-Design-Iconic-Font.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/icons/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/icons/video-16-9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/jsload/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/vendor/countdowntime/countdowntime.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/vendor/countdowntime/moment-timezone-with-data.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/vendor/countdowntime/moment-timezone.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/vendor/countdowntime/moment.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/vendor/select2/select2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/vendor/select2/select2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/vendor/select2/select2.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/vendor/select2/select2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/vendor/tilt/tilt.jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/cssload/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/cssload/overlays/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/cssload/overlays/02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/cssload/overlays/03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/cssload/overlays/04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/cssload/overlays/05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/cssload/overlays/06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/cssload/overlays/07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/cssload/overlays/08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/cssload/overlays/09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/cssload/overlays/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/cssload/overlays/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/cssload/overlays/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/cssload/overlays/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/cssload/overlays/14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/cssload/overlays/15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/cssload/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fonts/codropsicons/codropsicons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fonts/codropsicons/codropsicons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fonts/codropsicons/codropsicons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fonts/codropsicons/codropsicons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fonts/codropsicons/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/deco.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/demo-1-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/jsload/EasePack.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/jsload/TweenLite.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/jsload/demo-1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/jsload/global.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/jsload/jquery-1.9.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/jsload/jquery.countdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/jsload/rAF.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,16 +183,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets/vendor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets/js/jsload" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\RATEME\public\assets\vendor" />
       <recent name="C:\wamp64\www\RATEME\public\assets\js\jsload" />
       <recent name="C:\wamp64\www\RATEME\public\assets\img" />
       <recent name="C:\wamp64\www\RATEME\public\assets" />
-      <recent name="C:\wamp64\www\RATEME\public\assets\css" />
+      <recent name="C:\wamp64\www\RATEME\public\assets\css\cssload" />
+      <recent name="C:\wamp64\www\RATEME\public\assets\vendor" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\RATEME\public\assets\css\home" />
@@ -279,14 +231,7 @@
       <workItem from="1601477892320" duration="376000" />
       <workItem from="1602594120666" duration="12289000" />
       <workItem from="1602691074360" duration="18087000" />
-      <workItem from="1602751965139" duration="12662000" />
-    </task>
-    <task id="LOCAL-00098" summary="remove connection">
-      <created>1602696532739</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1602696532739</updated>
+      <workItem from="1602751965139" duration="13088000" />
     </task>
     <task id="LOCAL-00099" summary="remove connection">
       <created>1602696646086</created>
@@ -624,7 +569,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602765636267</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <task id="LOCAL-00147" summary="ss">
+      <created>1602767153699</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1602767153699</updated>
+    </task>
+    <option name="localTasksCounter" value="148" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -689,10 +641,10 @@
       <screen x="0" y="0" width="1024" height="779" />
     </state>
     <state width="981" height="135" key="GridCell.Tab.0.right/0.0.1024.779@0.0.1024.779" timestamp="1599594024670" />
-    <state x="105" y="123" key="Vcs.Push.Dialog.v2" timestamp="1602765637739">
+    <state x="105" y="123" key="Vcs.Push.Dialog.v2" timestamp="1602767155950">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
-    <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1602765637739" />
+    <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1602767155950" />
     <state x="330" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602600467391">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
