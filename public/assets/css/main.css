@@ -1,9 +1,9 @@
 /*------------------------------------------------------------------
 Project:  ComingSoon
-Version:  
-Last change:  
+Version:
+Last change:
 Assigned to:  Bach Le
-Primary use:  
+Primary use:
 -------------------------------------------------------------------*/
 
 
@@ -13,22 +13,22 @@ Primary use:
 
 @font-face {
   font-family: Montserrat-Regular;
-  src: url('../fonts/Montserrat/Montserrat-Regular.ttf'); 
+  src: url('public/assets/fonts/Montserrat/Montserrat-Regular.ttf');
 }
 
 @font-face {
   font-family: Montserrat-Light;
-  src: url('../fonts/Montserrat/Montserrat-Light.ttf'); 
+  src: url('public/assets/fonts/Montserrat/Montserrat-Light.ttf');
 }
 
 @font-face {
   font-family: Montserrat-Black;
-  src: url('../fonts/Montserrat/Montserrat-Black.ttf'); 
+  src: url('public/assets/fonts/Montserrat/Montserrat-Black.ttf');
 }
 
 @font-face {
   font-family: Montserrat-Bold;
-  src: url('../fonts/Montserrat/Montserrat-Bold.ttf'); 
+  src: url('public/assets/fonts/Montserrat/Montserrat-Bold.ttf');
 }
 
 
@@ -377,7 +377,7 @@ input.input100 {
 
 
 /*==================================================================
-   WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE  
+   WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE
 ==================================================================*/
 .where1-parent {
   position: relative;
@@ -391,7 +391,7 @@ input.input100 {
 
 
 /*==================================================================
- HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW 
+ HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW
 ==================================================================*/
 .placeholder0::-webkit-input-placeholder { color: #999999;}
 .placeholder0:-moz-placeholder { color: #999999;}
@@ -595,7 +595,7 @@ input.input100 {
   .respon1 {
     padding-top: 35px;
   }
-  
+
 }
 
 
