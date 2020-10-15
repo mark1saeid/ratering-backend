@@ -1,69 +1,120 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Coming Soon 2</title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="Author" content="WebThemez">
-    <title>Black Coming Soon Responsive Template</title>
-    <meta name="description" content="Examples for creative website header animations using Canvas and JavaScript" />
-    <meta name="keywords" content="header, canvas, animated, creative, inspiration, javascript" />
-    <meta name="author" content="Codrops" />
-    <link rel="shortcut icon" href="../favicon.ico">
-    <link rel="stylesheet" type="text/css" href="assets/css/home/normalize.css" />
-    <link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
-    <!--[if IE]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <link rel="stylesheet" type="text/css" href="assets/css/home/styles.css">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="assets/img/icons/favicon.ico"/>
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/css/home/util.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/home/main.css">
+    <!--===============================================================================================-->
 </head>
 <body>
 
-<body id="home">
-<div id="large-header" class="large-header">
-    <canvas id="demo-canvas"></canvas>
-</div>
-<div id="Content" class="wrapper">
-    <div class="top-wrapper">
-        <div id="header">
-            <div class="wrapper">
-                <h1><a href="#" class="logo">Black</a></h1>
-            </div>
-        </div>
-        <div class="countdown styled"></div>
+<!--  -->
+<div class="simpleslide100">
+    <div class="simpleslide100-item bg-img1" style="background-image: url('public/assets/img/bg.jpg');"></div>
 
-    </div>
-    <div class="bottom-wrapper wrapper">
-        <h2 class="intro">Our Team have been working on something Amazing <br/>We will be back soon.</h2>
-        <div id="subscribe">
-            <form method="POST" action="subscribe.php">
-                <p class="subscribe-input"><input type="text" name="Email" size="20" value="" placeholder="Subscribe your e-mail Id"><input type="submit" value="Submit" name="Submit"></p>
-            </form>
-
-            <div id="socialIcons">
-                <ul>
-                    <li><a href="" title="Twitter" class="twitterIcon"></a></li>
-                    <li><a href="" title="facebook" class="facebookIcon"></a></li>
-                    <li><a href="" title="linkedIn" class="linkedInIcon"></a></li>
-                    <li><a href="" title="Pintrest" class="pintrestIcon"></a></li>
-                </ul>
-            </div>
-        </div>
-        <span class="tempBy">&copy; 2019 All right reserved. <br/><a href="https://webthemez.com/tag/free" target="_blank">Free HTML Templates</a> By WebThemez.com</span>
-    </div>
 </div>
 
-<script src="assets/js/home/TweenLite.min.js"></script>
-<script src="assets/js/home/EasePack.min.js"></script>
-<script src="assets/js/home/rAF.js"></script>
-<script src="assets/js/home/demo-1.js"></script>
+<div class="size1 overlay1">
+    <!--  -->
+    <div class="size1 flex-col-c-m p-l-15 p-r-15 p-t-50 p-b-50">
+        <h3 class="l1-txt1 txt-center p-b-25">
+            Coming Soon
+        </h3>
+
+        <p class="m2-txt1 txt-center p-b-48">
+            Our website is under construction, follow us for update now!
+        </p>
+
+        <div class="flex-w flex-c-m cd100 p-b-33">
+            <div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
+                <span class="l2-txt1 p-b-9 days">35</span>
+                <span class="s2-txt1">Days</span>
+            </div>
+
+            <div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
+                <span class="l2-txt1 p-b-9 hours">17</span>
+                <span class="s2-txt1">Hours</span>
+            </div>
+
+            <div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
+                <span class="l2-txt1 p-b-9 minutes">50</span>
+                <span class="s2-txt1">Minutes</span>
+            </div>
+
+            <div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
+                <span class="l2-txt1 p-b-9 seconds">39</span>
+                <span class="s2-txt1">Seconds</span>
+            </div>
+        </div>
+
+        <form class="w-full flex-w flex-c-m validate-form">
+
+            <div class="wrap-input100 validate-input where1" data-validate = "Valid email is required: ex@abc.xyz">
+                <input class="input100 placeholder0 s2-txt2" type="text" name="email" placeholder="Enter Email Address">
+                <span class="focus-input100"></span>
+            </div>
 
 
-<!--Scripts-->
-<script type="text/javascript" src="assets/js/home/jquery-1.9.1.min.js"></script>
-<script type="text/javascript" src="assets/js/home/Backstretch.js"></script>
-<script type="text/javascript" src="assets/js/home/jquery.countdown.js"></script>
-<script type="text/javascript" src="assets/js/home/global.js"></script>
+            <button class="flex-c-m size3 s2-txt3 how-btn1 trans-04 where1">
+                Subscribe
+            </button>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+<!--===============================================================================================-->
+<script src="assets/vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+<script src="assets/vendor/bootstrap/js/popper.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+<script src="assets/vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+<script src="assets/vendor/countdowntime/moment.min.js"></script>
+<script src="assets/vendor/countdowntime/moment-timezone.min.js"></script>
+<script src="assets/vendor/countdowntime/moment-timezone-with-data.min.js"></script>
+<script src="assets/vendor/countdowntime/countdowntime.js"></script>
+<script>
+    $('.cd100').countdown100({
+        /*Set Endtime here*/
+        /*Endtime must be > current time*/
+        endtimeYear: 0,
+        endtimeMonth: 0,
+        endtimeDate: 35,
+        endtimeHours: 18,
+        endtimeMinutes: 0,
+        endtimeSeconds: 0,
+        timeZone: ""
+        // ex:  timeZone: "America/New_York"
+        //go to " http://momentjs.com/timezone/ " to get timezone
+    });
+</script>
+<!--===============================================================================================-->
+<script src="assets/vendor/tilt/tilt.jquery.min.js"></script>
+<script >
+    $('.js-tilt').tilt({
+        scale: 1.1
+    })
+</script>
+<!--===============================================================================================-->
+<script src="assets/js/home/main.js"></script>
 
 </body>
 </html>
