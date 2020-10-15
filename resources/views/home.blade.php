@@ -100,7 +100,7 @@
         endtimeHours: 18,
         endtimeMinutes: 0,
         endtimeSeconds: 0,
-        timeZone: "Africa/Cairo"
+        timeZone: ""
 
     });
 </script>
