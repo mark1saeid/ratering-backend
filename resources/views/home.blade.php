@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Coming Soon 2</title>
+    <title>RateRing</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--===============================================================================================-->
@@ -40,22 +40,22 @@
 
         <div class="flex-w flex-c-m cd100 p-b-33">
             <div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-                <span class="l2-txt1 p-b-9 days">35</span>
+                <span class="l2-txt1 p-b-9 days">60</span>
                 <span class="s2-txt1">Days</span>
             </div>
 
             <div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-                <span class="l2-txt1 p-b-9 hours">17</span>
+                <span class="l2-txt1 p-b-9 hours">0</span>
                 <span class="s2-txt1">Hours</span>
             </div>
 
             <div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-                <span class="l2-txt1 p-b-9 minutes">50</span>
+                <span class="l2-txt1 p-b-9 minutes">0</span>
                 <span class="s2-txt1">Minutes</span>
             </div>
 
             <div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-                <span class="l2-txt1 p-b-9 seconds">39</span>
+                <span class="l2-txt1 p-b-9 seconds">0</span>
                 <span class="s2-txt1">Seconds</span>
             </div>
         </div>
@@ -93,17 +93,14 @@
 <script src="assets/vendor/countdowntime/countdowntime.js"></script>
 <script>
     $('.cd100').countdown100({
-        /*Set Endtime here*/
-        /*Endtime must be > current time*/
         endtimeYear: 0,
         endtimeMonth: 0,
-        endtimeDate: 35,
-        endtimeHours: 18,
+        endtimeDate: 60,
+        endtimeHours: 0,
         endtimeMinutes: 0,
         endtimeSeconds: 0,
-        timeZone: ""
-        // ex:  timeZone: "America/New_York"
-        //go to " http://momentjs.com/timezone/ " to get timezone
+        timeZone: "Africa/Cairo"
+
     });
 </script>
 <!--===============================================================================================-->
