@@ -4,8 +4,7 @@
     <title>RateRing</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--===============================================================================================-->
-    <link rel="icon" type="image/png" href="assets/img/icons/favicon.ico"/>
+     <link rel="icon" type="image/png" href="assets/img/icons/rateringico.png"/>
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css">
     <!--===============================================================================================-->
@@ -98,7 +97,7 @@
         endtimeDate: 0,
         endtimeHours: 0,
         endtimeMinutes: 0,
-        endtimeSeconds: 0,
+        endtimeSeconds: 1,
         timeZone: "Africa/Cairo"
 
     });

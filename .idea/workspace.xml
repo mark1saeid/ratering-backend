@@ -20,121 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1eec28c9-5a34-4cb8-bd9d-a552bf9fa123" name="Default Changelist" comment="ss">
-      <change afterPath="$PROJECT_DIR$/public/assets/css/home/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/home/util.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/Lato/Lato-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/Lato/Lato-BlackItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/Lato/Lato-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/Lato/Lato-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/Lato/Lato-Hairline.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/Lato/Lato-HairlineItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/Lato/Lato-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/Lato/Lato-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/Lato/Lato-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/Lato/Lato-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/Lato/OFL.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/Poppins/Poppins-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/Poppins/Poppins-BlackItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/Poppins/Poppins-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/Poppins/Poppins-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/Poppins/Poppins-ExtraBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/Poppins/Poppins-ExtraBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/Poppins/Poppins-ExtraLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/Poppins/Poppins-ExtraLightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/Poppins/Poppins-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/Poppins/Poppins-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/Poppins/Poppins-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/Poppins/Poppins-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/Poppins/Poppins-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/Poppins/Poppins-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/Poppins/Poppins-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/Poppins/Poppins-SemiBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/Poppins/Poppins-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/Poppins/Poppins-ThinItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/bg01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/bg02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/bg03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/icons/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/icons/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/icons/video-16-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/home/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/countdowntime/countdowntime.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/countdowntime/moment-timezone-with-data.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/countdowntime/moment-timezone.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/countdowntime/moment.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/select2/select2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/select2/select2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/select2/select2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/select2/select2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/tilt/tilt.jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/home/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/home/overlays/01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/home/overlays/02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/home/overlays/03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/home/overlays/04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/home/overlays/05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/home/overlays/06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/home/overlays/07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/home/overlays/08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/home/overlays/09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/home/overlays/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/home/overlays/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/home/overlays/12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/home/overlays/13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/home/overlays/14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/home/overlays/15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/home/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/codropsicons/codropsicons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/codropsicons/codropsicons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/codropsicons/codropsicons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/codropsicons/codropsicons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/codropsicons/license.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/home/EasePack.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/home/TweenLite.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/home/demo-1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/home/global.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/home/jquery-1.9.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/home/jquery.countdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/home/rAF.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/home/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/home/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -315,42 +201,7 @@
       <workItem from="1601477892320" duration="376000" />
       <workItem from="1602594120666" duration="12289000" />
       <workItem from="1602691074360" duration="18087000" />
-      <workItem from="1602751965139" duration="15371000" />
-    </task>
-    <task id="LOCAL-00104" summary="remove connection">
-      <created>1602700549576</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1602700549576</updated>
-    </task>
-    <task id="LOCAL-00105" summary="remove connection">
-      <created>1602701115383</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1602701115383</updated>
-    </task>
-    <task id="LOCAL-00106" summary="remove connection">
-      <created>1602701498100</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1602701498100</updated>
-    </task>
-    <task id="LOCAL-00107" summary="remove connection">
-      <created>1602702012191</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1602702012191</updated>
-    </task>
-    <task id="LOCAL-00108" summary="remove connection">
-      <created>1602702140206</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1602702140206</updated>
+      <workItem from="1602751965139" duration="15770000" />
     </task>
     <task id="LOCAL-00109" summary="remove connection">
       <created>1602702725148</created>
@@ -660,7 +511,42 @@
       <option name="project" value="LOCAL" />
       <updated>1602769475995</updated>
     </task>
-    <option name="localTasksCounter" value="153" />
+    <task id="LOCAL-00153" summary="ss">
+      <created>1602769700107</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1602769700107</updated>
+    </task>
+    <task id="LOCAL-00154" summary="ss">
+      <created>1602769782060</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1602769782060</updated>
+    </task>
+    <task id="LOCAL-00155" summary="ss">
+      <created>1602769823401</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1602769823401</updated>
+    </task>
+    <task id="LOCAL-00156" summary="ss">
+      <created>1602769883905</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1602769883905</updated>
+    </task>
+    <task id="LOCAL-00157" summary="ss">
+      <created>1602770004013</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1602770004013</updated>
+    </task>
+    <option name="localTasksCounter" value="158" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -725,10 +611,10 @@
       <screen x="0" y="0" width="1024" height="779" />
     </state>
     <state width="981" height="135" key="GridCell.Tab.0.right/0.0.1024.779@0.0.1024.779" timestamp="1599594024670" />
-    <state x="105" y="123" key="Vcs.Push.Dialog.v2" timestamp="1602769477477">
+    <state x="105" y="123" key="Vcs.Push.Dialog.v2" timestamp="1602770005402">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
-    <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1602769477477" />
+    <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1602770005402" />
     <state x="330" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602600467391">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
