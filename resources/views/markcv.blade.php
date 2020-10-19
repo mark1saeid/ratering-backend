@@ -436,7 +436,7 @@
     </section><!-- End Portfolio Section -->
 
     <!-- ======= Testimonials Section ======= -->
-    <div class="testimonials paralax-mf bg-image" style="background-image: url(assets/img/mark/overlay-bg.jpg)">
+    <div class="testimonials paralax-mf bg-image" style="background-image: url(assets/img/overlay-bg.jpg)">
         <div class="overlay-mf"></div>
         <div class="container">
             <div class="row">
