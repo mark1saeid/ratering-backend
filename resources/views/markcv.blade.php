@@ -60,7 +60,7 @@
 </nav>
 
 <!-- ======= Intro Section ======= -->
-<div id="home" class="intro route bg-image" style="background-image: url(assets/img/markintro.jpg)">
+<div id="home" class="intro route bg-image" style="background-image: url(assets/img/mark/markintro.jpg)">
     <div class="overlay-itro"></div>
     <div class="intro-content display-table">
         <div class="table-cell">
@@ -87,7 +87,7 @@
                                 <div class="row">
                                     <div class="col-sm-6 col-md-5">
                                         <div class="about-img">
-                                            <img src="{{URL::asset('assets/img/markpp.jpg')}}" class="img-fluid rounded b-shadow-a" alt="">
+                                            <img src="{{URL::asset('assets/img/mark/markpp.jpg')}}" class="img-fluid rounded b-shadow-a" alt="">
                                         </div>
                                     </div>
                                     <div class="col-sm-6 col-md-7">
@@ -311,9 +311,9 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="work-box">
-                        <a href="{{URL::asset('assets/img/biostormf.jpg')}}" data-gall="portfolioGallery" class="venobox">
+                        <a href="{{URL::asset('assets/img/mark/biostormf.jpg')}}" data-gall="portfolioGallery" class="venobox">
                             <div class="work-img">
-                                <img src="{{URL::asset('assets/img/biostormf.jpg')}}" alt="" class="img-fluid">
+                                <img src="{{URL::asset('assets/img/mark/biostormf.jpg')}}" alt="" class="img-fluid">
                             </div>
                         </a>
                         <div class="work-content">
@@ -335,9 +335,9 @@
                 </div>
                 <div class="col-md-4">
                     <div class="work-box">
-                        <a href="{{URL::asset('assets/img/biostoms.jpg.jpg')}}" data-gall="portfolioGallery" class="venobox">
+                        <a href="{{URL::asset('assets/img/mark/biostoms.jpg.jpg')}}" data-gall="portfolioGallery" class="venobox">
                             <div class="work-img">
-                                <img src="{{URL::asset('assets/img/biostoms.jpg')}}" alt="" class="img-fluid">
+                                <img src="{{URL::asset('assets/img/mark/biostoms.jpg')}}" alt="" class="img-fluid">
                             </div>
                         </a>
                         <div class="work-content">
@@ -359,9 +359,9 @@
                 </div>
                 <div class="col-md-4">
                     <div class="work-box">
-                        <a href="{{URL::asset('assets/img/koracorner.jpg')}}" data-gall="portfolioGallery" class="venobox">
+                        <a href="{{URL::asset('assets/img/mark/koracorner.jpg')}}" data-gall="portfolioGallery" class="venobox">
                             <div class="work-img">
-                                <img src="{{URL::asset('assets/img/koracorner.jpg')}}" alt="" class="img-fluid">
+                                <img src="{{URL::asset('assets/img/mark/koracorner.jpg')}}" alt="" class="img-fluid">
                             </div>
                         </a>
                         <div class="work-content">
@@ -383,9 +383,9 @@
                 </div>
                 <div class="col-md-4">
                     <div class="work-box">
-                        <a href="{{URL::asset('assets/img/ratering.jpeg')}}" data-gall="portfolioGallery" class="venobox">
+                        <a href="{{URL::asset('assets/img/mark/ratering.jpeg')}}" data-gall="portfolioGallery" class="venobox">
                             <div class="work-img">
-                                <img src="{{URL::asset('assets/img/ratering.jpeg')}}" alt="" class="img-fluid">
+                                <img src="{{URL::asset('assets/img/mark/ratering.jpeg')}}" alt="" class="img-fluid">
                             </div>
                         </a>
                         <div class="work-content">
@@ -407,9 +407,9 @@
                 </div>
                 <div class="col-md-4">
                     <div class="work-box">
-                        <a href="{{URL::asset('assets/img/ratering.jpeg')}}" data-gall="portfolioGallery" class="venobox">
+                        <a href="{{URL::asset('assets/img/mark/ratering.jpeg')}}" data-gall="portfolioGallery" class="venobox">
                             <div class="work-img">
-                                <img src="{{URL::asset('assets/img/ratering.jpeg')}}" alt="" class="img-fluid">
+                                <img src="{{URL::asset('assets/img/mark/ratering.jpeg')}}" alt="" class="img-fluid">
                             </div>
                         </a>
                         <div class="work-content">
@@ -436,7 +436,7 @@
     </section><!-- End Portfolio Section -->
 
     <!-- ======= Testimonials Section ======= -->
-    <div class="testimonials paralax-mf bg-image" style="background-image: url(assets/img/overlay-bg.jpg)">
+    <div class="testimonials paralax-mf bg-image" style="background-image: url(assets/img/mark/overlay-bg.jpg)">
         <div class="overlay-mf"></div>
         <div class="container">
             <div class="row">
@@ -444,7 +444,7 @@
                     <div id="testimonial-mf" class="owl-carousel owl-theme">
                         <div class="testimonial-box">
                             <div class="author-test">
-                                <img src="{{URL::asset('assets/img/markpp.jpg')}}" alt="" class="rounded-circle b-shadow-a">
+                                <img src="{{URL::asset('assets/img/mark/markpp.jpg')}}" alt="" class="rounded-circle b-shadow-a">
                                 <span class="author">Mark Saeid</span>
                             </div>
                             <div class="content-test">
