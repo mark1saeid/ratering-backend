@@ -47,19 +47,20 @@ class Postcontrollers extends Controller
             if(!$file->isValid()) {
                 return response()->json(['invalid_file_upload'], 400);
             }
+            $characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+            $pin = mt_rand(1000000, 9999999)
+                . mt_rand(1000000, 9999999)
+                . $characters[rand(0, strlen($characters) - 1)];
+            $random = str_shuffle($pin);
+
+            $paths = $request->post_image->getClientOriginalName();
+
+            $path =$request->file('post_image')->move(public_path('/post/'.$random),$paths);
+            $imageurl = url('/post/'.$random.$paths);
         }
 
 
-        $characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-        $pin = mt_rand(1000000, 9999999)
-            . mt_rand(1000000, 9999999)
-            . $characters[rand(0, strlen($characters) - 1)];
-        $random = str_shuffle($pin);
 
-        $paths = $request->post_image->getClientOriginalName();
-
-        $path =$request->file('post_image')->move(public_path('/post/'.$random),$paths);
-        $imageurl = url('/post/'.$random.$paths);
 
 
 
