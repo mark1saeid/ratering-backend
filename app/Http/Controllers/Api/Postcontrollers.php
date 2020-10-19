@@ -57,6 +57,8 @@ class Postcontrollers extends Controller
 
             $path =$request->file('post_image')->move(public_path('/post/'.$random),$paths);
             $imageurl = url('/post/'.$random.$paths);
+        }else{
+            $imageurl = null;
         }
 
 
