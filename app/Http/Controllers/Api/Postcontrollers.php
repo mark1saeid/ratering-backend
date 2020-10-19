@@ -35,7 +35,7 @@ class Postcontrollers extends Controller
         $validator = Validator::make($request->all(), [
             'post_text' => 'string',
             'post_link' => 'string|unique:posts',
-            'post_image' => 'mimes:jpeg,jpg,png,gif|required|max:10000|unique:posts',
+            'post_image' => 'mimes:jpeg,jpg,png,gif|max:10000|unique:posts',
         ]);
 
         if($validator->fails()){
