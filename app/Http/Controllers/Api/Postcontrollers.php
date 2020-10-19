@@ -43,9 +43,12 @@ class Postcontrollers extends Controller
         }
 
         $file = $request->file('post_image');
-        if(!$file->isValid()) {
-            return response()->json(['invalid_file_upload'], 400);
+        if ($file){
+            if(!$file->isValid()) {
+                return response()->json(['invalid_file_upload'], 400);
+            }
         }
+
 
         $characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
         $pin = mt_rand(1000000, 9999999)
