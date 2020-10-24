@@ -20,15 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1eec28c9-5a34-4cb8-bd9d-a552bf9fa123" name="Default Changelist" comment="ss">
-      <change afterPath="$PROJECT_DIR$/public/assets/img/samer/1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/samer/2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/samer/3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/samer/4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/samer/5.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/samer/samerbac.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/samer/samerpp.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/samercv.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/eloncv.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/samercv.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/samercv.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,13 +156,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets/img/samer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\RATEME\public\assets\img\samer" />
       <recent name="C:\wamp64\www\RATEME\resources\views" />
+      <recent name="C:\wamp64\www\RATEME\public\assets\img\samer" />
       <recent name="C:\wamp64\www\RATEME\public\assets" />
       <recent name="C:\wamp64\www\RATEME\public\assets\css\home" />
       <recent name="C:\wamp64\www\RATEME\public\assets\img" />
@@ -211,14 +206,7 @@
       <workItem from="1602691074360" duration="18087000" />
       <workItem from="1602751965139" duration="18169000" />
       <workItem from="1603111458485" duration="4845000" />
-      <workItem from="1603500232300" duration="2403000" />
-    </task>
-    <task id="LOCAL-00131" summary="ss">
-      <created>1602758833799</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
-      <option name="project" value="LOCAL" />
-      <updated>1602758833799</updated>
+      <workItem from="1603500232300" duration="3387000" />
     </task>
     <task id="LOCAL-00132" summary="ss">
       <created>1602759686684</created>
@@ -556,7 +544,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603121955246</updated>
     </task>
-    <option name="localTasksCounter" value="180" />
+    <task id="LOCAL-00180" summary="s">
+      <created>1603506459947</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1603506459948</updated>
+    </task>
+    <option name="localTasksCounter" value="181" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -579,10 +574,10 @@
     <MESSAGE value="hhsss" />
     <MESSAGE value="h" />
     <MESSAGE value="remove connection" />
-    <MESSAGE value="s" />
     <MESSAGE value="ss" />
     <MESSAGE value="mark" />
-    <option name="LAST_COMMIT_MESSAGE" value="mark" />
+    <MESSAGE value="s" />
+    <option name="LAST_COMMIT_MESSAGE" value="s" />
   </component>
   <component name="WindowStateProjectService">
     <state x="262" y="192" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602758537893">
@@ -621,10 +616,10 @@
       <screen x="0" y="0" width="1024" height="779" />
     </state>
     <state width="981" height="135" key="GridCell.Tab.0.right/0.0.1024.779@0.0.1024.779" timestamp="1599594024670" />
-    <state x="105" y="123" key="Vcs.Push.Dialog.v2" timestamp="1603121956598">
+    <state x="105" y="123" key="Vcs.Push.Dialog.v2" timestamp="1603506474727">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
-    <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1603121956598" />
+    <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1603506474727" />
     <state x="330" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602600467391">
       <screen x="0" y="0" width="1024" height="779" />
     </state>

@@ -22,3 +22,6 @@ Route::get('/marksaeid', function () {
 Route::get('/samermohamed', function () {
     return view('samercv');
 });
+Route::get('/ahmedmohamed', function () {
+    return view('eloncv');
+});

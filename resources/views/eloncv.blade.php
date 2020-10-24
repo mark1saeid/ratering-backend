@@ -60,14 +60,14 @@
 </nav>
 
 <!-- ======= Intro Section ======= -->
-<div id="home" class="intro route bg-image" style="background-image: url(assets/img/samer/samerbac.jpeg)">
+<div id="home" class="intro route bg-image" style="background-image: url(assets/img/elon/elonbac.jpeg)">
     <div class="overlay-itro"></div>
     <div class="intro-content display-table">
         <div class="table-cell">
             <div class="container">
                 <!--<p class="display-6 color-d">Hello, world!</p>-->
-                <h1 class="intro-title mb-4">I am Samer Mohammed</h1>
-                <p class="intro-subtitle"><span class="text-slider-items">Ios Developer,UI/UX Designer</span><strong class="text-slider"></strong></p>
+                <h1 class="intro-title mb-4">I am Ahmed Mohamed</h1>
+                <p class="intro-subtitle"><span class="text-slider-items">Ios Developer,Desktop Application Developer</span><strong class="text-slider"></strong></p>
                 <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
             </div>
         </div>
@@ -87,21 +87,21 @@
                                 <div class="row">
                                     <div class="col-sm-6 col-md-5">
                                         <div class="about-img">
-                                            <img src="{{URL::asset('assets/img/samer/samerpp.jpeg')}}" class="img-fluid rounded b-shadow-a" alt="">
+                                            <img src="{{URL::asset('assets/img/elon/elonpp.jpg')}}" class="img-fluid rounded b-shadow-a" alt="">
                                         </div>
                                     </div>
                                     <div class="col-sm-6 col-md-7">
                                         <div class="about-info">
-                                            <p><span class="title-s">Name: </span> <span>Samer Mohammed</span></p>
-                                            <p><span class="title-s">Profile: </span> <span>Ios Developer</span></p>
-                                            <p><span class="title-s">Email: </span> <span>samercore2@gmail.com</span></p>
-                                            <p><span class="title-s">Phone: </span> <span>+20 115 347 8497</span></p>
+                                            <p><span class="title-s">Name: </span> <span>Ahmed Mohamed</span></p>
+                                            <p><span class="title-s">Profile: </span> <span>IOS developer </span></p>
+                                            <p><span class="title-s">Email: </span> <span>ahmedelonn00@gmail.com</span></p>
+                                            <p><span class="title-s">Phone: </span> <span>+201066075306</span></p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="skill-mf">
                                     <p class="title-s">Skill</p>
-                                    <span>Java</span> <span class="pull-right">70%</span>
+                                    <span>Objective C</span> <span class="pull-right">70%</span>
                                     <div class="progress">
                                         <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
@@ -113,9 +113,9 @@
                                     <div class="progress">
                                         <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
-                                    <span>C++</span> <span class="pull-right">75%</span>
+                                    <span>Ios Development</span> <span class="pull-right">85%</span>
                                     <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                     <span>Desktop Application Development</span> <span class="pull-right">85%</span>
                                     <div class="progress">
@@ -124,10 +124,6 @@
                                     <span>XD</span> <span class="pull-right">75%</span>
                                     <div class="progress">
                                         <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <span>UI/UX Design</span> <span class="pull-right">70%</span>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                 </div>
                             </div>
@@ -139,14 +135,8 @@
                                         </h5>
                                     </div>
                                     <p class="lead">
-                                        Iam Samer, live in Cairo,Egypt i currently work on my projects as a freelancer
-                                    </p>
-                                    <p class="lead">
-                                        I started my programming career by desktop application development by C # Then shifted to android Development Finnal iOS Development
+                                        I'm Ahmed Mohamed. I live in Cairo - Egypt. I work as a freelance iOS developer on Upwork. I help you to convert your specific idea into application. I have 2 years of experience working with swift and I do alot of small applications . Now I wish to use my skills to develop a great application that be useful to the humanity.
                                    </p>
-                                    <p class="lead">
-                                        my goal is to make my Owen project and my Owen app that helping many people
-                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -224,7 +214,7 @@
                             <span class="ico-circle"><i class="ion-checkmark-round"></i></span>
                         </div>
                         <div class="counter-num">
-                            <p class="counter">5</p>
+                            <p class="counter">12</p>
                             <span class="counter-text">WORKS COMPLETED</span>
                         </div>
                     </div>
@@ -246,7 +236,7 @@
                             <span class="ico-circle"><i class="ion-ios-people"></i></span>
                         </div>
                         <div class="counter-num">
-                            <p class="counter">12</p>
+                            <p class="counter">22</p>
                             <span class="counter-text">TOTAL CLIENTS</span>
                         </div>
                     </div>
@@ -257,7 +247,7 @@
                             <span class="ico-circle"><i class="ion-ribbon-a"></i></span>
                         </div>
                         <div class="counter-num">
-                            <p class="counter">2</p>
+                            <p class="counter">4</p>
                             <span class="counter-text">AWARD WON</span>
                         </div>
                     </div>
@@ -417,12 +407,11 @@
                     <div id="testimonial-mf" class="owl-carousel owl-theme">
                         <div class="testimonial-box">
                             <div class="author-test">
-                                <img src="{{URL::asset('assets/img/samer/samerpp.jpeg')}}" alt="" class="rounded-circle b-shadow-a">
-                                <span class="author">Samer Mohammed</span>
+                                <img src="{{URL::asset('assets/img/elon/elonpp.jpeg')}}" alt="" class="rounded-circle b-shadow-a">
+                                <span class="author">Ahmed Mohamed</span>
                             </div>
                             <div class="content-test">
                                 <p class="description lead">
-
                                 </p>
                                 <span class="comit"><i class="fa fa-quote-right"></i></span>
                             </div>
@@ -499,16 +488,16 @@
 
                                         </p>
                                         <ul class="list-ico">
-                                           <li><span class="ion-ios-telephone"></span>+20 115 347 8497</li>
-                                            <li><span class="ion-email"></span>samercore2@gmail.com</li>
+                                           <li><span class="ion-ios-telephone"></span>+201066075306</li>
+                                            <li><span class="ion-email"></span>ahmedelonn00@gmail.com</li>
                                         </ul>
                                     </div>
                                     <div class="socials">
                                         <ul>
-                                            <li><a href="https://www.facebook.com/samer.m.sameh10/"><span class="ico-circle"><i class="ion-social-facebook"></i></span></a></li>
-                                            <li><a href="https://www.instagram.com/samer.m.sameh/"><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
-                                            <li><a href="https://www.linkedin.com/in/samerms/"><span class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
-                                            <li><a href="https://github.com/samer747"><span class="ico-circle"><i class="ion-social-github"></i></span></a></li>
+                                            <li><a href="https://www.facebook.com/AhMed.Elonn"><span class="ico-circle"><i class="ion-social-facebook"></i></span></a></li>
+                                            <li><a href="https://www.instagram.com/ahmedelonn"><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
+                                            <li><a href="#"><span class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
+                                            <li><a href="#"><span class="ico-circle"><i class="ion-social-github"></i></span></a></li>
                                         </ul>
                                     </div>
                                 </div>
