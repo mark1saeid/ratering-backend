@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::get('/marksaeid', function () {
     return view('markcv');
 });
+Route::get('/samermohamed', function () {
+    return view('samercv');
+});
