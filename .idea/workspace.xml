@@ -20,6 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1eec28c9-5a34-4cb8-bd9d-a552bf9fa123" name="Default Changelist" comment="ss">
+      <change afterPath="$PROJECT_DIR$/public/assets/img/elon/elonbac.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/elon/elonpp.jpeg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/views/eloncv.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/samercv.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/samercv.blade.php" afterDir="false" />
@@ -156,16 +158,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets/img/elon" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\RATEME\public\assets\img\elon" />
       <recent name="C:\wamp64\www\RATEME\resources\views" />
       <recent name="C:\wamp64\www\RATEME\public\assets\img\samer" />
       <recent name="C:\wamp64\www\RATEME\public\assets" />
       <recent name="C:\wamp64\www\RATEME\public\assets\css\home" />
-      <recent name="C:\wamp64\www\RATEME\public\assets\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\RATEME\public\assets\img\mark" />
@@ -206,14 +208,7 @@
       <workItem from="1602691074360" duration="18087000" />
       <workItem from="1602751965139" duration="18169000" />
       <workItem from="1603111458485" duration="4845000" />
-      <workItem from="1603500232300" duration="3387000" />
-    </task>
-    <task id="LOCAL-00132" summary="ss">
-      <created>1602759686684</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
-      <option name="project" value="LOCAL" />
-      <updated>1602759686684</updated>
+      <workItem from="1603500232300" duration="3703000" />
     </task>
     <task id="LOCAL-00133" summary="ss">
       <created>1602759809743</created>
@@ -551,7 +546,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603506459948</updated>
     </task>
-    <option name="localTasksCounter" value="181" />
+    <task id="LOCAL-00181" summary="s">
+      <created>1603507675341</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1603507675341</updated>
+    </task>
+    <option name="localTasksCounter" value="182" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
