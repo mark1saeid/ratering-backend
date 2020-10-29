@@ -20,12 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1eec28c9-5a34-4cb8-bd9d-a552bf9fa123" name="Default Changelist" comment="ss">
-      <change afterPath="$PROJECT_DIR$/public/assets/img/elon/elonbac.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/elon/elonpp.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/eloncv.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/samercv.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/samercv.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/Postcontrollers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/Postcontrollers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_05_145222_post.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_05_145222_post.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +155,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets/img/elon" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -209,13 +206,7 @@
       <workItem from="1602751965139" duration="18169000" />
       <workItem from="1603111458485" duration="4845000" />
       <workItem from="1603500232300" duration="3703000" />
-    </task>
-    <task id="LOCAL-00133" summary="ss">
-      <created>1602759809743</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1602759809743</updated>
+      <workItem from="1603985894317" duration="411000" />
     </task>
     <task id="LOCAL-00134" summary="ss">
       <created>1602760038901</created>
@@ -553,7 +544,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603507675341</updated>
     </task>
-    <option name="localTasksCounter" value="182" />
+    <task id="LOCAL-00182" summary="s">
+      <created>1603986285682</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1603986285683</updated>
+    </task>
+    <option name="localTasksCounter" value="183" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
