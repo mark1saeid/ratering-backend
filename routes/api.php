@@ -31,7 +31,7 @@ Route::group(['middleware'=>['api','apiadmin'],'prefix' => 'auth','namespace'=>'
     Route::get('{pid}/posts/{id}','Postcontrollers@find');
     Route::post('posts/create','Postcontrollers@create');
 
-    Route::post('posts/create/im','Postcontrollers@uploadTest');
+
 
     //comments
     Route::get('posts/{id}/comments','CommentControllers@all');

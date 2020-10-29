@@ -80,10 +80,10 @@ class Postcontrollers extends Controller
                 . $characters[rand(0, strlen($characters) - 1)];
             $random = str_shuffle($pin);
 
-            $video_paths = $request->post_video->getClientOriginalName();
+            $video_name = $request->post_video->getClientOriginalName();
 
-            $video_path =$request->file('post_video')->move(public_path('/post/video/'.$random),$video_paths);
-            $video_url = url('/post/video/'.$random.$video_paths);
+            $video_path =$request->file('post_video')->move(public_path('/post/video/'.$random),$video_name);
+            $video_url = url('/post/video/'.$random.$video_name);
         }else{
             $video_url = null;
         }
@@ -114,19 +114,7 @@ class Postcontrollers extends Controller
         ], 201);
     }
 
-    public function uploadTest(Request $request) {
 
-        if(!$request->hasFile('image')) {
-            return response()->json(['upload_file_not_found'], 400);
-        }
-        $file = $request->file('image');
-        if(!$file->isValid()) {
-            return response()->json(['invalid_file_upload'], 400);
-        }
-        $path = public_path() . '/uploads/images/store/';
-        $file->move($path, $file->getClientOriginalName());
-        return response()->json(compact('path'));
-    }
 
 
 
