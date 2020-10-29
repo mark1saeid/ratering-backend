@@ -56,8 +56,8 @@ class Postcontrollers extends Controller
 
             $image_paths = $request->post_image->getClientOriginalName();
 
-            $image_path =$request->file('post_image')->move(public_path('/post/'.$random),$image_paths);
-            $image_url = url('/post/'.$random.$image_paths);
+            $image_path =$request->file('post_image')->move(public_path('/post/image/'.$random),$image_paths);
+            $image_url = url('/post/image/'.$random.$image_paths);
         }else{
             $image_url = null;
         }
@@ -79,8 +79,8 @@ class Postcontrollers extends Controller
 
             $video_paths = $request->post_video->getClientOriginalName();
 
-            $video_path =$request->file('post_video')->move(public_path('/post/'.$random),$video_paths);
-            $video_url = url('/post/'.$random.$video_paths);
+            $video_path =$request->file('post_video')->move(public_path('/post/video/'.$random),$video_paths);
+            $video_url = url('/post/video/'.$random.$video_paths);
         }else{
             $video_url = null;
         }
