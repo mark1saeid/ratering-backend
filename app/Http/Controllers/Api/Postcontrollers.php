@@ -104,6 +104,7 @@ class Postcontrollers extends Controller
                 'post_text' => $request->post_text,
                 'post_video' => $video_url
 
+
             ]
         ));
 
