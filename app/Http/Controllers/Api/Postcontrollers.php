@@ -43,6 +43,9 @@ class Postcontrollers extends Controller
             return response()->json($validator->errors()->toJson(), 400);
         }
 
+
+
+
         $image_file = $request->file('post_image');
         if ($image_file){
             if(!$image_file->isValid()) {
@@ -66,9 +69,9 @@ class Postcontrollers extends Controller
 
 
 
-        $vide_file = $request->file('post_video');
-        if ($vide_file){
-            if(!$vide_file->isValid()) {
+        $video_file = $request->file('post_video');
+        if ($video_file){
+            if(!$video_file->isValid()) {
                 return response()->json(['invalid_file_upload'], 400);
             }
             $characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
