@@ -114,6 +114,20 @@ class Postcontrollers extends Controller
         ], 201);
     }
 
+    public function uploadTest(Request $request) {
+
+        if(!$request->hasFile('image')) {
+            return response()->json(['upload_file_not_found'], 400);
+        }
+        $file = $request->file('image');
+        if(!$file->isValid()) {
+            return response()->json(['invalid_file_upload'], 400);
+        }
+        $path = public_path() . '/uploads/images/store/';
+        $file->move($path, $file->getClientOriginalName());
+        return response()->json(compact('path'));
+    }
+
 
 
 }
