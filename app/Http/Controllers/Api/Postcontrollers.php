@@ -57,10 +57,10 @@ class Postcontrollers extends Controller
                 . $characters[rand(0, strlen($characters) - 1)];
             $random = str_shuffle($pin);
 
-            $image_paths = $request->post_image->getClientOriginalName();
+            $image_name = $request->post_image->getClientOriginalName();
 
-            $image_path =$request->file('post_image')->move(public_path('/post/image/'.$random),$image_paths);
-            $image_url = url('/post/image/'.$random.$image_paths);
+            $image_paths =$request->file('post_image')->move(public_path('/post/image/'.$random),$image_name);
+            $image_url = url('/post/image/'.$random.$image_name);
         }else{
             $image_url = null;
         }
