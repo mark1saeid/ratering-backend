@@ -57,9 +57,9 @@ class Postcontrollers extends Controller
                 . $characters[rand(0, strlen($characters) - 1)];
             $random = str_shuffle($pin);
 
-            $image_name = $request->post_image->getClientOriginalName();
+            $image_name = $request->file('post_image')->getClientOriginalName();
 
-            $image_paths =$request->file('post_image')->move(public_path('/post/image/'.$random),$image_name);
+            $image_paths =$request->file('post_image')->move(public_path('/post/image/'),$random.$image_name);
             $image_url = url('/post/image/'.$random.$image_name);
         }else{
             $image_url = null;
@@ -98,7 +98,6 @@ class Postcontrollers extends Controller
             $validator->validated(),
             [   'post_rating' => '0',
                 'publisher_id'=> $id,
-                'publisher_username' => $username ,
                 'post_link' => $request->post_link ,
                 'post_image' => $image_url ,
                 'post_text' => $request->post_text,
