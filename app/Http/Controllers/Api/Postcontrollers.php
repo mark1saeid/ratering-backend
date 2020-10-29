@@ -42,9 +42,9 @@ class Postcontrollers extends Controller
             return response()->json($validator->errors()->toJson(), 400);
         }
 
-        $file = $request->file('post_image');
-        if ($file){
-            if(!$file->isValid()) {
+        $image_file = $request->file('post_image');
+        if ($image_file){
+            if(!$image_file->isValid()) {
                 return response()->json(['invalid_file_upload'], 400);
             }
             $characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
@@ -53,13 +53,37 @@ class Postcontrollers extends Controller
                 . $characters[rand(0, strlen($characters) - 1)];
             $random = str_shuffle($pin);
 
-            $paths = $request->post_image->getClientOriginalName();
+            $image_paths = $request->post_image->getClientOriginalName();
 
-            $path =$request->file('post_image')->move(public_path('/post/'.$random),$paths);
-            $imageurl = url('/post/'.$random.$paths);
+            $image_path =$request->file('post_image')->move(public_path('/post/'.$random),$image_paths);
+            $image_url = url('/post/'.$random.$image_paths);
         }else{
-            $imageurl = null;
+            $image_url = null;
         }
+
+
+
+
+
+        $vide_file = $request->file('post_video');
+        if ($vide_file){
+            if(!$vide_file->isValid()) {
+                return response()->json(['invalid_file_upload'], 400);
+            }
+            $characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+            $pin = mt_rand(1000000, 9999999)
+                . mt_rand(1000000, 9999999)
+                . $characters[rand(0, strlen($characters) - 1)];
+            $random = str_shuffle($pin);
+
+            $video_paths = $request->post_video->getClientOriginalName();
+
+            $video_path =$request->file('post_video')->move(public_path('/post/'.$random),$video_paths);
+            $video_url = url('/post/'.$random.$video_paths);
+        }else{
+            $video_url = null;
+        }
+
 
 
 
@@ -72,8 +96,10 @@ class Postcontrollers extends Controller
                 'publisher_id'=> $id,
                 'publisher_username' => $username ,
                 'post_link' => $request->post_link ,
-                'post_image' => $imageurl ,
-                'post_text' => $request->post_text
+                'post_image' => $image_url ,
+                'post_text' => $request->post_text,
+                'post_video' => $video_url
+
             ]
         ));
 

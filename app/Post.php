@@ -12,7 +12,7 @@ protected $table ='posts';
     protected $fillable = [
         'id', 'publisher_id', 'post_text',
         'post_rating', 'post_link','publisher_username',
-        'post_image',
+        'post_image', 'post_video',
     ];
 
 

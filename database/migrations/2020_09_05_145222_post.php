@@ -15,6 +15,7 @@ class Post extends Migration
             $table->string('post_text')->nullable();
             $table->string('post_link')->nullable();
             $table->string('post_image')->nullable();
+            $table->string('post_video')->nullable();
             $table->string('publisher_username');
             $table->timestamps();
         });
