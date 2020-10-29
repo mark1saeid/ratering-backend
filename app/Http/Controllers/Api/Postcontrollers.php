@@ -82,7 +82,7 @@ class Postcontrollers extends Controller
 
             $video_name = $request->post_video->getClientOriginalName();
 
-            $video_path =$request->file('post_video')->move(public_path('/post/video/'.$random),$video_name);
+            $video_path =$request->file('post_video')->move(public_path('/post/video/'),$random.$video_name);
             $video_url = url('/post/video/'.$random.$video_name);
         }else{
             $video_url = null;
