@@ -66,7 +66,7 @@ class CommentControllers extends Controller
             ]
         ));
 
-        $post_id = Post::all()->where('post_id',$pid )->first();
+        $post_id = Post::all()->where('post_id',$pid );
         $post_publisher_id = $post_id->publisher_id;
         $post_publisher = User::all()->where('id' ,$post_publisher_id)->first();
         $current_point = $post_publisher->point;
