@@ -51,11 +51,9 @@ class CommentControllers extends Controller
           }
 
       }else{
-            $counter = 1;
-            $logic = $sublogic/$counter;
           $s =  Post::all()->where('id' ,$pid )->first();
           if ($s){
-              $s->update(['post_rating'=> $logic
+              $s->update(['post_rating'=> $request->post_rate
               ]);
           }
       }
