@@ -11,6 +11,14 @@ class Comment extends Model
     protected $table ='comments';
     protected $fillable = [
         'id', 'publisher_id', 'comment_text',
-        'post_id','post_rate',
+        'post_id','post_rate',  'created_at','updated_at',
     ];
+    public function getCreatedAtAttribute($attr) {
+        return Carbon::parse($attr)->format('M D, Y h:mm A'); //Change the format to whichever you desire
+    }
+
+    public function getUpdatedAtAttribute($attr)
+    {
+        return Carbon::parse($attr)->format('M D, Y h:mm A'); //Change the format to whichever you desire
+    }
 }

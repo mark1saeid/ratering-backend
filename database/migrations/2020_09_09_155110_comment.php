@@ -14,7 +14,9 @@ class Comment extends Migration
             $table->string('comment_text')->nullable();
             $table->string('post_id');
             $table->string('post_rate');
-            $table->timestamps();
+            //  $table->timestamps();
+            $table->date('created_at');
+            $table->date('updated_at');
         });
     }
 
