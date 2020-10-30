@@ -15,11 +15,11 @@ class Star extends Model
 
     ];
     public function getCreatedAtAttribute($attr) {
-        return Carbon::parse($attr)->format('M D, Y h:mm A'); //Change the format to whichever you desire
+        return Carbon::parse($attr)->format('M D, Y h:m A'); //Change the format to whichever you desire
     }
 
     public function getUpdatedAtAttribute($attr)
     {
-        return Carbon::parse($attr)->format('M D, Y h:mm A'); //Change the format to whichever you desire
+        return Carbon::parse($attr)->format('M D, Y h:m A'); //Change the format to whichever you desire
     }
 }

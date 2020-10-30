@@ -15,11 +15,11 @@ class Comment extends Model
         'post_id','post_rate',  'created_at','updated_at',
     ];
     public function getCreatedAtAttribute($attr) {
-        return Carbon::parse($attr)->format('M D, Y h:mm A'); //Change the format to whichever you desire
+        return Carbon::parse($attr)->format('M D, Y h:m A'); //Change the format to whichever you desire
     }
 
     public function getUpdatedAtAttribute($attr)
     {
-        return Carbon::parse($attr)->format('M D, Y h:mm A'); //Change the format to whichever you desire
+        return Carbon::parse($attr)->format('M D, Y h:m A'); //Change the format to whichever you desire
     }
 }
