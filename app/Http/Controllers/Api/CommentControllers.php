@@ -51,7 +51,7 @@ class CommentControllers extends Controller
           }
 
       }else{
-            $counter = 0;
+            $counter = 1;
             $logic = $sublogic/$counter;
           $s =  Post::all()->where('id' ,$pid )->first();
           if ($s){
