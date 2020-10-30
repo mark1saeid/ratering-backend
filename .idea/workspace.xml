@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eec28c9-5a34-4cb8-bd9d-a552bf9fa123" name="Default Changelist" comment="ss" />
+    <list default="true" id="1eec28c9-5a34-4cb8-bd9d-a552bf9fa123" name="Default Changelist" comment="ss">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -203,13 +205,7 @@
       <workItem from="1603111458485" duration="4845000" />
       <workItem from="1603500232300" duration="3703000" />
       <workItem from="1603985894317" duration="4976000" />
-    </task>
-    <task id="LOCAL-00143" summary="ss">
-      <created>1602764503589</created>
-      <option name="number" value="00143" />
-      <option name="presentableId" value="LOCAL-00143" />
-      <option name="project" value="LOCAL" />
-      <updated>1602764503589</updated>
+      <workItem from="1604053010867" duration="4457000" />
     </task>
     <task id="LOCAL-00144" summary="ss">
       <created>1602765009279</created>
@@ -547,7 +543,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603990958717</updated>
     </task>
-    <option name="localTasksCounter" value="192" />
+    <task id="LOCAL-00192" summary="up">
+      <created>1604060775946</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1604060775946</updated>
+    </task>
+    <option name="localTasksCounter" value="193" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -573,7 +576,8 @@
     <MESSAGE value="ss" />
     <MESSAGE value="mark" />
     <MESSAGE value="s" />
-    <option name="LAST_COMMIT_MESSAGE" value="s" />
+    <MESSAGE value="up" />
+    <option name="LAST_COMMIT_MESSAGE" value="up" />
   </component>
   <component name="WindowStateProjectService">
     <state x="262" y="192" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602758537893">
@@ -584,10 +588,10 @@
       <screen x="0" y="0" width="1024" height="779" />
     </state>
     <state x="290" y="187" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1024.779@0.0.1024.779" timestamp="1602764627237" />
-    <state x="243" y="145" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1602603192160">
+    <state x="243" y="145" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1604058108108">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
-    <state x="243" y="145" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1024.779@0.0.1024.779" timestamp="1602603192160" />
+    <state x="243" y="145" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1024.779@0.0.1024.779" timestamp="1604058108108" />
     <state x="289" y="303" key="ComposerInitDialogKey" timestamp="1599677900634">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
@@ -612,10 +616,10 @@
       <screen x="0" y="0" width="1024" height="779" />
     </state>
     <state width="981" height="135" key="GridCell.Tab.0.right/0.0.1024.779@0.0.1024.779" timestamp="1599594024670" />
-    <state x="105" y="123" key="Vcs.Push.Dialog.v2" timestamp="1603990959819">
+    <state x="105" y="123" key="Vcs.Push.Dialog.v2" timestamp="1604060779498">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
-    <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1603990959819" />
+    <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1604060779498" />
     <state x="330" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602600467391">
       <screen x="0" y="0" width="1024" height="779" />
     </state>

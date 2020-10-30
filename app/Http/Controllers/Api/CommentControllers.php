@@ -42,7 +42,12 @@ class CommentControllers extends Controller
         $rater1sum = Comment::all()->where("post_id" , $pid)->where("post_rate" , '1')->count();
         $counter = Comment::all()->where("post_id" , $pid)->count();
         $sublogic = (5*$rater5sum) + (4*$rater4sum) + (3*$rater3sum)+ (2*$rater2sum)+ (1*$rater1sum);
-        $logic = $sublogic/$counter;
+      if ($counter!=0){
+          $logic = $sublogic/$counter;
+      }else{
+          $logic = $request->post_rate;
+      }
+
 
         $s =  Post::all()->where('id' ,$pid )->first();
         if ($s){

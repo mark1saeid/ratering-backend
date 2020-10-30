@@ -61,7 +61,13 @@ $counter = Star::all()->where("to_id" , $to_id)->count();
 
 $sublogic = (5*$rater5sum) + (4*$rater4sum) + (3*$rater3sum)+ (2*$rater2sum)+ (1*$rater1sum);
 
-$logic = $sublogic/$counter;
+if ($counter!= 0){
+    $logic = $sublogic/$counter;
+}
+else{
+    $logic = $request->rate;
+}
+
 
 
 
