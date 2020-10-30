@@ -54,13 +54,12 @@ class User extends Authenticatable implements JWTSubject
     }
 
 
-    public function getCreatedAtAttribute($date)
-    {
-        return Carbon::createFromFormat('Y-m-d H:i:s', $date)->format('MMMM D, YYYY h:mm A');
+    public function getCreatedAtAttribute($attr) {
+        return Carbon::parse($attr)->format('d/m/Y - h:ia'); //Change the format to whichever you desire
     }
 
-    public function getUpdatedAtAttribute($date)
+    public function getUpdatedAtAttribute($attr)
     {
-        return Carbon::createFromFormat('Y-m-d H:i:s', $date)->format('MMMM D, YYYY h:mm A');
+        return Carbon::parse($attr)->format('d/m/Y - h:ia'); //Change the format to whichever you desire
     }
 }
