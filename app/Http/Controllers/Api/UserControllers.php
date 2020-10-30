@@ -60,7 +60,8 @@ use GeneralTrait;
         $user = User::create(array_merge(
             $validator->validated(),
             ['password' => bcrypt($request->password)],
-            ['rating' => '0']
+            ['rating' => '0'],
+            ['point' => '0']
 
         ));
 

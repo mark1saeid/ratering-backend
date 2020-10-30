@@ -13,6 +13,7 @@ class Comment extends Migration
             $table->string('publisher_id');
             $table->string('comment_text')->nullable();
             $table->string('post_id');
+            $table->string('post_rate');
             $table->timestamps();
         });
     }

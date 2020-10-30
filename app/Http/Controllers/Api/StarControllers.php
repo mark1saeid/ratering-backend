@@ -70,7 +70,6 @@ $s =  User::all()->where('id' ,$request->get('to_id') )->first();
             $s->update(['rating'=> $logic]);
             return response()->json([
                 'message' => 'Done Successfully ',
-              //  'rate' => $count
             ], 201);
         }
         else{
