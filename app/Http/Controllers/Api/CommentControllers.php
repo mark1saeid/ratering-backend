@@ -58,11 +58,7 @@ class CommentControllers extends Controller
       }
 
 
-        $s =  Post::all()->where('id' ,$pid )->first();
-        if ($s){
-            $s->update(['post_rating'=> $logic
-            ]);
-        }
+
 
 
 
