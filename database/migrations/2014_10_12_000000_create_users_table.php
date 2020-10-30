@@ -27,15 +27,15 @@ class CreateUsersTable extends Migration
             $table->string('email')->unique();
             $table->string('phone')->unique();
             $table->string('password');
-            $table->timestamps();
+          //  $table->timestamps();
+            $table->date('created_at');
+            $table->date('updated_at');
         });
     }
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
+
+
+
     public function down()
     {
         Schema::dropIfExists('users');
