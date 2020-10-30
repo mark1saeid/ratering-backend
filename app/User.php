@@ -60,6 +60,6 @@ class User extends Authenticatable implements JWTSubject
 
     public function getUpdatedAtAttribute($attr)
     {
-        return Carbon::parse($attr)->format('MMMM D, YYYY h:mm A'); //Change the format to whichever you desire
+        return Carbon::parse($attr)->format('M D, Y h:mm A'); //Change the format to whichever you desire
     }
 }
