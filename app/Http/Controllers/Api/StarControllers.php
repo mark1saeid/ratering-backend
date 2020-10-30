@@ -63,26 +63,38 @@ $sublogic = (5*$rater5sum) + (4*$rater4sum) + (3*$rater3sum)+ (2*$rater2sum)+ (1
 
 if ($counter!= 0){
     $logic = $sublogic/$counter;
+    $s =  User::all()->where('id' ,$request->get('to_id') )->first();
+    if ($s){
+        $s->update(['rating'=> $logic]);
+        return response()->json([
+            'message' => 'Done Successfully ',
+        ], 201);
+    }
+    else{
+        return response()->json([
+            'message' => 'Not Found',
+        ], 404);
+    }
 }
 else{
-    $logic = $request->rate;
+    $s =  User::all()->where('id' ,$request->get('to_id') )->first();
+    if ($s){
+        $s->update(['rating'=> $request->rate]);
+        return response()->json([
+            'message' => 'Done Successfully ',
+        ], 201);
+    }
+    else{
+        return response()->json([
+            'message' => 'Not Found',
+        ], 404);
+    }
 }
 
 
 
 
-$s =  User::all()->where('id' ,$request->get('to_id') )->first();
-        if ($s){
-            $s->update(['rating'=> $logic]);
-            return response()->json([
-                'message' => 'Done Successfully ',
-            ], 201);
-        }
-        else{
-            return response()->json([
-                'message' => 'Not Found',
-            ], 404);
-        }
+
     }
 
 

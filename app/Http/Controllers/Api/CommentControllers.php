@@ -44,14 +44,24 @@ class CommentControllers extends Controller
         $sublogic = (5*$rater5sum) + (4*$rater4sum) + (3*$rater3sum)+ (2*$rater2sum)+ (1*$rater1sum);
       if ($counter!=0){
           $logic = $sublogic/$counter;
+          $s =  Post::all()->where('id' ,$pid )->first();
+          if ($s){
+              $s->update(['post_rating'=> $logic
+              ]);
+          }
       }else{
-          $logic = $request->post_rate;
+          $s =  Post::all()->where('id' ,$pid )->first();
+          if ($s){
+              $s->update(['post_rating'=> $request->post_rate
+              ]);
+          }
       }
 
 
         $s =  Post::all()->where('id' ,$pid )->first();
         if ($s){
-            $s->update(['post_rating'=> $logic]);
+            $s->update(['post_rating'=> $logic
+            ]);
         }
 
 
