@@ -27,6 +27,10 @@ Route::group(['middleware'=>['api','apiadmin'],'prefix' => 'auth','namespace'=>'
 
     //Post
     Route::get('posts','Postcontrollers@all');
+
+    Route::get('posts/trend','Postcontrollers@trend');
+    Route::get('posts/videos','Postcontrollers@videos');
+
     Route::get('{pid}/posts','Postcontrollers@pall');
     Route::get('{pid}/posts/{id}','Postcontrollers@find');
     Route::post('posts/create','Postcontrollers@create');

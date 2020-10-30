@@ -20,6 +20,18 @@ class Postcontrollers extends Controller
         $post = Post::all()->sortByDesc('created_date');
         return $post;
     }
+
+
+    function trend(){
+        $post = Post::all()->sortByDesc('created_date')->where('post_rating','>',3);
+        return $post;
+    }
+    function videos(){
+    $post = Post::all()->sortByDesc('created_date')->where('post_video','!=',null);
+    return $post;
+    }
+
+
     function pall($pid){
         $post = Post::all()->where('publisher_id', '=', $pid);
         return $post;
