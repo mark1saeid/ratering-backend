@@ -52,16 +52,8 @@ class CommentControllers extends Controller
         $s =  Post::all()->where('id' ,$pid )->first();
         if ($s){
             $s->update(['post_rating'=> $logic]);
-            return response()->json([
-                'message' => 'Done Successfully ',
-                //  'rate' => $count
-            ], 201);
         }
-        else{
-            return response()->json([
-                'message' => 'Not Found',
-            ], 404);
-        }
+
 
 
 
@@ -82,15 +74,8 @@ class CommentControllers extends Controller
 
         if ($post_publisher){
             $post_publisher->update(['point'=> ($current_point+$request->post_rate)]);
-            return response()->json([
-                'message' => 'Done Successfully ',
-            ], 201);
         }
-        else{
-            return response()->json([
-                'message' => 'Not Found',
-            ], 404);
-        }
+
 
 
         return response()->json([
