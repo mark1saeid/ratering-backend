@@ -48,6 +48,10 @@ class CommentControllers extends Controller
             $s->update(['post_rating'=> $logic
             ]);
         }
+        if ($counter ==0){
+            $s->update(['post_rating'=> $request->post_rate
+            ]);
+        }
 
 
 
