@@ -8,6 +8,7 @@ use App\Post;
 use App\Status;
 use App\Traits\GeneralTrait;
 use App\User;
+use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 
@@ -17,9 +18,17 @@ class StatusControllers extends Controller
     public function __construct() {
         $this->middleware('auth:api', ['except' => ['login', 'register']]);
     }
+
+    protected function schedule(Schedule $schedule)
+    {
+        $schedule->call(function () {
+            Status::where('created_at', '<', Carbon::now()->subDays(1))->delete();
+        })->daily();
+    }
+
     function rate(Request $request,$sid){
         $validator = Validator::make($request->all(), [
-            'status_rating' => 'string',
+            'status_rating' => 'required|numeric|min:1|max:5',
         ]);
         if($validator->fails()){
             return response()->json($validator->errors()->toJson(), 400);

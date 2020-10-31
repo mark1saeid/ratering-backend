@@ -29,7 +29,7 @@ class CommentControllers extends Controller
         $id = auth()->user()->id;
         $validator = Validator::make($request->all(), [
             'comment_text' => 'string',
-            'post_rate' => 'required|string',
+            'post_rate' => 'required|numeric|min:2|max:5',
         ]);
         if($validator->fails()){
             return response()->json($validator->errors()->toJson(), 400);
