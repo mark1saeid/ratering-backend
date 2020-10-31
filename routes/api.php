@@ -37,7 +37,7 @@ Route::group(['middleware'=>['api','apiadmin'],'prefix' => 'auth','namespace'=>'
     //Status
     Route::get('status','StatusControllers@all');
     Route::get('{pid}/status','StatusControllers@pall');
-    Route::get('{sid}/status/rate','StatusControllers@rate');
+    Route::post('{sid}/status/rate','StatusControllers@rate');
     Route::get('{pid}/status/{id}','StatusControllers@find');
     Route::post('status/create','StatusControllers@create');
 
