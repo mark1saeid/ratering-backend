@@ -27,24 +27,28 @@ Route::group(['middleware'=>['api','apiadmin'],'prefix' => 'auth','namespace'=>'
 
     //Post
     Route::get('posts','Postcontrollers@all');
-
     Route::get('posts/trend','Postcontrollers@trend');
     Route::get('posts/videos','Postcontrollers@videos');
-
     Route::get('{pid}/posts','Postcontrollers@pall');
     Route::get('{pid}/posts/{id}','Postcontrollers@find');
     Route::post('posts/create','Postcontrollers@create');
 
 
+    //Status
+    Route::get('status','StatusControllers@all');
+    Route::get('{pid}/status','StatusControllers@pall');
+    Route::get('{sid}/status/rate','StatusControllers@rate');
+    Route::get('{pid}/status/{id}','StatusControllers@find');
+    Route::post('status/create','StatusControllers@create');
 
     //comments
     Route::get('posts/{id}/comments','CommentControllers@all');
     Route::get('posts/{id}/comments/{cid}','CommentControllers@find');
     Route::post('posts/{id}/comments/create','CommentControllers@create');
     //Connection
-    Route::get('{pid}/connection','ConnectionControllers@all');
-    Route::get('{pid}/connection/sent','ConnectionControllers@sent');
-    Route::get('{pid}/connection/received','ConnectionControllers@received');
+    Route::get('connection','ConnectionControllers@all');
+    Route::get('connection/sent','ConnectionControllers@sent');
+    Route::get('connection/received','ConnectionControllers@received');
     Route::post('connection/add','ConnectionControllers@add');
     Route::post('connection/{cid}/status','ConnectionControllers@status');
     Route::post('connection/{cid}/remove','ConnectionControllers@remove');

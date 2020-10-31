@@ -16,18 +16,21 @@ class ConnectionControllers extends Controller
         $this->middleware('auth:api', ['except' => ['login', 'register']]);
     }
 
-    function all($pid){
-        $event = Connection::where("to_id" , $pid)->orWhere('from_id' , $pid)->get();
+    function all(){
+        $id = auth()->user()->id;
+        $event = Connection::where("to_id" , $id)->orWhere('from_id' , $id)->get();
         $event = $event->where('status' , 'true');
         return $event;
     }
 
-    function sent($pid){
-        $post = Connection::all()->where('from_id', '=', $pid) ;
+    function sent(){
+        $id = auth()->user()->id;
+        $post = Connection::all()->where('from_id', '=', $id) ;
         return $post;
     }
-    function received($pid){
-        $post = Connection::all()->where('to_id', '=', $pid) ;
+    function received(){
+        $id = auth()->user()->id;
+        $post = Connection::all()->where('to_id', '=', $id) ;
         return $post;
     }
     function add(Request $request){
