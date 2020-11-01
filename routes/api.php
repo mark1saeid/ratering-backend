@@ -71,8 +71,7 @@ Route::group(['middleware'=>['api','apiadmin'],'prefix' => 'auth','namespace'=>'
     Route::get('{pid}/impression','InteractionControllers@get_impression');
     Route::get('{pid}/notinterested','InteractionControllers@not_interested');
 
-    //test
-    Route::get('views/delete','InteractionControllers@test');
+
 });
 
 
