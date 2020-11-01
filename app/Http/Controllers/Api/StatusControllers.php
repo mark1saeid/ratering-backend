@@ -46,6 +46,10 @@ $cpoint = $status_id->status_rating;
         $status = Status::all()-> find($sid);
         $status->update(['status_rating'=> (($request->status_rating) + $cpoint)
         ]);
+        return response()->json([
+            'message' => 'posted successfully ',
+            'status' => $status
+        ], 201);
 
     }
 

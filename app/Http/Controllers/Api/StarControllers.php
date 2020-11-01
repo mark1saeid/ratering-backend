@@ -32,8 +32,8 @@ class StarControllers extends Controller
     }
     function add(Request $request){
         $validator = Validator::make($request->all(), [
-            'to_id' => 'required|string|max:1',
-            'rate' => 'required|numeric|min:2|max:5',
+            'to_id' => 'required|string',
+            'rate' => 'required|numeric|min:1|max:5',
         ]);
 
         if($validator->fails()){

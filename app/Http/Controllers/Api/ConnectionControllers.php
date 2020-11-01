@@ -89,8 +89,6 @@ class ConnectionControllers extends Controller
 
     function remove($cid){
 
-
-      //  $id = auth()->user()->id;
         $event = Connection::find($cid)->get();
         $event = $event->where('status' , 'true');
 

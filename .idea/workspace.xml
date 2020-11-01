@@ -21,8 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1eec28c9-5a34-4cb8-bd9d-a552bf9fa123" name="Default Changelist" comment="ss">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/ReportControllers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/ReportControllers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/CommentControllers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/CommentControllers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/ConnectionControllers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/ConnectionControllers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/StarControllers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/StarControllers.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,14 +213,7 @@
       <workItem from="1604132423452" duration="89000" />
       <workItem from="1604132585477" duration="31000" />
       <workItem from="1604132976679" duration="11604000" />
-      <workItem from="1604223466829" duration="3033000" />
-    </task>
-    <task id="LOCAL-00175" summary="mark">
-      <created>1603113120861</created>
-      <option name="number" value="00175" />
-      <option name="presentableId" value="LOCAL-00175" />
-      <option name="project" value="LOCAL" />
-      <updated>1603113120861</updated>
+      <workItem from="1604223466829" duration="6282000" />
     </task>
     <task id="LOCAL-00176" summary="mark">
       <created>1603121627956</created>
@@ -557,7 +551,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604225566138</updated>
     </task>
-    <option name="localTasksCounter" value="224" />
+    <task id="LOCAL-00224" summary="up">
+      <created>1604227942487</created>
+      <option name="number" value="00224" />
+      <option name="presentableId" value="LOCAL-00224" />
+      <option name="project" value="LOCAL" />
+      <updated>1604227942487</updated>
+    </task>
+    <option name="localTasksCounter" value="225" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -623,10 +624,10 @@
       <screen x="0" y="0" width="1024" height="779" />
     </state>
     <state width="981" height="135" key="GridCell.Tab.0.right/0.0.1024.779@0.0.1024.779" timestamp="1599594024670" />
-    <state x="105" y="123" key="Vcs.Push.Dialog.v2" timestamp="1604225573330">
+    <state x="105" y="123" key="Vcs.Push.Dialog.v2" timestamp="1604227945406">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
-    <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1604225573330" />
+    <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1604227945406" />
     <state x="330" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602600467391">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
