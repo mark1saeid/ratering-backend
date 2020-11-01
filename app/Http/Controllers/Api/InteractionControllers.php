@@ -11,6 +11,7 @@ class InteractionControllers extends Controller
     function add_views($pid){
         $interaction = Post::all()->where('id' ,$pid)->first();
         $interaction->increment('views',1);
+        $interaction->increment('impression_24',1);
         return response()->json([
             'message' => 'added successfully ',
         ], 201);
