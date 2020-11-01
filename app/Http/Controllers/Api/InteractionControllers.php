@@ -36,9 +36,15 @@ class InteractionControllers extends Controller
         $interaction = Post::all()->where('id' ,$pid)->first();
         $interaction->decrement('impression',2);
         $interaction->decrement('impression_24',2);
+        return response()->json([
+            'message' => 'done'
+        ], 201);
     }
     function test(){
         $post_24_impression = Post::where('created_at', '<', Carbon::now()->subDays(1));
-        $post_24_impression->impression_24 = '0';
+        $post_24_impression->update(array('impression_24' => 1));
+        return response()->json([
+            'message' => 'done'
+        ], 201);
     }
 }

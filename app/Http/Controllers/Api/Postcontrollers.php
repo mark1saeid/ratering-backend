@@ -23,7 +23,7 @@ class Postcontrollers extends Controller
     {
         $schedule->call(function () {
             $post_24_impression = Post::where('created_at', '<', Carbon::now()->subDays(1));
-            $post_24_impression->impression_24 = '0';
+            $post_24_impression->update(array('impression_24' => 1));
         })->daily();
     }
 
