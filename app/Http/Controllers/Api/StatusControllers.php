@@ -47,8 +47,7 @@ $cpoint = $status_id->status_rating;
         $status->update(['status_rating'=> (($request->status_rating) + $cpoint)
         ]);
         return response()->json([
-            'message' => 'posted successfully ',
-            'status' => $status
+            'message' => 'Rated successfully ',
         ], 201);
 
     }
