@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use App\Post;
+use Carbon\Carbon;
 
 class InteractionControllers extends Controller
 {
@@ -34,5 +35,9 @@ class InteractionControllers extends Controller
         $interaction = Post::all()->where('id' ,$pid)->first();
         $interaction->decrement('impression',2);
         $interaction->decrement('impression_24',2);
+    }
+    function test(){
+        $post_24_impression = Post::where('created_at', '<', Carbon::now()->subDays(1));
+        $post_24_impression->impression_24 = '0';
     }
 }
