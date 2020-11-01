@@ -64,7 +64,8 @@ use GeneralTrait;
             $validator->validated(),
             ['password' => bcrypt($request->password)],
             ['rating' => '0'],
-            ['point' => '0']
+            ['point' => '0'],
+            ['verified' => false]
 
         ));
 
