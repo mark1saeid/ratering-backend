@@ -21,7 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="1eec28c9-5a34-4cb8-bd9d-a552bf9fa123" name="Default Changelist" comment="ss">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/ProfilesControllers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/ProfilesControllers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/UserControllers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/UserControllers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_08_143152_connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_08_143152_connection.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,14 +214,8 @@
       <workItem from="1604131821829" duration="414000" />
       <workItem from="1604132423452" duration="89000" />
       <workItem from="1604132585477" duration="31000" />
-      <workItem from="1604132976679" duration="9067000" />
-    </task>
-    <task id="LOCAL-00173" summary="ss">
-      <created>1602772390399</created>
-      <option name="number" value="00173" />
-      <option name="presentableId" value="LOCAL-00173" />
-      <option name="project" value="LOCAL" />
-      <updated>1602772390399</updated>
+      <workItem from="1604132976679" duration="11604000" />
+      <workItem from="1604223466829" duration="1919000" />
     </task>
     <task id="LOCAL-00174" summary="mark">
       <created>1603112750289</created>
@@ -555,7 +553,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604139139102</updated>
     </task>
-    <option name="localTasksCounter" value="222" />
+    <task id="LOCAL-00222" summary="up">
+      <created>1604155186056</created>
+      <option name="number" value="00222" />
+      <option name="presentableId" value="LOCAL-00222" />
+      <option name="project" value="LOCAL" />
+      <updated>1604155186057</updated>
+    </task>
+    <option name="localTasksCounter" value="223" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -593,10 +598,10 @@
       <screen x="0" y="0" width="1024" height="779" />
     </state>
     <state x="290" y="187" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1024.779@0.0.1024.779" timestamp="1602764627237" />
-    <state x="243" y="145" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1604135175496">
+    <state x="243" y="145" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1604224705013">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
-    <state x="243" y="145" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1024.779@0.0.1024.779" timestamp="1604135175496" />
+    <state x="243" y="145" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1024.779@0.0.1024.779" timestamp="1604224705013" />
     <state x="289" y="303" key="ComposerInitDialogKey" timestamp="1599677900634">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
@@ -621,10 +626,10 @@
       <screen x="0" y="0" width="1024" height="779" />
     </state>
     <state width="981" height="135" key="GridCell.Tab.0.right/0.0.1024.779@0.0.1024.779" timestamp="1599594024670" />
-    <state x="105" y="123" key="Vcs.Push.Dialog.v2" timestamp="1604139141675">
+    <state x="105" y="123" key="Vcs.Push.Dialog.v2" timestamp="1604155213489">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
-    <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1604139141675" />
+    <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1604155213489" />
     <state x="330" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602600467391">
       <screen x="0" y="0" width="1024" height="779" />
     </state>

@@ -44,7 +44,10 @@ use GeneralTrait;
         $validator = Validator::make($request->all(), [
 
             'email' => 'required|string|email|max:100|unique:users|regex:/(.+)@(.+)\.(.+)/i',
-            'password' => 'required|string|min:8',
+            'password' => 'required',
+            'min:6',
+            'regex:/^.*(?=.{3,})(?=.*[a-zA-Z])(?=.*[0-9])(?=.*[\d\x])(?=.*[!$#%]).*$/',
+            'confirmed',
             'full_name' => 'required|string|between:4,40',
             'username' => 'required|string|between:6,12|unique:users',
             'birthday' => 'required|string|between:2,18',

@@ -23,6 +23,10 @@ class ProfilesControllers extends Controller
            'rating' => $p->rating,
            'email' => $p->email,
            'phone' => $p->phone,
+           'point' => $p->point,
+           'pp' => $p->pp,
+           'bio' => $p->bio,
+           'verified' => $p->verified,
            'created_at' => $p->created_at,
            'updated_at' => $p->updated_at,
 
