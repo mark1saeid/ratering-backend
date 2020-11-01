@@ -41,7 +41,7 @@ class InteractionControllers extends Controller
         ], 201);
     }
     function test(){
-        $post_24_impression = Post::where('created_at', '<', Carbon::now()->subDays(1));
+        $post_24_impression = Post::all();
         $post_24_impression->update(array('impression_24' => 1));
         return response()->json([
             'message' => 'done'
