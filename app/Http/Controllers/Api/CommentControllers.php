@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Api;
 
 use App\Comment;
 use App\Http\Controllers\Controller;
+use App\Interaction;
 use App\Post;
 use App\Traits\GeneralTrait;
 use App\User;
@@ -54,8 +55,14 @@ class CommentControllers extends Controller
         }
 
 
-
-
+$interaction = Post::all()->where('id' ,$pid)->first();
+if ($request->post_rate >= 2.5){
+    $interaction->increment('impression',1);
+    $interaction->increment('impression_24',1);
+}else{
+    $interaction->decrement('impression',1);
+    $interaction->decrement('impression_24',1);
+}
 
 
 

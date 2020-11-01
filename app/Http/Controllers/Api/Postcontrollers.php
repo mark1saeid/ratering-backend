@@ -3,9 +3,12 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
+use App\Interaction;
 use App\Post;
 use App\Traits\GeneralTrait;
 use App\User;
+use Carbon\Carbon;
+use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 
@@ -16,18 +19,26 @@ class Postcontrollers extends Controller
         $this->middleware('auth:api', ['except' => ['login', 'register']]);
     }
 
+    protected function schedule(Schedule $schedule)
+    {
+        $schedule->call(function () {
+            $post_24_impression = Post::where('created_at', '<', Carbon::now()->subDays(1));
+            $post_24_impression->impression_24 = '0';
+        })->daily();
+    }
+
     function all(){
-        $post = Post::all()->sortByDesc('created_date');
+        $post = Post::all()->sortByDesc('created_at');
         return $post;
     }
 
 
     function trend(){
-        $post = Post::all()->sortByDesc('created_date')->where('post_rating','>',3);
+        $post = Post::all()->sortByDesc('impression_24');
         return $post;
     }
     function videos(){
-    $post = Post::all()->sortByDesc('created_date')->where('post_video','!=',null);
+    $post = Post::all()->sortByDesc('created_at')->where('post_video','!=',null);
     return $post;
     }
 
@@ -101,11 +112,6 @@ class Postcontrollers extends Controller
         }
 
 
-
-
-
-
-
         $post = Post::create(array_merge(
             $validator->validated(),
             [   'post_rating' => '0',
@@ -113,8 +119,9 @@ class Postcontrollers extends Controller
                 'post_link' => $request->post_link ,
                 'post_image' => $image_url ,
                 'post_text' => $request->post_text,
-                'post_video' => $video_url
-
+                'post_video' => $video_url,
+                'views'=> '0',
+                'impression' => '0'
 
             ]
         ));

@@ -63,6 +63,13 @@ Route::group(['middleware'=>['api','apiadmin'],'prefix' => 'auth','namespace'=>'
     Route::post('rate/add','StarControllers@add');
 
 
+
+    //Interaction
+
+    Route::get('{pid}/views/add','InteractionControllers@add_views');
+    Route::get('{pid}/views','InteractionControllers@get_views');
+    Route::get('{pid}/impression','InteractionControllers@get_impression');
+    Route::get('{pid}/notinterested','InteractionControllers@not_interested');
 });
 
 

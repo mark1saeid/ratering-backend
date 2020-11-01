@@ -16,6 +16,9 @@ class Post extends Migration
             $table->string('post_link')->nullable();
             $table->string('post_image')->nullable();
             $table->string('post_video')->nullable();
+            $table->string('views');
+            $table->string('impression');
+            $table->string('impression_24');
             $table->date('created_at');
             $table->date('updated_at');
         });
