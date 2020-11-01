@@ -121,8 +121,8 @@ class Postcontrollers extends Controller
                 'post_text' => $request->post_text,
                 'post_video' => $video_url,
                 'views'=> '0',
-                'impression' => '0'
-
+                'impression' => '0',
+'impression_24' => '0'
             ]
         ));
 
