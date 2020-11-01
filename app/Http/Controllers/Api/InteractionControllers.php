@@ -41,7 +41,7 @@ class InteractionControllers extends Controller
         ], 201);
     }
     function test(){
-        $post_24_impression = Post::all()->where('id' ,'1')->update(array('impression_24' => 1));
+        $post_24_impression = Post::where('id' ,'1')->update(array('impression_24' => 1));
 
         return response()->json([
             'message' => 'done'
