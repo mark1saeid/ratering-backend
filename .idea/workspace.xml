@@ -21,13 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1eec28c9-5a34-4cb8-bd9d-a552bf9fa123" name="Default Changelist" comment="ss">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/CommentControllers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/CommentControllers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/ConnectionControllers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/ConnectionControllers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/Postcontrollers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/Postcontrollers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/StarControllers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/StarControllers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/StatusControllers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/StatusControllers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/UserControllers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/UserControllers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/TransactionControllers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/TransactionControllers.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,14 +213,7 @@
       <workItem from="1604132976679" duration="11604000" />
       <workItem from="1604223466829" duration="16662000" />
       <workItem from="1604258352325" duration="5833000" />
-      <workItem from="1604317331618" duration="3821000" />
-    </task>
-    <task id="LOCAL-00188" summary="s">
-      <created>1603989404091</created>
-      <option name="number" value="00188" />
-      <option name="presentableId" value="LOCAL-00188" />
-      <option name="project" value="LOCAL" />
-      <updated>1603989404091</updated>
+      <workItem from="1604317331618" duration="5775000" />
     </task>
     <task id="LOCAL-00189" summary="s">
       <created>1603989917129</created>
@@ -564,7 +551,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604251345120</updated>
     </task>
-    <option name="localTasksCounter" value="237" />
+    <task id="LOCAL-00237" summary="up">
+      <created>1604322432498</created>
+      <option name="number" value="00237" />
+      <option name="presentableId" value="LOCAL-00237" />
+      <option name="project" value="LOCAL" />
+      <updated>1604322432499</updated>
+    </task>
+    <option name="localTasksCounter" value="238" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -589,9 +583,9 @@
     <MESSAGE value="remove connection" />
     <MESSAGE value="mark" />
     <MESSAGE value="s" />
-    <MESSAGE value="up" />
     <MESSAGE value="ss" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="up" />
+    <option name="LAST_COMMIT_MESSAGE" value="up" />
   </component>
   <component name="WindowStateProjectService">
     <state x="262" y="192" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602758537893">
@@ -630,10 +624,10 @@
       <screen x="0" y="0" width="1024" height="779" />
     </state>
     <state width="981" height="135" key="GridCell.Tab.0.right/0.0.1024.779@0.0.1024.779" timestamp="1599594024670" />
-    <state x="105" y="123" key="Vcs.Push.Dialog.v2" timestamp="1604251346926">
+    <state x="105" y="123" key="Vcs.Push.Dialog.v2" timestamp="1604322438344">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
-    <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1604251346926" />
+    <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1604322438344" />
     <state x="330" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602600467391">
       <screen x="0" y="0" width="1024" height="779" />
     </state>

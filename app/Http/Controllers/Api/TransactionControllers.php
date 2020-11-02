@@ -43,24 +43,29 @@ class TransactionControllers extends Controller
 
         $to_id = User::all()->where('id' ,$publisher_id)->first();
         $from_id = User::all()->where('id' ,$id)->first();
+if ($from_id->point >= $request->point) {
 
+    $from_id->decrement('point', $request->point);
+    $to_id->increment('point', $request->point);
 
-        $from_id->decrement('point',$request->point);
-        $to_id->increment('point',$request->point);
+    $transaction = Post::create(array_merge(
+        $validator->validated(),
+        [
+            'to_id' => $publisher_id,
+            'from_id' => $id,
+            'post_id' => $pid,
+            'points' => $request->point
+        ]
+    ));
 
-        $transaction = Post::create(array_merge(
-            $validator->validated(),
-            [
-                'to_id'=>$publisher_id ,
-                'from_id'=>$id ,
-                'post_id'=>$pid ,
-                'points'=> $request->point
-            ]
-        ));
-
-        return response()->json([
-            'message' => 'done successfully ',
-            'transaction' => $transaction
-        ], 201);
+    return response()->json([
+        'message' => 'done successfully ',
+        'transaction' => $transaction
+    ], 201);
+}else{
+    return response()->json([
+        'message' => 'You dont have enough points ',
+    ], 401);
+}
     }
 }
