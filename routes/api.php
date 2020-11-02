@@ -33,6 +33,8 @@ Route::group(['middleware'=>['api','apiadmin'],'prefix' => 'auth','namespace'=>'
     Route::get('{pid}/posts/{id}','Postcontrollers@find');
     Route::post('posts/create','Postcontrollers@create');
 
+    Route::post('posts/{pid}/delete','Postcontrollers@remove');
+
 //report
     Route::post('report/create','ReportControllers@create');
 
@@ -42,12 +44,17 @@ Route::group(['middleware'=>['api','apiadmin'],'prefix' => 'auth','namespace'=>'
     Route::get('{pid}/status','StatusControllers@pall');
     Route::post('{sid}/status/rate','StatusControllers@rate');
     Route::get('{pid}/status/{id}','StatusControllers@find');
-    Route::post('status/create','StatusControllers@create');
+    Route::post('status/{id}/create','StatusControllers@create');
 
+    Route::post('status/{sid}/delete','StatusControllers@remove');
     //comments
     Route::get('posts/{id}/comments','CommentControllers@all');
     Route::get('posts/{id}/comments/{cid}','CommentControllers@find');
-    Route::post('posts/{id}/comments/create','CommentControllers@create');
+    Route::post('posts/{pid}/comments/create','CommentControllers@create');
+
+    Route::post('posts/{pid}/comments/{cid}/delete','CommentControllers@remove');
+
+
     //Connection
     Route::get('connection','ConnectionControllers@all');
     Route::get('connection/sent','ConnectionControllers@sent');
@@ -71,6 +78,13 @@ Route::group(['middleware'=>['api','apiadmin'],'prefix' => 'auth','namespace'=>'
     Route::get('{pid}/impression','InteractionControllers@get_impression');
     Route::get('{pid}/notinterested','InteractionControllers@not_interested');
 
+    //Transaction
+
+    Route::get('{id}/tip/all','TransactionControllers@all');
+    Route::get('{id}/sent','TransactionControllers@sent');
+    Route::get('{id}/received','TransactionControllers@received');
+    Route::get('{pid}/posts/tip','TransactionControllers@post');
+    Route::post('{pid}/posts/tip/send','TransactionControllers@Send');
 
 });
 
@@ -83,6 +97,9 @@ Route::group(['middleware' => ['api','apiadmin'], 'prefix' => 'auth','namespace'
     Route::post('register', 'UserControllers@register');
     Route::post('logout', 'UserControllers@logout');
     Route::post('refresh', 'UserControllers@refresh');
+
+    Route::post('remove', 'UserControllers@remove');
+
     Route::get('profile', 'UserControllers@userProfile');
 
 

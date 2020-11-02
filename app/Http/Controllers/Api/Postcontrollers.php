@@ -28,7 +28,9 @@ class Postcontrollers extends Controller
     }
 
     function all(){
+
         $post = Post::all()->sortByDesc('created_at');
+
         return $post;
     }
 
@@ -122,7 +124,7 @@ class Postcontrollers extends Controller
                 'post_video' => $video_url,
                 'views'=> '0',
                 'impression' => '0',
-'impression_24' => '0'
+               'impression_24' => '0'
             ]
         ));
 
@@ -134,6 +136,20 @@ class Postcontrollers extends Controller
 
 
 
-
+    function remove($pid){
+        $id = auth()->user()->id;
+        $is = Post::where('publisher_id',$id)->where('id',$pid);
+        if ($is){
+            $is->delete();
+            return response()->json([
+                'message' => 'deleted successfully ',
+            ], 201);
+        }
+        else{
+            return response()->json([
+                'message' => 'Not Found',
+            ], 404);
+        }
+    }
 
 }

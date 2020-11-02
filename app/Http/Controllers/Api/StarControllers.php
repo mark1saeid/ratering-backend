@@ -23,9 +23,9 @@ class StarControllers extends Controller
     }
 
     function sent($pid){
-        $post = Star::all()->where('from_id', '=', $pid) ;
-        return $post;
-    }
+    $post = Star::all()->where('from_id', '=', $pid) ;
+    return $post;
+}
     function received($pid){
         $post = Star::all()->where('to_id', '=', $pid) ;
         return $post;

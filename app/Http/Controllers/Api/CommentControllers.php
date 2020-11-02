@@ -28,6 +28,9 @@ class CommentControllers extends Controller
     }
     function create(Request $request,$pid){
         $id = auth()->user()->id;
+
+        $is = Comment::all()->where('publisher_id',$id)->where('post_id',$pid)->first();
+
         $validator = Validator::make($request->all(), [
             'comment_text' => 'string',
             'post_rate' => 'required|numeric|min:1|max:5',
@@ -35,63 +38,78 @@ class CommentControllers extends Controller
         if($validator->fails()){
             return response()->json($validator->errors()->toJson(), 400);
         }
-
-        $rater5sum = Comment::all()->where("post_id" , $pid)->where("post_rate" , '5')->count();
-        $rater4sum = Comment::all()->where("post_id" , $pid)->where("post_rate" , '4')->count();
-        $rater3sum = Comment::all()->where("post_id" , $pid)->where("post_rate" , '3')->count();
-        $rater2sum =Comment::all()->where("post_id" , $pid)->where("post_rate" , '2')->count() ;
-        $rater1sum = Comment::all()->where("post_id" , $pid)->where("post_rate" , '1')->count();
-        $counter = Comment::all()->where("post_id" , $pid)->count();
-        $sublogic = (5*$rater5sum) + (4*$rater4sum) + (3*$rater3sum)+ (2*$rater2sum)+ (1*$rater1sum);
-        $logic = $sublogic/($counter+1);
-        $s =  Post::all()->where('id' ,$pid )->first();
-        if ($s){
-            $s->update(['post_rating'=> $logic
-            ]);
-        }
-        if ($counter ==0){
-            $s->update(['post_rating'=> $request->post_rate
-            ]);
-        }
+if (!$is) {
 
 
-$interaction = Post::all()->where('id' ,$pid)->first();
-if ($request->post_rate >= 2.5){
-    $interaction->increment('impression',1);
-    $interaction->increment('impression_24',1);
-}else{
-    $interaction->decrement('impression',1);
-    $interaction->decrement('impression_24',1);
+    $rater5sum = Comment::all()->where("post_id", $pid)->where("post_rate", '5')->count();
+    $rater4sum = Comment::all()->where("post_id", $pid)->where("post_rate", '4')->count();
+    $rater3sum = Comment::all()->where("post_id", $pid)->where("post_rate", '3')->count();
+    $rater2sum = Comment::all()->where("post_id", $pid)->where("post_rate", '2')->count();
+    $rater1sum = Comment::all()->where("post_id", $pid)->where("post_rate", '1')->count();
+    $counter = Comment::all()->where("post_id", $pid)->count();
+    $sublogic = (5 * $rater5sum) + (4 * $rater4sum) + (3 * $rater3sum) + (2 * $rater2sum) + (1 * $rater1sum);
+    $logic = $sublogic / ($counter + 1);
+    $s = Post::all()->where('id', $pid)->first();
+    if ($s) {
+        $s->update(['post_rating' => $logic
+        ]);
+    }
+    if ($counter == 0) {
+        $s->update(['post_rating' => $request->post_rate
+        ]);
+    }
+
+
+    $interaction = Post::all()->where('id', $pid)->first();
+    if ($request->post_rate >= 2.5) {
+        $interaction->increment('impression', 1);
+        $interaction->increment('impression_24', 1);
+    } else {
+        $interaction->decrement('impression', 1);
+        $interaction->decrement('impression_24', 1);
+    }
+
+    $post_comment = Comment::create(array_merge(
+        $validator->validated(),
+        [
+            'publisher_id' => $id,
+            'post_id' => $pid,
+            'post_rate' => $request->post_rate
+        ]
+    ));
+    $post_id = Post::all()->where('id', $pid)->first();
+    $post_publisher_id = $post_id->publisher_id;
+    $post_publisher = User::all()->where('id', $post_publisher_id)->first();
+    $current_point = $post_publisher->point;
+    if ($post_publisher) {
+        $post_publisher->update(['point' => ($current_point + $request->post_rate)]);
+    }
+    return response()->json([
+        'message' => 'posted successfully ',
+        'comment' => $post_comment
+    ], 201);
 }
+else{
+    return response()->json([
+        'message' => 'done',
+    ], 401);
+}
+    }
 
-
-
-
-
-        $post_comment = Comment::create(array_merge(
-            $validator->validated(),
-            [
-                'publisher_id'=>$id,
-                'post_id'=>$pid,
-                'post_rate' => $request->post_rate
-            ]
-        ));
-
-        $post_id = Post::all()->where('id',$pid )->first();
-        $post_publisher_id = $post_id->publisher_id;
-        $post_publisher = User::all()->where('id' ,$post_publisher_id)->first();
-        $current_point = $post_publisher->point;
-
-
-        if ($post_publisher){
-            $post_publisher->update(['point'=> ($current_point+$request->post_rate)]);
+    function remove($pid,$cid){
+        $id = auth()->user()->id;
+        $is = Comment::where('publisher_id',$id)->where('post_id',$pid);
+        $is = $is->where('id',$cid);
+        if ($is){
+            $is->delete();
+            return response()->json([
+                'message' => 'deleted successfully ',
+            ], 201);
         }
-
-
-
-        return response()->json([
-            'message' => 'posted successfully ',
-            'comment' => $post_comment
-        ], 201);
+        else{
+            return response()->json([
+                'message' => 'Not Found',
+            ], 404);
+        }
     }
 }

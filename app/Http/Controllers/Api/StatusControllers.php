@@ -33,23 +33,31 @@ class StatusControllers extends Controller
         if($validator->fails()){
             return response()->json($validator->errors()->toJson(), 400);
         }
-        $status_id = Status::all()->where('id',$sid )->first();
-        $status_publisher_id = $status_id->publisher_id;
-        $status_publisher = User::all()->where('id' ,$status_publisher_id)->first();
-        $current_point = $status_publisher->point;
+        $id = auth()->user()->id;
 
-        if ($status_publisher){
-            $status_publisher->update(['point'=> ($current_point+$request->status_rating)]);
-        }
-$cpoint = $status_id->status_rating;
+        $is = Status::all()->where('publisher_id',$id)->where('status_id',$sid)->first();
+if (!$is) {
+    $status_id = Status::all()->where('id', $sid)->first();
+    $status_publisher_id = $status_id->publisher_id;
+    $status_publisher = User::all()->where('id', $status_publisher_id)->first();
+    $current_point = $status_publisher->point;
 
-        $status = Status::all()-> find($sid);
-        $status->update(['status_rating'=> (($request->status_rating) + $cpoint)
-        ]);
-        return response()->json([
-            'message' => 'Rated successfully ',
-        ], 201);
+    if ($status_publisher) {
+        $status_publisher->update(['point' => ($current_point + $request->status_rating)]);
+    }
+    $cpoint = $status_id->status_rating;
 
+    $status = Status::all()->find($sid);
+    $status->update(['status_rating' => (($request->status_rating) + $cpoint)
+    ]);
+    return response()->json([
+        'message' => 'Rated successfully ',
+    ], 201);
+}else{
+    return response()->json([
+        'message' => 'done',
+    ], 401);
+}
     }
 
     function all(){
@@ -68,24 +76,23 @@ $cpoint = $status_id->status_rating;
         $status = Status::all()->where('publisher_id', '=', $pid) -> find($id);
         return $status;
     }
-    function create(Request $request){
+    function create(Request $request)
+    {
         $id = auth()->user()->id;
         $validator = Validator::make($request->all(), [
             'status_text' => 'string',
             'status_image' => 'mimes:jpeg,jpg,png,gif|max:10000|unique:status',
-            'status_video'  => 'mimes:mp4,mov,ogg,qt |max:20000|unique:status',
+            'status_video' => 'mimes:mp4,mov,ogg,qt |max:20000|unique:status',
         ]);
 
-        if($validator->fails()){
+        if ($validator->fails()) {
             return response()->json($validator->errors()->toJson(), 400);
         }
 
 
-
-
         $image_file = $request->file('status_image');
-        if ($image_file){
-            if(!$image_file->isValid()) {
+        if ($image_file) {
+            if (!$image_file->isValid()) {
                 return response()->json(['invalid_file_upload'], 400);
             }
             $characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
@@ -96,19 +103,16 @@ $cpoint = $status_id->status_rating;
 
             $image_name = $request->file('status_image')->getClientOriginalName();
 
-            $image_paths =$request->file('status_image')->move(public_path('/status/image/'),$random.$image_name);
-            $image_url = url('/status/image/'.$random.$image_name);
-        }else{
+            $image_paths = $request->file('status_image')->move(public_path('/status/image/'), $random . $image_name);
+            $image_url = url('/status/image/' . $random . $image_name);
+        } else {
             $image_url = null;
         }
 
 
-
-
-
         $video_file = $request->file('status_video');
-        if ($video_file){
-            if(!$video_file->isValid()) {
+        if ($video_file) {
+            if (!$video_file->isValid()) {
                 return response()->json(['invalid_file_upload'], 400);
             }
             $characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
@@ -119,23 +123,18 @@ $cpoint = $status_id->status_rating;
 
             $video_name = $request->status_video->getClientOriginalName();
 
-            $video_path =$request->file('status_video')->move(public_path('/status/video/'),$random.$video_name);
-            $video_url = url('/status/video/'.$random.$video_name);
-        }else{
+            $video_path = $request->file('status_video')->move(public_path('/status/video/'), $random . $video_name);
+            $video_url = url('/status/video/' . $random . $video_name);
+        } else {
             $video_url = null;
         }
 
 
-
-
-
-
-
         $status = Status::create(array_merge(
             $validator->validated(),
-            [   'status_rating' => '0',
-                'publisher_id'=> $id,
-                'status_image' => $image_url ,
+            ['status_rating' => '0',
+                'publisher_id' => $id,
+                'status_image' => $image_url,
                 'status_text' => $request->status_text,
                 'status_video' => $video_url
             ]
@@ -145,8 +144,24 @@ $cpoint = $status_id->status_rating;
             'message' => 'posted successfully ',
             'status' => $status
         ], 201);
+
+
     }
 
-
+    function remove($sid){
+        $id = auth()->user()->id;
+        $is = Status::where('publisher_id',$id)->where('id',$sid);
+        if ($is){
+            $is->delete();
+            return response()->json([
+                'message' => 'deleted successfully ',
+            ], 201);
+        }
+        else{
+            return response()->json([
+                'message' => 'Not Found',
+            ], 404);
+        }
+    }
 
 }

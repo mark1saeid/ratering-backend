@@ -106,7 +106,13 @@ use GeneralTrait;
     }
 
 
-
+    public function remove() {
+        $id = auth()->user()->id;
+        User::all()->find($id)->delete();
+        return response()->json([
+            'access_token' => 'deleted successfully',
+        ] ,200);
+    }
 
 
 }
