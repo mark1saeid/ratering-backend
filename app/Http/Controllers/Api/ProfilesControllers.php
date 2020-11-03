@@ -63,7 +63,7 @@ class ProfilesControllers extends Controller
 
         $s = User::all()->where('id' ,$id )->first()->update(['pp'=> $image_url]);
 
-        return response()->json(['url' => $imageurl],200);
+        return response()->json(['url' => $image_url],200);
     }
 
     public function updatebio(Request $request) {
