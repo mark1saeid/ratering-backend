@@ -32,10 +32,9 @@ Route::group(['middleware'=>['api','apiadmin'],'prefix' => 'auth','namespace'=>'
     Route::get('{pid}/posts','Postcontrollers@pall');
     Route::get('{pid}/posts/{id}','Postcontrollers@find');
     Route::post('posts/create','Postcontrollers@create');
-
     Route::post('posts/{pid}/delete','Postcontrollers@remove');
 
-//report
+    //report
     Route::post('report/create','ReportControllers@create');
 
 
@@ -44,14 +43,13 @@ Route::group(['middleware'=>['api','apiadmin'],'prefix' => 'auth','namespace'=>'
     Route::get('{pid}/status','StatusControllers@pall');
     Route::post('{sid}/status/rate','StatusControllers@rate');
     Route::get('{pid}/status/{id}','StatusControllers@find');
-    Route::post('status/{id}/create','StatusControllers@create');
-
+    Route::post('status/create','StatusControllers@create');
     Route::post('status/{sid}/delete','StatusControllers@remove');
+
     //comments
     Route::get('posts/{id}/comments','CommentControllers@all');
     Route::get('posts/{id}/comments/{cid}','CommentControllers@find');
     Route::post('posts/{pid}/comments/create','CommentControllers@create');
-
     Route::post('posts/{pid}/comments/{cid}/delete','CommentControllers@remove');
 
 
@@ -73,10 +71,10 @@ Route::group(['middleware'=>['api','apiadmin'],'prefix' => 'auth','namespace'=>'
 
     //Interaction
 
-    Route::get('{pid}/views/add','InteractionControllers@add_views');
+    Route::post('{pid}/views/add','InteractionControllers@add_views');
     Route::get('{pid}/views','InteractionControllers@get_views');
     Route::get('{pid}/impression','InteractionControllers@get_impression');
-    Route::get('{pid}/notinterested','InteractionControllers@not_interested');
+    Route::post('{pid}/notinterested','InteractionControllers@not_interested');
 
     //Transaction
 

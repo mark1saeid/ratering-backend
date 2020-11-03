@@ -57,11 +57,11 @@ class ProfilesControllers extends Controller
         $image_name = $request->pp->getClientOriginalName();
 
 
-        $path =$request->file('pp')->move(public_path('/profile/pp/'.$id.'/'.$random),$image_name);
-        $imageurl = url('/profile/pp/'.$id.'/'.$random .$image_name);
+        $image_paths =$request->file('pp')->move(public_path('/profile/pp/'),$random.$image_name);
+        $image_url = url('/profile/pp/'.$random.$image_name);
 
 
-        $s = User::all()->where('id' ,$id )->first()->update(['pp'=> $imageurl]);
+        $s = User::all()->where('id' ,$id )->first()->update(['pp'=> $image_url]);
 
         return response()->json(['url' => $imageurl],200);
     }
