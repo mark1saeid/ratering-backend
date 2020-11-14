@@ -37,7 +37,7 @@ class Postcontrollers extends Controller
 
 
     function trend(){
-        $post = Post::all()->where('impression_24','>','0')->sortByDesc('impression_24');
+        $post = Post::all()->where('impression_24','>','0');
        return $post ;
 
     }
