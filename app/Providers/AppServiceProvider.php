@@ -3,8 +3,8 @@
 namespace App\Providers;
 
 
-use Cassandra\Schema;
 
+use Schema;
 
 use Illuminate\Support\ServiceProvider;
 
