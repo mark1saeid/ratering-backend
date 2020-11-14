@@ -3,7 +3,9 @@
 namespace App\Providers;
 
 
-use Illuminate\Support\Facades\Schema;
+use Cassandra\Schema;
+use http\Url;
+
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -26,6 +28,9 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         //
+        if($this->app->environment('production')) {
+            URL::forceScheme('https');
+        }
 
         Schema::defaultStringLength(191);
     }
