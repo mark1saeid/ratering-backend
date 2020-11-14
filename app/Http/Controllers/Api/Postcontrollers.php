@@ -36,12 +36,12 @@ class Postcontrollers extends Controller
 
 
     function trend(){
-        $post = Post::all()->sortByDesc('impression_24');
-       return json_encode($post,true);
+        $post = Post::all()->sortByDesc('impression_24')->where('post_video','!=',null);
+       return $post;
 
     }
     function videos(){
-    $post = Post::all()->sortByDesc('created_at')->where('post_video','!=',null);
+    $post = Post::all()->sortByDesc('created_at')->where('impression_24','!=','0');
     return $post;
     }
 
