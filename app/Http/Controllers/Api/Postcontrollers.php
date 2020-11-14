@@ -37,7 +37,7 @@ class Postcontrollers extends Controller
 
 
     function trend(){
-        $post = Post::sortBy('impression_24', [], true);
+        $post = Post::all()->sortByDesc('impression_24', []);
        return $post ;
 
     }

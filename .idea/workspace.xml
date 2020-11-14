@@ -220,28 +220,7 @@
       <workItem from="1604411430745" duration="1855000" />
       <workItem from="1605362864382" duration="1886000" />
       <workItem from="1605375197366" duration="1530000" />
-      <workItem from="1605377445840" duration="2229000" />
-    </task>
-    <task id="LOCAL-00217" summary="up">
-      <created>1604078990728</created>
-      <option name="number" value="00217" />
-      <option name="presentableId" value="LOCAL-00217" />
-      <option name="project" value="LOCAL" />
-      <updated>1604078990728</updated>
-    </task>
-    <task id="LOCAL-00218" summary="up">
-      <created>1604079233763</created>
-      <option name="number" value="00218" />
-      <option name="presentableId" value="LOCAL-00218" />
-      <option name="project" value="LOCAL" />
-      <updated>1604079233763</updated>
-    </task>
-    <task id="LOCAL-00219" summary="up">
-      <created>1604135778227</created>
-      <option name="number" value="00219" />
-      <option name="presentableId" value="LOCAL-00219" />
-      <option name="project" value="LOCAL" />
-      <updated>1604135778228</updated>
+      <workItem from="1605377445840" duration="2539000" />
     </task>
     <task id="LOCAL-00220" summary="up">
       <created>1604136179434</created>
@@ -565,7 +544,28 @@
       <option name="project" value="LOCAL" />
       <updated>1605379681052</updated>
     </task>
-    <option name="localTasksCounter" value="266" />
+    <task id="LOCAL-00266" summary="ss">
+      <created>1605379838934</created>
+      <option name="number" value="00266" />
+      <option name="presentableId" value="LOCAL-00266" />
+      <option name="project" value="LOCAL" />
+      <updated>1605379838934</updated>
+    </task>
+    <task id="LOCAL-00267" summary="ss">
+      <created>1605379928842</created>
+      <option name="number" value="00267" />
+      <option name="presentableId" value="LOCAL-00267" />
+      <option name="project" value="LOCAL" />
+      <updated>1605379928842</updated>
+    </task>
+    <task id="LOCAL-00268" summary="ss">
+      <created>1605379991727</created>
+      <option name="number" value="00268" />
+      <option name="presentableId" value="LOCAL-00268" />
+      <option name="project" value="LOCAL" />
+      <updated>1605379991727</updated>
+    </task>
+    <option name="localTasksCounter" value="269" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -636,11 +636,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="89" width="600" height="560" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1605363295411" />
-    <state x="140" y="115" width="802" height="538" key="Vcs.Push.Dialog.v2" timestamp="1605379685889">
+    <state x="140" y="115" width="802" height="538" key="Vcs.Push.Dialog.v2" timestamp="1605379995173">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1604333629918" />
-    <state x="140" y="115" width="802" height="538" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605379685889" />
+    <state x="140" y="115" width="802" height="538" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605379995173" />
     <state x="330" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602600467391">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
