@@ -1,7 +1,7 @@
 <?php
 
 
-use Url;
+
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -93,4 +93,4 @@ Route::group(['middleware' => ['api','apiadmin'], 'prefix' => 'auth','namespace'
 
 
 });
-URL::forceScheme('https');
+
