@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1eec28c9-5a34-4cb8-bd9d-a552bf9fa123" name="Default Changelist" comment="ss">
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,28 +216,7 @@
       <workItem from="1604317331618" duration="5890000" />
       <workItem from="1604333940845" duration="6991000" />
       <workItem from="1604411430745" duration="1855000" />
-      <workItem from="1605362864382" duration="341000" />
-    </task>
-    <task id="LOCAL-00192" summary="up">
-      <created>1604060775946</created>
-      <option name="number" value="00192" />
-      <option name="presentableId" value="LOCAL-00192" />
-      <option name="project" value="LOCAL" />
-      <updated>1604060775946</updated>
-    </task>
-    <task id="LOCAL-00193" summary="up">
-      <created>1604061610919</created>
-      <option name="number" value="00193" />
-      <option name="presentableId" value="LOCAL-00193" />
-      <option name="project" value="LOCAL" />
-      <updated>1604061610919</updated>
-    </task>
-    <task id="LOCAL-00194" summary="up">
-      <created>1604061877289</created>
-      <option name="number" value="00194" />
-      <option name="presentableId" value="LOCAL-00194" />
-      <option name="project" value="LOCAL" />
-      <updated>1604061877289</updated>
+      <workItem from="1605362864382" duration="611000" />
     </task>
     <task id="LOCAL-00195" summary="up">
       <created>1604061987298</created>
@@ -561,7 +540,28 @@
       <option name="project" value="LOCAL" />
       <updated>1605363153173</updated>
     </task>
-    <option name="localTasksCounter" value="241" />
+    <task id="LOCAL-00241" summary="ss">
+      <created>1605363213350</created>
+      <option name="number" value="00241" />
+      <option name="presentableId" value="LOCAL-00241" />
+      <option name="project" value="LOCAL" />
+      <updated>1605363213350</updated>
+    </task>
+    <task id="LOCAL-00242" summary="ss">
+      <created>1605363325206</created>
+      <option name="number" value="00242" />
+      <option name="presentableId" value="LOCAL-00242" />
+      <option name="project" value="LOCAL" />
+      <updated>1605363325206</updated>
+    </task>
+    <task id="LOCAL-00243" summary="ss">
+      <created>1605363355755</created>
+      <option name="number" value="00243" />
+      <option name="presentableId" value="LOCAL-00243" />
+      <option name="project" value="LOCAL" />
+      <updated>1605363355755</updated>
+    </task>
+    <option name="localTasksCounter" value="244" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -585,10 +585,10 @@
     <MESSAGE value="h" />
     <MESSAGE value="remove connection" />
     <MESSAGE value="mark" />
-    <MESSAGE value="ss" />
     <MESSAGE value="up" />
     <MESSAGE value="s" />
-    <option name="LAST_COMMIT_MESSAGE" value="s" />
+    <MESSAGE value="ss" />
+    <option name="LAST_COMMIT_MESSAGE" value="ss" />
   </component>
   <component name="WindowStateProjectService">
     <state x="262" y="192" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602758537893">
@@ -627,10 +627,15 @@
       <screen x="0" y="0" width="1024" height="779" />
     </state>
     <state width="981" height="135" key="GridCell.Tab.0.right/0.0.1024.779@0.0.1024.779" timestamp="1599594024670" />
-    <state x="105" y="123" key="Vcs.Push.Dialog.v2" timestamp="1604333629918">
-      <screen x="0" y="0" width="1024" height="779" />
+    <state x="379" y="89" width="600" height="560" key="NewPhpClassDialog" timestamp="1605363295411">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="89" width="600" height="560" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1605363295411" />
+    <state x="140" y="115" width="802" height="538" key="Vcs.Push.Dialog.v2" timestamp="1605363361004">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1604333629918" />
+    <state x="140" y="115" width="802" height="538" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605363361004" />
     <state x="330" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602600467391">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
