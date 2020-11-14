@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1eec28c9-5a34-4cb8-bd9d-a552bf9fa123" name="Default Changelist" comment="ss">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,6 +155,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -216,20 +216,7 @@
       <workItem from="1604317331618" duration="5890000" />
       <workItem from="1604333940845" duration="6991000" />
       <workItem from="1604411430745" duration="1855000" />
-    </task>
-    <task id="LOCAL-00190" summary="s">
-      <created>1603990870071</created>
-      <option name="number" value="00190" />
-      <option name="presentableId" value="LOCAL-00190" />
-      <option name="project" value="LOCAL" />
-      <updated>1603990870071</updated>
-    </task>
-    <task id="LOCAL-00191" summary="s">
-      <created>1603990958717</created>
-      <option name="number" value="00191" />
-      <option name="presentableId" value="LOCAL-00191" />
-      <option name="project" value="LOCAL" />
-      <updated>1603990958717</updated>
+      <workItem from="1605362864382" duration="341000" />
     </task>
     <task id="LOCAL-00192" summary="up">
       <created>1604060775946</created>
@@ -560,7 +547,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604333628105</updated>
     </task>
-    <option name="localTasksCounter" value="239" />
+    <task id="LOCAL-00239" summary="s">
+      <created>1605363063658</created>
+      <option name="number" value="00239" />
+      <option name="presentableId" value="LOCAL-00239" />
+      <option name="project" value="LOCAL" />
+      <updated>1605363063658</updated>
+    </task>
+    <task id="LOCAL-00240" summary="s">
+      <created>1605363153173</created>
+      <option name="number" value="00240" />
+      <option name="presentableId" value="LOCAL-00240" />
+      <option name="project" value="LOCAL" />
+      <updated>1605363153173</updated>
+    </task>
+    <option name="localTasksCounter" value="241" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -584,10 +585,10 @@
     <MESSAGE value="h" />
     <MESSAGE value="remove connection" />
     <MESSAGE value="mark" />
-    <MESSAGE value="s" />
     <MESSAGE value="ss" />
     <MESSAGE value="up" />
-    <option name="LAST_COMMIT_MESSAGE" value="up" />
+    <MESSAGE value="s" />
+    <option name="LAST_COMMIT_MESSAGE" value="s" />
   </component>
   <component name="WindowStateProjectService">
     <state x="262" y="192" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602758537893">
