@@ -37,12 +37,12 @@ class Postcontrollers extends Controller
 
 
     function trend(){
-        $post = Post::orderBy('impression_24', 'desc')->where('impression_24','>',null)->get();
+        $post = Post::orderBy('impression_24', 'desc')->where('impression_24','>','0')->get();
        return $post ;
 
     }
     function videos(){
-    $post = Post::all()->sortByDesc('impression_24')->where('post_video','!=',null);
+    $post = Post::orderBy('impression_24', 'desc')->where('post_video','!=',null)->get();
     return $post;
     }
 
