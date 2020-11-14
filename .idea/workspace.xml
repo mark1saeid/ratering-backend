@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1eec28c9-5a34-4cb8-bd9d-a552bf9fa123" name="Default Changelist" comment="ss">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +29,9 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -217,28 +218,7 @@
       <workItem from="1604317331618" duration="5890000" />
       <workItem from="1604333940845" duration="6991000" />
       <workItem from="1604411430745" duration="1855000" />
-      <workItem from="1605362864382" duration="1217000" />
-    </task>
-    <task id="LOCAL-00196" summary="up">
-      <created>1604062136051</created>
-      <option name="number" value="00196" />
-      <option name="presentableId" value="LOCAL-00196" />
-      <option name="project" value="LOCAL" />
-      <updated>1604062136051</updated>
-    </task>
-    <task id="LOCAL-00197" summary="up">
-      <created>1604062937934</created>
-      <option name="number" value="00197" />
-      <option name="presentableId" value="LOCAL-00197" />
-      <option name="project" value="LOCAL" />
-      <updated>1604062937934</updated>
-    </task>
-    <task id="LOCAL-00198" summary="up">
-      <created>1604063089334</created>
-      <option name="number" value="00198" />
-      <option name="presentableId" value="LOCAL-00198" />
-      <option name="project" value="LOCAL" />
-      <updated>1604063089335</updated>
+      <workItem from="1605362864382" duration="1566000" />
     </task>
     <task id="LOCAL-00199" summary="up">
       <created>1604063856945</created>
@@ -562,7 +542,28 @@
       <option name="project" value="LOCAL" />
       <updated>1605371309015</updated>
     </task>
-    <option name="localTasksCounter" value="245" />
+    <task id="LOCAL-00245" summary="ss">
+      <created>1605371528769</created>
+      <option name="number" value="00245" />
+      <option name="presentableId" value="LOCAL-00245" />
+      <option name="project" value="LOCAL" />
+      <updated>1605371528769</updated>
+    </task>
+    <task id="LOCAL-00246" summary="ss">
+      <created>1605371592578</created>
+      <option name="number" value="00246" />
+      <option name="presentableId" value="LOCAL-00246" />
+      <option name="project" value="LOCAL" />
+      <updated>1605371592580</updated>
+    </task>
+    <task id="LOCAL-00247" summary="ss">
+      <created>1605371647610</created>
+      <option name="number" value="00247" />
+      <option name="presentableId" value="LOCAL-00247" />
+      <option name="project" value="LOCAL" />
+      <updated>1605371647610</updated>
+    </task>
+    <option name="localTasksCounter" value="248" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -604,10 +605,11 @@
       <screen x="0" y="0" width="1024" height="779" />
     </state>
     <state x="243" y="145" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1024.779@0.0.1024.779" timestamp="1604319774834" />
-    <state x="289" y="303" key="ComposerInitDialogKey" timestamp="1599677900634">
-      <screen x="0" y="0" width="1024" height="779" />
+    <state x="386" y="283" width="490" height="283" key="ComposerInitDialogKey" timestamp="1605371474838">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="289" y="303" key="ComposerInitDialogKey/0.0.1024.779@0.0.1024.779" timestamp="1599677900634" />
+    <state x="386" y="283" width="490" height="283" key="ComposerInitDialogKey/0.0.1366.728@0.0.1366.728" timestamp="1605371474838" />
     <state x="293" y="145" key="FileChooserDialogImpl" timestamp="1604132615753">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
@@ -632,11 +634,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="89" width="600" height="560" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1605363295411" />
-    <state x="140" y="115" width="802" height="538" key="Vcs.Push.Dialog.v2" timestamp="1605371312143">
+    <state x="140" y="115" width="802" height="538" key="Vcs.Push.Dialog.v2" timestamp="1605371661825">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1604333629918" />
-    <state x="140" y="115" width="802" height="538" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605371312143" />
+    <state x="140" y="115" width="802" height="538" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605371661825" />
     <state x="330" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602600467391">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
