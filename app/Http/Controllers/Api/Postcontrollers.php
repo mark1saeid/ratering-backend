@@ -37,7 +37,7 @@ class Postcontrollers extends Controller
 
     function trend(){
         $post = Post::all()->sortByDesc('impression_24');
-       return json_decode($post);
+       return json_encode($post,true);
 
     }
     function videos(){
