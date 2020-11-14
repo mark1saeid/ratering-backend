@@ -220,21 +220,7 @@
       <workItem from="1604411430745" duration="1855000" />
       <workItem from="1605362864382" duration="1886000" />
       <workItem from="1605375197366" duration="1530000" />
-      <workItem from="1605377445840" duration="1835000" />
-    </task>
-    <task id="LOCAL-00215" summary="up">
-      <created>1604077445012</created>
-      <option name="number" value="00215" />
-      <option name="presentableId" value="LOCAL-00215" />
-      <option name="project" value="LOCAL" />
-      <updated>1604077445012</updated>
-    </task>
-    <task id="LOCAL-00216" summary="up">
-      <created>1604078737661</created>
-      <option name="number" value="00216" />
-      <option name="presentableId" value="LOCAL-00216" />
-      <option name="project" value="LOCAL" />
-      <updated>1604078737661</updated>
+      <workItem from="1605377445840" duration="2229000" />
     </task>
     <task id="LOCAL-00217" summary="up">
       <created>1604078990728</created>
@@ -565,7 +551,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605379281222</updated>
     </task>
-    <option name="localTasksCounter" value="264" />
+    <task id="LOCAL-00264" summary="ss">
+      <created>1605379585258</created>
+      <option name="number" value="00264" />
+      <option name="presentableId" value="LOCAL-00264" />
+      <option name="project" value="LOCAL" />
+      <updated>1605379585258</updated>
+    </task>
+    <task id="LOCAL-00265" summary="ss">
+      <created>1605379681051</created>
+      <option name="number" value="00265" />
+      <option name="presentableId" value="LOCAL-00265" />
+      <option name="project" value="LOCAL" />
+      <updated>1605379681052</updated>
+    </task>
+    <option name="localTasksCounter" value="266" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -636,11 +636,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="89" width="600" height="560" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1605363295411" />
-    <state x="140" y="115" width="802" height="538" key="Vcs.Push.Dialog.v2" timestamp="1605379291527">
+    <state x="140" y="115" width="802" height="538" key="Vcs.Push.Dialog.v2" timestamp="1605379685889">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1604333629918" />
-    <state x="140" y="115" width="802" height="538" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605379291526" />
+    <state x="140" y="115" width="802" height="538" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605379685889" />
     <state x="330" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602600467391">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
