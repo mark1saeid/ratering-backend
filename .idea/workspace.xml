@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eec28c9-5a34-4cb8-bd9d-a552bf9fa123" name="Default Changelist" comment="ss">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-    </list>
+    <list default="true" id="1eec28c9-5a34-4cb8-bd9d-a552bf9fa123" name="Default Changelist" comment="ss" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -585,9 +582,9 @@
     <MESSAGE value="remove connection" />
     <MESSAGE value="mark" />
     <MESSAGE value="s" />
-    <MESSAGE value="ss" />
     <MESSAGE value="up" />
-    <option name="LAST_COMMIT_MESSAGE" value="up" />
+    <MESSAGE value="ss" />
+    <option name="LAST_COMMIT_MESSAGE" value="ss" />
   </component>
   <component name="WindowStateProjectService">
     <state x="262" y="192" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602758537893">
