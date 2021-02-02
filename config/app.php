@@ -44,7 +44,7 @@ return [
     'debug' => (bool) env('APP_DEBUG', false),
 
     /*
-    |--------------------------------------------------------------------------
+
     | Application URL
     |--------------------------------------------------------------------------
     |
@@ -54,7 +54,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => env('APP_URL', 'https://www.raterin.ga'),
 
     'asset_url' => env('ASSET_URL', null),
 

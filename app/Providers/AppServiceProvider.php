@@ -3,7 +3,10 @@
 namespace App\Providers;
 
 
-use Illuminate\Support\Facades\Schema;
+
+
+use Schema;
+
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -25,7 +28,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+
+        resolve(\Illuminate\Routing\UrlGenerator::class)->forceScheme('https');
 
         Schema::defaultStringLength(191);
     }
