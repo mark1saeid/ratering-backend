@@ -67,7 +67,7 @@
             <div class="container">
                 <!--<p class="display-6 color-d">Hello, world!</p>-->
                 <h1 class="intro-title mb-4">I am Mark Saeid</h1>
-                <p class="intro-subtitle"><span class="text-slider-items">Android Developer,Backend Developer,Desktop Application Developer,UI/UX Designer</span><strong class="text-slider"></strong></p>
+                <p class="intro-subtitle"><span class="text-slider-items">Flutter Developer,Android Developer,Backend Developer,Desktop Application Developer,UI/UX Designer</span><strong class="text-slider"></strong></p>
                 <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
             </div>
         </div>
@@ -93,7 +93,7 @@
                                     <div class="col-sm-6 col-md-7">
                                         <div class="about-info">
                                             <p><span class="title-s">Name: </span> <span>Mark Saeid</span></p>
-                                            <p><span class="title-s">Profile: </span> <span>Android Developer</span></p>
+                                            <p><span class="title-s">Profile: </span> <span>Flutter Developer</span></p>
                                             <p><span class="title-s">Email: </span> <span>marksaeid10@gmail.com</span></p>
                                             <p><span class="title-s">Phone: </span> <span>+201227887286</span></p>
                                         </div>
@@ -101,6 +101,22 @@
                                 </div>
                                 <div class="skill-mf">
                                     <p class="title-s">Skill</p>
+                                    <span>Flutter</span> <span class="pull-right">85%</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span>Dart</span> <span class="pull-right">85%</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span>State Mangment</span> <span class="pull-right">95%</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span>SQL lite</span> <span class="pull-right">85%</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
                                     <span>Java</span> <span class="pull-right">85%</span>
                                     <div class="progress">
                                         <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
