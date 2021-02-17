@@ -234,7 +234,7 @@
                             <span class="ico-circle"><i class="ion-android-phone-portrait"></i></span>
                         </div>
                         <div class="service-content">
-                            <h2 class="s-title">Android Development</h2>
+                            <h2 class="s-title">Mobile Application Development</h2>
                             <p class="s-description text-center">
                             </p>
                         </div>
