@@ -2,6 +2,19 @@
 <html lang="en">
 <head>
     <title>RateRing</title>
+    <meta name="description" content="Ratering is social media website under maintain">
+    <meta content="ratering,social media,
+socialmediatoday,
+social media famous,
+social media apps,
+social media today,
+social media examiner,
+social media icons,
+social media sites,
+social media platforms,
+social media manager," name="keywords">
+    <meta name="robots" content="index, follow" />
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
      <link rel="icon" type="image/png" href="assets/img/rateringico.png"/>
