@@ -6,9 +6,32 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
     <title>RateRing</title>
-    <meta content="" name="descriptison">
-    <meta content="" name="keywords">
-
+    <meta content="My Name is Mark Saeid work as a Freelance Flutter Developer" name="descriptison">
+    <meta content="Mark Saeid , mark saeid , mark , freelance jobs ,
+freelance work , flutter developer jobs,
+flutter developer salary,
+flutter developer resume,
+flutter developer job description,
+flutter developer hourly rate,
+flutter developer jobs salary,
+flutter developer salary per hour,
+flutter developer salary in us,
+flutter developer average salary,
+flutter developer adalah,
+flutter app developer,
+flutter app developer jobs,
+flutter android developer jobs,
+flutter android developer,mobile app developer salary,
+mobile app developer jobs,
+mobile app developer job description,
+mobile app developers near me,
+mobile app developer degree,
+mobile app developer resume,
+mobile app developer requirements,
+mobile app developer training,
+mobile app developer near me" name="keywords">
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://raterin.ga/" />
     <!-- Favicons -->
     <link href="{{URL::asset('assets/img/rateringico.png')}}" rel="icon">
     <link href="{{URL::asset('assets/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
