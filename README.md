@@ -8,13 +8,13 @@ API_PASSWORD : LNy3uNOIUUiQ5p9W9Mk2haTkdwHR
 #Profiles
 
   GET : https://raterin.ga/api/auth/profile/{pid}
-  Variable :
+    Variable :
       {Pid} : profile id
-  Request: 
+    Request: 
        Nothing
-  Function :
+    Function :
       Get profile info 
-  Response :
+    Response :
 {
     "id": 1,
     "full_name": "Mark Saeid",
