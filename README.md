@@ -1,11 +1,11 @@
-## RateRing
+# RateRing
 
 # API Authentication
 
 API_USER : apiusername
 API_PASSWORD : LNy3uNOIUUiQ5p9W9Mk2haTkdwHR
 
-# Profiles
+## Profiles
 
     GET : https://raterin.ga/api/auth/profile/{pid}
     Variable :
@@ -60,7 +60,7 @@ API_PASSWORD : LNy3uNOIUUiQ5p9W9Mk2haTkdwHR
 }
 
 
-# Post
+## Post
 
 
     GET :  https://raterin.ga/api/auth/posts 
@@ -260,7 +260,7 @@ return response()->json([
     'message' => 'deleted successfully ',
 ], 201);
 
-# Status
+## Status
 
 
     GET :  https://raterin.ga/api/auth/status
@@ -395,7 +395,7 @@ return response()->json([
 ], 201);
 
 
-# comments
+## comments
 
 
     GET : https://raterin.ga/api/auth/posts/{id}/comments
@@ -487,7 +487,7 @@ return response()->json([
 
 
 
-# Connection
+## Connection
 
     GET : https://raterin.ga/api/auth/{pid}/connection
      Variable :
@@ -599,7 +599,8 @@ return response()->json([
  }
 
 
-# Rating
+## Rating
+
     GET : https://raterin.ga/api/auth/{pid}/rate
      Variable :
        {pid} : profile id
@@ -685,7 +686,7 @@ return response()->json([
 }
 
 
-# Login
+## Login
 
     POST :  https://raterin.ga/api/auth/login
      Variable :
@@ -839,7 +840,7 @@ return response()->json([
 }
 
 
-# Report
+## Report
 
      Post: https://www.raterin.ga/api/auth/report/create
      Variable :
@@ -873,7 +874,7 @@ return response()->json([
 }
 
 
-# Interaction
+## Interaction
     GET : https://raterin.ga/api/auth/{pid}/views/add
      Variable :
        {pid} : post id
@@ -928,7 +929,7 @@ return response()->json([
 }
 
 
-# Transaction
+## Transaction
 
     GET : https://raterin.ga/api/auth/{id}/tip/all
      Variable :
