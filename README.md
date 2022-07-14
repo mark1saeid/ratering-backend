@@ -1,13 +1,13 @@
 RateRing
 
-#API Authentication
+# API Authentication
 
 API_USER : apiusername
 API_PASSWORD : LNy3uNOIUUiQ5p9W9Mk2haTkdwHR
 
-#Profiles
+# Profiles
 
-  GET : https://raterin.ga/api/auth/profile/{pid}
+    GET : https://raterin.ga/api/auth/profile/{pid}
     Variable :
       {Pid} : profile id
     Request: 
@@ -33,9 +33,9 @@ API_PASSWORD : LNy3uNOIUUiQ5p9W9Mk2haTkdwHR
 }
 
 
-  POST : https://raterin.ga/api/auth/profile/pp
+    POST : https://raterin.ga/api/auth/profile/pp
      Variable :
-Nothing
+    Nothing
      Request: 
        'pp' => 'mimes:jpeg,jpg,png,gif|required|max:10000|unique:users'
      Function :
@@ -47,9 +47,9 @@ Nothing
 
 
 
-  POST : https://raterin.ga/api/auth/profile/bio
+    POST : https://raterin.ga/api/auth/profile/bio
      Variable :
-Nothing
+    Nothing
      Request: 
       'bio' => 'required|string|between:4,180',
      Function :
@@ -60,10 +60,10 @@ Nothing
 }
 
 
-#Post
+# Post
 
 
-   GET :  https://raterin.ga/api/auth/posts 
+    GET :  https://raterin.ga/api/auth/posts 
      Variable :
       Nothing
      Request: 
@@ -108,7 +108,7 @@ Nothing
 ]
 
 
-GET :  https://raterin.ga/api/auth/posts/trend
+    GET :  https://raterin.ga/api/auth/posts/trend
     Variable :
       Nothing
      Request: 
@@ -132,7 +132,7 @@ GET :  https://raterin.ga/api/auth/posts/trend
 ]
 
 
-GET :  https://raterin.ga/api/auth/posts/videos
+    GET :  https://raterin.ga/api/auth/posts/videos
     Variable :
       Nothing
      Request: 
@@ -156,7 +156,7 @@ GET :  https://raterin.ga/api/auth/posts/videos
 ]
 
 
-  GET :  https://raterin.ga/api/auth/{pid}/posts
+    GET :  https://raterin.ga/api/auth/{pid}/posts
      Variable :
       {pid} : profile id
      Request: 
@@ -208,7 +208,7 @@ GET :  https://raterin.ga/api/auth/posts/videos
        Nothing
      Function :
       Get Specific Post 
-     Response : {
+   Response : {
     "id": 1,
     "publisher_id": "1",
     "post_rating": "0",
@@ -222,11 +222,11 @@ GET :  https://raterin.ga/api/auth/posts/videos
      POST :  https://raterin.ga/api/auth/posts/create
      Variable :
        Nothing
-     Request: 
-'post_text' => 'string',
-'post_link' => 'string|unique:posts',
-'post_image' => 'mimes:jpeg,jpg,png,gif|max:10000|unique:posts',
-'post_video'  => 'mimes:mp4,mov,ogg,qt |max:20000|unique:posts',     
+      Request: 
+       'post_text' => 'string',
+        'post_link' => 'string|unique:posts',
+        'post_image' => 'mimes:jpeg,jpg,png,gif|max:10000|unique:posts',
+       'post_video'  => 'mimes:mp4,mov,ogg,qt |max:20000|unique:posts',     
      Function :
       Create A Post 
     Response : 
@@ -246,13 +246,13 @@ GET :  https://raterin.ga/api/auth/posts/videos
 }
 
      POST :  
-https://raterin.ga/api/auth/posts/{pid}/delete
+    https://raterin.ga/api/auth/posts/{pid}/delete
 
      Variable :
-{pid} : post id
+    {pid} : post id
        Nothing
      Request: 
-No Request
+     No Request
      Function :
       remove A Post 
     Response : 
@@ -260,10 +260,10 @@ return response()->json([
     'message' => 'deleted successfully ',
 ], 201);
 
-#Status
+# Status
 
 
-   GET :  https://raterin.ga/api/auth/status
+    GET :  https://raterin.ga/api/auth/status
      Variable :
       Nothing
      Request: 
@@ -296,7 +296,7 @@ return response()->json([
 ]
 
 
-GET :  https://raterin.ga/api/auth/{pid}/status 
+    GET :  https://raterin.ga/api/auth/{pid}/status 
     Variable :
       {Pid} : profile id
      Request: 
@@ -318,7 +318,7 @@ GET :  https://raterin.ga/api/auth/{pid}/status
     }
 ]
 
-GET :  https://raterin.ga/api/auth/{pid}/status/{id}
+    GET :  https://raterin.ga/api/auth/{pid}/status/{id}
     Variable :
      {id}:status id
      {Pid}:profile id
@@ -327,7 +327,7 @@ GET :  https://raterin.ga/api/auth/{pid}/status/{id}
      Function :
       Get Specific Status 
      Response :
-    {
+   {
         "id": 1,
         "publisher_id": "1",
         "post_rating": "3.4",
@@ -347,9 +347,9 @@ GET :  https://raterin.ga/api/auth/{pid}/status/{id}
      Variable :
        Nothing
      Request: 
-'status_text' => 'string',
-'status_image' => 'mimes:jpeg,jpg,png,gif|max:10000|unique:status',
-'status_video'  => 'mimes:mp4,mov,ogg,qt |max:20000|unique:status',
+    'status_text' => 'string',
+    'status_image' => 'mimes:jpeg,jpg,png,gif|max:10000|unique:status',
+     'status_video'  => 'mimes:mp4,mov,ogg,qt |max:20000|unique:status',
      Function :
       Create A Status
     Response : 
@@ -366,11 +366,13 @@ GET :  https://raterin.ga/api/auth/{pid}/status/{id}
         "id": 1
     }
 }
+
+
      POST :  https://raterin.ga/api/auth/{sid}/status/rate
-     Variable :
+       Variable :
        Nothing
      Request: 
-‘status_rating’
+     ‘status_rating’
      Function :
       Rate A Status
     Response : 
@@ -378,15 +380,13 @@ GET :  https://raterin.ga/api/auth/{pid}/status/{id}
 'message' => 'Rated successfully ',
 }
 
-     POST :  
+     POST :  https://raterin.ga/api/auth/status/{sid}/delete
 
-https://raterin.ga/api/auth/status/{sid}/delete
-
-  Variable :
-{sid} : status id
+     Variable :
+      {sid} : status id
        Nothing
      Request: 
-No Request
+       No Request
      Function :
       remove A status 
     Response : 
@@ -395,7 +395,7 @@ return response()->json([
 ], 201);
 
 
-#comments
+# comments
 
 
     GET : https://raterin.ga/api/auth/posts/{id}/comments
@@ -427,7 +427,7 @@ Response :
 
 ]
 
-GET : https://raterin.ga /api/auth/posts/{id}/comments/{cid}
+    GET : https://raterin.ga /api/auth/posts/{id}/comments/{cid}
      Variable :
        {id} : post id
        {cid} : comment id
@@ -447,12 +447,12 @@ Response :
     "updated_at": "Nov Sun, 2020 12:11 AM"
 }
 
-   POST :  https://raterin.ga /api/auth/posts/{id}/comments/create
+     POST :  https://raterin.ga /api/auth/posts/{id}/comments/create
      Variable :
        {id} : post id
      Request: 
-'comment_text' => 'string',
-'post_rate' => 'required|numeric|min:1|max:5',
+     'comment_text' => 'string',
+      'post_rate' => 'required|numeric|min:1|max:5',
      Function :
       Create A Comment on a Post 
 Response : 
@@ -470,14 +470,13 @@ Response :
 }
 
 
-     POST :  
-https://raterin.ga/api/auth/posts/{pid}/comments/{cid}/delete
-  Variable :
-{pid} : post id
-{cid} : coment id
+     POST :  https://raterin.ga/api/auth/posts/{pid}/comments/{cid}/delete
+     Variable :
+      {pid} : post id
+      {cid} : coment id
        Nothing
      Request: 
-No Request
+       No Request
      Function :
       remove A coment 
     Response : 
@@ -488,7 +487,7 @@ return response()->json([
 
 
 
-#Connection
+# Connection
 
     GET : https://raterin.ga/api/auth/{pid}/connection
      Variable :
@@ -516,9 +515,7 @@ return response()->json([
        Nothing
      Function :
       Get all sent friend Request for a profile 
-
-
-Response:
+     Response:
 [
     "Connection": {
         "to_id": "2",
@@ -538,7 +535,7 @@ Response:
        Nothing
      Function :
       Get all received friend Request for a profile 
-Response :
+     Response :
 [
     "Connection": {
         "to_id": "1",
@@ -553,7 +550,7 @@ Response :
 
 
 
-   POST :  https://raterin.ga/api/auth/connection/add
+    POST :  https://raterin.ga/api/auth/connection/add
      Variable :
        Nothing
      Request: 
@@ -574,7 +571,7 @@ Response :
 }
 
 
-   POST :  https://raterin.ga/api/auth/connection/{cid}/status
+    POST :  https://raterin.ga/api/auth/connection/{cid}/status
      Variable :
        Nothing
      Request: 
@@ -588,7 +585,7 @@ Response :
 }
 
 
-POST :  https://raterin.ga/api/auth/connection/{cid}/remove
+    POST :  https://raterin.ga/api/auth/connection/{cid}/remove
      Variable :
        Nothing
      Request: 
@@ -602,7 +599,7 @@ POST :  https://raterin.ga/api/auth/connection/{cid}/remove
  }
 
 
-#Rating
+# Rating
     GET : https://raterin.ga/api/auth/{pid}/rate
      Variable :
        {pid} : profile id
@@ -610,7 +607,7 @@ POST :  https://raterin.ga/api/auth/connection/{cid}/remove
        Nothing
      Function :
       Get all Stars for a profile 
- Response : 
+    Response : 
 [
     {
         "id": 1,
@@ -662,10 +659,7 @@ POST :  https://raterin.ga/api/auth/connection/{cid}/remove
        Nothing
      Function :
       Get all Stars Received from a profile 
-
-
-
-   Response : 
+     Response : 
 {
     "3": {
         "id": 31,
@@ -677,12 +671,12 @@ POST :  https://raterin.ga/api/auth/connection/{cid}/remove
     }
 }
 
-   POST :  https://raterin.ga/api/auth/rate/add
+    POST :  https://raterin.ga/api/auth/rate/add
      Variable :
        Nothing
      Request: 
-'to_id' => 'required|string',
-'rate' => 'required|numeric|min:1|max:5',
+     'to_id' => 'required|string',
+      'rate' => 'required|numeric|min:1|max:5',
      Function :
       Send a Star
     Response : 
@@ -691,8 +685,9 @@ POST :  https://raterin.ga/api/auth/connection/{cid}/remove
 }
 
 
-#Login
-   POST :  https://raterin.ga/api/auth/login
+# Login
+
+    POST :  https://raterin.ga/api/auth/login
      Variable :
        Nothing
      Request: 
@@ -724,22 +719,20 @@ Response :
 }
 
 
-   POST :  https://raterin.ga/api/auth/register
+    POST :  https://raterin.ga/api/auth/register
      Variable :
        Nothing
      Request: 
-'email' => 'required|string|email|max:100|unique:users|regex:/(.+)@(.+)\.(.+)/i',
-
-'password' => 'required',
-'min:6',
-'regex:/^.*(?=.{3,})(?=.*[a-zA-Z])(?=.*[0-9])(?=.*[\d\x])(?=.*[!$#%]).*$/',
-'confirmed',
-
-'full_name' => 'required|string|between:4,40',
-'username' => 'required|string|between:6,12|unique:users',
-'birthday' => 'required|string|between:2,18',
-'gender' => 'required|string|between:3,8',
-'phone' => 'required|string|between:10,16|unique:users',
+      'email' => 'required|string|email|max:100|unique:users|regex:/(.+)@(.+)\.(.+)/i',
+      'password' => 'required',
+       'min:6',
+       'regex:/^.*(?=.{3,})(?=.*[a-zA-Z])(?=.*[0-9])(?=.*[\d\x])(?=.*[!$#%]).*$/',
+       'confirmed',
+        'full_name' => 'required|string|between:4,40',
+        'username' => 'required|string|between:6,12|unique:users',
+        'birthday' => 'required|string|between:2,18',
+        'gender' => 'required|string|between:3,8',
+        'phone' => 'required|string|between:10,16|unique:users',
      Function :
       Signup 
     Response :
@@ -762,25 +755,27 @@ Response :
 }
 
 
-   POST :  https://raterin.ga/api/auth/logout
+    POST :  https://raterin.ga/api/auth/logout
      Variable :
        Nothing
      Request: 
        Pass Access token as Bearer token
      Function :
       Logout 
- Response : 
+     Response : 
 {
     "message": "User successfully signed out"
 }
-   POST :  https://raterin.ga/api/auth/remove
+  
+  
+    POST :  https://raterin.ga/api/auth/remove
      Variable :
        Nothing
      Request: 
        No 
      Function :
       Remove account
- Response : 
+     Response : 
 return response()->json([
     'access_token' => 'deleted successfully',
 ] ,200);
@@ -788,14 +783,14 @@ return response()->json([
 
 
 
-   POST :  https://raterin.ga/api/auth/refresh
+    POST :  https://raterin.ga/api/auth/refresh
      Variable :
        Nothing
      Request: 
        Pass Access token as Bearer token
      Function :
       Refresh Token 
-Response : 
+     Response : 
 {
     "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9yYXRlcmluZy5oZXJva3VhcHAuY29tXC9hcGlcL2F1dGhcL3JlZnJlc2giLCJpYXQiOjE2MDEwMzQ4NTgsImV4cCI6MTYwMTMzNzA4NiwibmJmIjoxNjAxMDM3MDg2LCJqdGkiOiJ1TUdsV1U3eXhFUlZlWGZTIiwic3ViIjoxLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.E_J1WZ8KZVXj6M2es4pCRlx9Dp57r9W3TT1hkppDQoU",
     "token_type": "bearer",
@@ -821,14 +816,14 @@ Response :
 
 
  
-  GET : https://raterin.ga/api/auth/profile
+    GET : https://raterin.ga/api/auth/profile
      Variable :
       Nothing
      Request: 
       Pass Access token as Bearer token
      Function :
       Get Current User profile info 
-Response : 
+     Response : 
 {
     "id": 1,
     "full_name": "Mark Saeid",
@@ -844,22 +839,22 @@ Response :
 }
 
 
-#Report
+# Report
 
-Post: https://www.raterin.ga/api/auth/report/create
+     Post: https://www.raterin.ga/api/auth/report/create
      Variable :
       Nothing
      Request: 
-'post_id' => 'string',
-'profile_id' => 'string',
-'status_id' => 'string',
-'about' => 'required|string',
-'screen_shot' => 'mimes:jpeg,jpg,png,gif|max:10000|unique:posts',
-'reason' => 'required|string',
+     'post_id' => 'string',
+     'profile_id' => 'string',
+     'status_id' => 'string',
+     'about' => 'required|string',
+     'screen_shot' => 'mimes:jpeg,jpg,png,gif|max:10000|unique:posts',
+     'reason' => 'required|string',
 
      Function :
       Report on a post or profile or status 
-Response : 
+     Response : 
 {
     "message": "posted successfully ",
     "report": {
@@ -878,7 +873,7 @@ Response :
 }
 
 
-#Interaction
+# Interaction
     GET : https://raterin.ga/api/auth/{pid}/views/add
      Variable :
        {pid} : post id
@@ -886,7 +881,7 @@ Response :
        Nothing
      Function :
      Add post view
- Response : 
+     Response : 
 [
     {
 'message' : 'added successfully ',
@@ -902,7 +897,7 @@ Response :
      Function :
       Get post views 
     Response :
-{
+ {
     'views' : “1”
 }
 
@@ -914,8 +909,8 @@ Response :
        Nothing
      Function :
       Get Post Impression
-   Response : 
-{
+     Response : 
+  {
     “impression” : “1”
 }
 
@@ -927,13 +922,14 @@ Response :
        Nothing
      Function :
       Get Post Impression
-   Response : 
+    Response : 
 {
 'message' : 'done'
 }
 
 
-#Transaction
+# Transaction
+
     GET : https://raterin.ga/api/auth/{id}/tip/all
      Variable :
        {id} : profile id
@@ -941,7 +937,7 @@ Response :
        Nothing
      Function :
      All tip sent and recived
- Response : 
+    Response : 
 [
     {
 “points” : '400',
@@ -959,7 +955,7 @@ Response :
        Nothing
      Function :
      All tip sent
- Response : 
+    Response : 
 [
     {
 “points” : '400',
@@ -978,7 +974,7 @@ Response :
        Nothing
      Function :
      All tip recived
- Response : 
+    Response : 
 [
     {
 “points” : '400',
@@ -997,7 +993,7 @@ Response :
        Nothing
      Function :
      All tip sent to post
- Response : 
+    Response : 
 [
     {
 “points” : '400',
@@ -1008,8 +1004,7 @@ Response :
     }
 ]
 
-    Post : 
-https://raterin.ga/api/auth/{pid}/posts/tip/send
+    Post : https://raterin.ga/api/auth/{pid}/posts/tip/send
  
      Variable :
        {pid} : post id
@@ -1017,7 +1012,7 @@ https://raterin.ga/api/auth/{pid}/posts/tip/send
        ‘point’
      Function :
      All tip sent to post
- Response : 
+    Response : 
 {
     "message": "sent successfully ",
     "transaction": {
