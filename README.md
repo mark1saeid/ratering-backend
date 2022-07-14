@@ -1,4 +1,4 @@
-RateRing
+## RateRing
 
 # API Authentication
 
