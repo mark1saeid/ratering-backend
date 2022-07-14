@@ -1,6 +1,6 @@
 # RateRing
 
-# API Authentication
+## API Authentication
 
 API_USER : apiusername
 API_PASSWORD : LNy3uNOIUUiQ5p9W9Mk2haTkdwHR
