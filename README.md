@@ -208,9 +208,7 @@ GET :  https://raterin.ga/api/auth/posts/videos
        Nothing
      Function :
       Get Specific Post 
-
-    Response : 
-{
+     Response : {
     "id": 1,
     "publisher_id": "1",
     "post_rating": "0",
@@ -219,8 +217,7 @@ GET :  https://raterin.ga/api/auth/posts/videos
     "post_image": "http://www.raterin.ga/post/image/409301236180T66markintro.jpg",
     "post_video": "http://www.raterin.ga/post/video/7167E7974673532h.mp4",
     "created_at": "Nov Sun, 2020 12:11 AM",
-    "updated_at": "Nov Sun, 2020 12:11 AM"
-}
+    "updated_at": "Nov Sun, 2020 12:11 AM"}
 
      POST :  https://raterin.ga/api/auth/posts/create
      Variable :
