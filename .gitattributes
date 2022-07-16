@@ -1,4 +1,3 @@
-* linguist-vendored
 *.php linguist-vendored
 *.css linguist-vendored
 *.scss linguist-vendored
